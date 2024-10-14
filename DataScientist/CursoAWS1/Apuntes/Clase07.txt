@@ -1,0 +1,52 @@
+Protección a Datos
+Amazon Macie: para descubrir y proteger sus datos sensibles
+AWS Key Management Service: almacena y administra claves de cifrado
+AWS CloudHSM: almacenamiento de claves basado en hardware y el cumplimiento normativo
+AWS Certificate Manager, provisiona, administra e implementa certificados de seguridad TSL y TLS
+AWS Secrets Manager: rotar, gestionar y recuperar secretos como contraseñas
+Protección de la infraestructura
+AWS Shield, para la protección de denegación de servicio
+AWS Web Aplication Firewall, (WAF) filtra el tráfico de sitios web maliciosos
+AWS Firewall Manager, administra las reglas del firewall de forma centralizada
+Detección de amenazas
+Amazon GuarDuty, detecta amenazas automáticamente
+Amazon Inspector, ayuda a analizar la seguridad de la aplicación
+Amazon config, registra y evalúa configuraciones de nuestros recursos
+Amazon CloudTrail, rastrea la actividad del usuario y el uso de las API
+Gestión de identidades
+AWS Identity and Access Management, (IAM) administra de forma segura el acceso a una cuenta, servicios y recursos
+AWS Inicio de sesión único: Implemente el acceso de sesión único (single sign on)
+AWS administra la identidad dentro de las aplicaciones, se puede hacer el inicio de sesiones moviles
+AWS Servicio de Directorio, implementa y administra un Active Directory Service
+AWS Organizaciones, para gobernar y administrar de forma centralizada en un mismo lugar
+
+
+Políticas IAM
+Estructura del Statement
+Effect: Allow (Permitir) o Deny (Denegar)
+Action: A qué servicios de AWS se aplica esta política (Permite usar la wildcard "*" que significa aplicar a todos)
+Resource: Identificador de dónde está almacenado el servicio al que se le aplicará la política (Permite usar la wildcard "*" que significa aplicar a todos)
+
+
+DIFERENCIA ENTRE USUARIO Y ROL de IAM en aws: Un rol de IAM es similar a un usuario de IAM, ya que es una identidad de AWS con políticas de permisos que determinan lo que la identidad puede y no puede hacer en AWS. Sin embargo, en lugar de asociarse únicamente con una persona, se pretende que un rol sea asumido por cualquier persona que lo necesite. Además, un rol no tiene credenciales estándar a largo plazo, como una contraseña o claves de acceso asociadas. En cambio, cuando asume un rol, le proporciona credenciales de seguridad temporales para su sesión de rol.
+
+Muy bueno lo de los IAM Roles! Además de expandir las funcionalidades de permisos, abre un abanico de vulnerabilidades interesantes para auditar desde el punto de vista del ethical hacking. Ej: Permitir todos los "principals" al asumir un rol. Un "principal", una entidad principal del servicio, es un identificador de un servicio. La vulnerabilidad: las políticas de confianza del rol de IAM permiten que todos los "principals" asuman el rol.
+
+Por qué es peligroso: Permitir que cualquier usuario de IAM de cualquier cuenta de AWS asuma un rol en SU cuenta les otorga a ellos acceso a todos los permisos en ese rol de IAM, lo que podría ser catastrófico y conducir a un escalamiento de privilegios, exfiltración de datos y demás. Se debe asegurar que las políticas de confianza de los roles no contengan todos los siguientes elementos:
+
+
+Effect: “Allow”
+Principal: "*"
+Accion: “sts:AssumeRole”
+Cómo solucionarlo: reemplazar el comodín con un principal específico.
+
+Aquí vemos un ejemplo de cómo se puede solicitar el permiso del rol para un principal arbitrario root:
+
+\
+
+
+
+
+
+Fuentes: https://www.praetorian.com/blog/aws-iam-assume-role-vulnerabilities/ https://docs.fugue.co/FG_R00219.html https://www.fugue.co/blog/6-big-aws-iam-vulnerabilities-and-how-to-avoid-them https://www.velotio.com/engineering-blog/hacking-your-way-around-aws-iam-roles
+

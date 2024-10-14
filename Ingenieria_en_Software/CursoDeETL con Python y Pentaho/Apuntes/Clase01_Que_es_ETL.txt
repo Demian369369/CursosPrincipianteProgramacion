@@ -1,0 +1,12 @@
+¿Qué es un ETL en ingeniería de datos?
+Extract
+Transform
+Load
+Extraer datos de diferentes fuentes, transformarlos para que cumplan con los requisitos de calidad y formato esperados y, finalmente, cargarlos en un sistema de almacenamiento centralizado.
+Vista unificada y coherente de los datos.
+Tomar decisiones más precisas.
+Asegura la calidad de los datos al limpiar y normalizar.
+Detección de anomalías.
+Fuentes confiables para machine learning y data science.
+ETL - AWS - GCP - AZURE - Python
+............................................................................

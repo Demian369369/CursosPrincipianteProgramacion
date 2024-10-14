@@ -1,0 +1,21 @@
+Resumen de la clase Advertencias de uso de marketing.
+Advertencias.
+Se puede crear publicidad personalizada pero debe considerarse lo siguiente en cuanto lo que respecta advertencias… (Es necesario usar la data con responsabilidad y ética)
+
+Evitar Sesgos discriminatorios ⇒ Como evitar trato distinto dependiendo del tipo de usuarios en caso de no ser realmente necesario.
+Evitar la manipulación de precios ⇒ Suele suceder cuando las empresas conocen datos sobre el poder adquisitivo del cliente.
+Evitar la manipulación de campañas políticas.
+Evitar fomentar conductas violentas, adictivas o ataques emocionales
+..............
+Hay muchas organizaciones que han incurrido en la ley de manipulación de datos a lo largo de los años. Algunos ejemplos incluyen:
+
+Facebook:
+En 2018, se descubrió que Cambridge Analytica había obtenido información de millones de usuarios de Facebook sin su consentimiento y la había utilizado para influir en la elección presidencial de Estados Unidos en 2016.
+Google:
+En 2012, se descubrió que Google había recopilado información privada de los usuarios de redes Wi-Fi mientras recopilaba imágenes para su servicio de mapas Street View.
+Equifax:
+En 2017, se descubrió que la compañía de información crediticia Equifax había sufrido una brecha de seguridad que resultó en el robo de información personal de millones de personas.
+Marriott International:
+En 2018, se descubrió que la cadena de hoteles Marriott International había sufrido una brecha de seguridad que resultó en el robo de información personal de millones de huéspedes.
+Estos son solo algunos ejemplos de organizaciones que han violado la ley de manipulación de datos. Es importante para las empresas tomar medidas para proteger la información personal de los usuarios y cumplir con las regulaciones relevantes para evitar consecuencias legales y dañar su reputación.
+

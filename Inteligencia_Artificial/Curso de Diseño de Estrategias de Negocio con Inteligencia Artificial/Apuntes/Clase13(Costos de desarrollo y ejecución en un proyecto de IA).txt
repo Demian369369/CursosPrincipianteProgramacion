@@ -1,0 +1,76 @@
+Costos de desarrollo
+Depende de:
+Tiempo de entrega requerido.
+Complejidad del desarrollo.
+Se clasifica en:
+Costo fijo mensual de headcount.
+Costo one-shoy para la construcción de un MVP.
+Costos de ejecución recurrente (on-going)
+Fijos
+Almacenamiento.
+Hosting.
+Mantenimiento y Actualización.
+Variables
+Consumo de las herramientas utilizadas.
+Uso de recursos de infraestructura.
+Re-entrenamiento de los datos necesarios.
+Seguridad, evaluación y control de riesgos
+Auditoria de seguridad.
+Evaluaciones de riesgos.
+Pruebas y monitoreo continuo.
+La ética en el uso de IA.
+La mitigación de posibles impactos negativos.
+..............
+El costo "one-shot" para la construcción de un MVP (Producto Mínimo Viable) es una opción operativa para empresas que aún no tienen claridad sobre si la implementación del proyecto aportará un valor real, y por lo tanto, prefieren no establecer un equipo dedicado hasta validar esta hipótesis. Una alternativa es determinar el alcance de trabajo necesario y formar un equipo adecuado hasta llegar al lanzamiento de un primer prototipo que permita validar estas hipótesis y determinar su viabilidad.
+
+Este proceso puede llevarse a cabo utilizando expertos únicos o contratando servicios de consultoría especializada. El enfoque principal es crear un prototipo de MVP de manera rápida y eficiente para aprender de los errores y ajustar el enfoque de manera ágil y económica. Si deseas obtener más información sobre el prototipado de MVP y el aprendizaje rápido y económico de los errores, te invito a leer mi blog sobre Design Thinking y Lean Startup.
+
+......................
+Desarrollo y Ejecución de Proyectos de Inteligencia Artificial
+
+Factores Críticos para el Éxito
+I. Definición de Costos
+
+A. Desarrollo de la Solución
+
+Tiempo de Entrega y Complejidad
+Recursos Óptimos
+Metodología de Trabajo
+B. Costos de Ejecución Recurrente
+
+Almacenamiento y Hosting
+Mantenimiento y Actualización
+Consumo de Herramientas
+C. Evaluación y Control de Riesgos
+
+Protección de Datos
+Ética en el Uso de IA
+II. Evaluación de Viabilidad y Retorno de Inversión
+
+Sumando Costos Directos
+Ingeniería Inversa
+III. Control de Presupuesto
+
+Establecer Límites de Interacción
+................
+La evaluación de viabilidad y retorno de inversión es esencial para tomar decisiones informadas sobre si un proyecto de inteligencia artificial se alinea con las expectativas del negocio o no. Existen dos formas principales de llevar a cabo esta evaluación:
+
+Evaluación de costos aproximados: En esta metodología, se suman directamente todos los costos obtenidos en cada etapa del proyecto. Esto proporciona una estimación detallada de los gastos en cada fase y permite evaluar la viabilidad en función de los costos reales previstos.
+
+Ingeniería inversa y definición de presupuesto: En esta aproximación, se parte del presupuesto disponible y se realiza una ingeniería inversa para comprender qué nivel de operación es posible con esos recursos. Esto ayuda a determinar si el presupuesto es suficiente para el tamaño de la oportunidad y si es necesario buscar un presupuesto mayor. Esta metodología también permite entender si los costos de implementación son diferentes de lo que inicialmente se estimó. A medida que el proyecto avanza, es probable que surjan optimizaciones por parte del equipo de diseño, como la reducción de la cantidad de tokens gracias a la optimización de prompts.
+
+En resumen, ambas aproximaciones son valiosas para evaluar la viabilidad y el retorno de inversión en proyectos de IA, y pueden proporcionar una comprensión más completa de los costos y oportunidades a medida que el proyecto avanza.
+
+.....................
+Es fundamental considerar herramientas y servicios que se alineen con los requisitos legales de la empresa al operar e implementar costos relacionados con:
+
+Auditoría de seguridad: Evaluar y garantizar la seguridad de los sistemas y datos en el contexto de la IA.
+
+Evaluación de riesgos: Identificar y abordar posibles riesgos asociados con el uso de la IA.
+
+Pruebas de monitoreo continuo: Implementar sistemas de monitoreo constante para garantizar el rendimiento y la seguridad de las soluciones de IA.
+
+La ética del uso de la IA: Asegurar que la implementación de IA se realice de manera ética y respetando los principios y valores de la empresa.
+
+La mitigación de posibles impactos negativos: Desarrollar estrategias y acciones para mitigar cualquier impacto negativo que pueda surgir del uso de la IA. En temas de auditoria, y mitigación de impactos negativos yo trabajo. Y me quiero especializar en proyectos de IA.
+

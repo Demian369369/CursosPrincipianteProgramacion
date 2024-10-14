@@ -1,0 +1,42 @@
+df_data.Churn.replace(to_replace=['Yes', 'No'], value = [1,0], inplace = True)
+
+errors='coerce'
+
+indica que si no se puede convertir un elemento de la columna TotalCharges a un número, se debe reemplazar con un valor especial NaN (Not a Number)
+
+Esto se conoce como "coerción" porque se está forzando la conversión a un tipo de datos numérico, y si no es posible, se está forzando el uso de NaN en su lugar
+.........
+Esto es lo que hace la variable get.dummies más detalladamente:
+
+pd.get_dummies() es una función de la biblioteca pandas en Python que se utiliza para realizar una codificación one-hot de variables categóricas en un DataFrame. La codificación one-hot es un proceso que convierte variables categóricas en un conjunto de variables binarias (0 o 1) que representan la presencia o ausencia de una categoría en los datos originales. Este enfoque es comúnmente utilizado en el preprocesamiento de datos para que los algoritmos de aprendizaje automático puedan trabajar con variables categóricas.
+Aquí hay una descripción de cómo funciona pd.get_dummies():
+
+Entrada: La función toma como entrada un DataFrame de pandas que contiene una o más columnas con variables categóricas que deseas codificar.
+
+Salida: pd.get_dummies() produce un nuevo DataFrame donde las columnas categóricas originales se han convertido en columnas binarias (0 o 1), una columna por categoría. Cada columna binaria representa una categoría específica y se llama "indicador" o "dummy variable". Cuando una fila tiene una categoría, su columna correspondiente tendrá un valor de 1; de lo contrario, será 0.
+
+Por ejemplo, si tienes una columna llamada "Color" con valores categóricos como "Rojo", "Verde" y "Azul", pd.get_dummies() generará tres nuevas columnas llamadas "Color_Rojo", "Color_Verde" y "Color_Azul", y asignará 1 o 0 según el color presente en cada fila.
+
+Este proceso es útil en el análisis de datos y en la construcción de modelos de aprendizaje automático, ya que permite trabajar con variables categóricas en algoritmos que requieren datos numéricos, como regresión lineal, regresión logística y otros modelos. La codificación one-hot evita la asignación incorrecta de importancia numérica a las categorías y garantiza que cada categoría se trate de manera independiente en el modelo.
+
+.............
+Comandos similares a la misma familia de comandos como dropna:
+
+.fillna(): Este método se utiliza para rellenar valores nulos con un valor específico o una estrategia de relleno. Puedes proporcionar un valor constante, un diccionario de relleno por columna o utilizar métodos de interpolación.
+
+.isnull() y .notnull(): Estos métodos te permiten crear máscaras booleanas que indican dónde se encuentran los valores nulos y no nulos en un DataFrame. Son útiles para filtrar o seleccionar datos basados en la presencia o ausencia de valores nulos.
+
+.interpolate(): Este método se utiliza para realizar la interpolación de valores nulos en una serie o DataFrame. La interpolación calcula valores intermedios para rellenar los valores nulos basándose en los valores adyacentes.
+
+.drop(): Aunque su nombre es similar al de .dropna(), el método .drop() se utiliza para eliminar filas o columnas específicas en un DataFrame, pero puedes especificar etiquetas de fila o columna en lugar de valores nulos.
+
+.replace(): Este método se utiliza para reemplazar valores específicos, incluidos los valores nulos, por otros valores en un DataFrame.
+
+.ffill() y .bfill(): Estos métodos se utilizan para rellenar valores nulos hacia adelante (ffill) o hacia atrás (bfill) utilizando el valor más cercano en la misma columna.
+
+.melt(): Esta función se utiliza para realizar una operación de "melt" o "unpivot" en un DataFrame, lo que puede ayudar a lidiar con datos faltantes.
+
+.combine_first(): Este método se utiliza para combinar dos DataFrames, rellenando los valores nulos en el DataFrame original con los valores del otro DataFrame.
+
+Estos son algunos ejemplos de los métodos y funciones disponibles en pandas para el manejo de valores nulos y la limpieza de datos. La elección del método adecuado dependerá de la naturaleza de tus datos y del tipo de operación que necesites realizar.
+

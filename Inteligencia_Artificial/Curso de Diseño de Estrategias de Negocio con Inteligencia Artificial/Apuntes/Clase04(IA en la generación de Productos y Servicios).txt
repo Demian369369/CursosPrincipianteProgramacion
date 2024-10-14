@@ -1,0 +1,19 @@
+Innovaciones con IA:
+
+NotCo: Replicar alimentos origen animal con plantas
+Adept: Automatizar clicks con recomendación IA
+Viz..ai: Conectar exámenes y diagnósticos con especialistas.
+Alibaba Cloud: Mejora de tráfico prevención de inundaciones.
+Waymo: Conducción autónoma
+........................
+AI Generación de Nuevas Ideas de Producto: La inteligencia artificial no solo optimiza procesos, sino que también puede ser una fuente de creatividad e innovación. Nos permite pensar más allá de los límites de nuestro negocio y considerar contribuciones sociales, como la mejora del medio ambiente o la calidad de vida de las personas. La IA nos brinda la capacidad de ser ingeniosos y creativos, dirigidos por nuestros objetivos.
+
+Ejemplos de Empresas Innovadoras:
+
+NOTCO: Esta startup chilena utiliza la inteligencia artificial para comprender a nivel molecular diferentes plantas comestibles y combinarlas de manera innovadora para replicar productos de origen animal, como leche y hamburguesas. Esto tiene un impacto positivo tanto en la salud como en el medio ambiente.
+ADEPT: ADEPT, creado por David Luan, busca optimizar tareas rutinarias en el trabajo, como la búsqueda de departamentos que se ajusten a ciertos criterios. Automatiza los clics y proporciona respuestas inmediatas, lo que ahorra tiempo y esfuerzo.
+VIZ.AI: En el campo de la salud, VIZ.AI recopila datos médicos, como análisis de sangre y radiografías, para conectar a los pacientes con especialistas de manera más rápida y eficiente. Esto acelera los diagnósticos y tratamientos médicos.
+Alibaba Cloud: Alibaba contribuye a las ciudades mediante la investigación científica y la creación de simuladores de tráfico en tiempo real para optimizar la semaforización y prevenir inundaciones. Esto es un ejemplo de mejora social impulsada por el sector privado.
+Waymo (Vehículos Autónomos de Google): Waymo desarrolla vehículos autónomos que utilizan sensores de imágenes para comprender su entorno y tomar decisiones en tiempo real. Esto tiene aplicaciones tanto en el uso privado como en la automatización de sistemas logísticos corporativos.
+Conclusión: La inteligencia artificial nos brinda la oportunidad de innovar en todos los sectores de la sociedad y la economía al utilizar datos para crear contribuciones tanto privadas como sociales. La creatividad y la mejora continua son impulsadas por la IA, lo que nos permite pensar en soluciones innovadoras para desafíos globales y locales.
+

@@ -1,0 +1,68 @@
+En mi opinión, la mejor serie de videos para profundizar un poquito más y ver de manera más visual todo lo relacionado con redes neuronales son los de DotCSV (que seguro ya conocen). Los videos son de cuando iba empezando pero son imperdibles. Por lo menos de la parte 1 a la 3.5
+
+Les dejo el enlace a su serie de redes neuronales
+...........
+Tipos de Función de activación para la capa de salida
+
+Algunas funciones de activación tienen un rango limitado (ex:softmax/sigmoide), mientras que otras se extienden indefinidamente(ReLUs, lineal)
+Ahora Deep learning es introducir profundidad en nuestras capas ocultas.
+..........
+Al asignar pesos a las variables de entrada en un modelo de red neuronal, es importante considerar el impacto relativo que cada variable tiene en la predicción o resultado final. Aquí hay algunos criterios comunes para tomar en cuenta al asignar pesos a las variables de entrada:
+
+Importancia de la variable: Si tienes conocimiento previo o evidencia que sugiere que ciertas variables son más relevantes para el problema en cuestión, puedes asignarles pesos más altos. Esto puede basarse en conocimientos expertos, estudios anteriores o intuiciones sobre la relación entre las variables y el resultado que estás tratando de predecir.
+
+Escala de la variable: Si las variables de entrada tienen diferentes escalas o rangos de valores, es posible que desees normalizar o estandarizar las variables antes de asignar pesos. Esto asegura que las variables se consideren de manera equitativa y no se vean dominadas por aquellas con valores más grandes.
+
+Coeficiente de correlación: Puedes calcular los coeficientes de correlación entre las variables de entrada y la variable de salida. Variables que tengan una correlación más fuerte con la variable de salida pueden recibir pesos más altos, ya que se considera que tienen una mayor influencia en la predicción.
+
+Importancia relativa de la característica: Si las variables de entrada representan diferentes características o aspectos del problema, puedes asignar pesos basados en la importancia relativa de esas características. Por ejemplo, en un problema de detección de fraudes, las características relacionadas con el historial de transacciones pueden considerarse más importantes que las características demográficas.
+
+Es importante tener en cuenta que la asignación de pesos a las variables de entrada puede ser un proceso iterativo y sujeto a ajustes. Puedes probar diferentes asignaciones de pesos, evaluar el rendimiento del modelo y realizar ajustes en función de los resultados.
+
+Además, es importante destacar que la asignación de pesos en una red neuronal también puede realizarse automáticamente a través del proceso de aprendizaje. Los algoritmos de aprendizaje de redes neuronales, como el descenso de gradiente, ajustarán los pesos durante el entrenamiento para minimizar la función de costo y mejorar la precisión del modelo.
+
+.........
+El proceso de funcionamiento de una red neuronal consta de varias etapas:
+
+Entrada:
+Los datos de entrada se proporcionan a la red neuronal. Cada dato se representa como un vector de características y se pasa a través de los nodos de la capa de entrada.
+Propagación hacia adelante:
+Los datos de entrada se propagan a través de la red neuronal desde la capa de entrada hasta la capa de salida. Cada nodo en una capa toma los valores de entrada, los pondera y los pasa a través de una función de activación no lineal para generar una salida.
+Funciones de activación:
+Las funciones de activación se aplican a las salidas de los nodos en cada capa. Estas funciones introducen no linealidad en la red y permiten que la red aprenda relaciones y patrones complejos en los datos.
+Pesos y bias:
+Cada conexión entre los nodos tiene un peso asociado que indica la importancia de esa conexión. Los pesos se ajustan durante el proceso de entrenamiento de la red neuronal para minimizar el error en las salidas de la red.
+Capas ocultas:
+Entre la capa de entrada y la capa de salida, puede haber una o más capas ocultas que contienen nodos adicionales. Estas capas intermedias permiten que la red neuronal aprenda representaciones más abstractas y complejas de los datos.
+Función de pérdida:
+Durante el entrenamiento, se compara la salida generada por la red neuronal con el valor esperado (etiqueta) y se calcula una función de pérdida para medir la discrepancia entre ellos. El objetivo es minimizar esta función de pérdida ajustando los pesos de la red.
+Retropropagación del error:
+Una vez que se calcula la función de pérdida, el error se propaga hacia atrás a través de la red neuronal utilizando el algoritmo de retropropagación del error. Este algoritmo ajusta los pesos de las conexiones en función del gradiente descendente, lo que permite a la red aprender y mejorar su rendimiento.
+Ajuste de pesos:
+Durante la retropropagación del error, los pesos de las conexiones se ajustan iterativamente utilizando algoritmos de optimización como el descenso de gradiente. Estos ajustes buscan minimizar la función de pérdida y mejorar la capacidad de la red para hacer predicciones precisas.
+Predicción:
+Una vez que la red neuronal ha sido entrenada y los pesos han sido ajustados, se pueden utilizar para hacer predicciones en nuevos datos de entrada. Los datos de entrada se propagan hacia adelante a través de la red y se obtiene una salida que representa la predicción realizada por la red
+...................
+Ejemplo de Código para una red Neuronal: import numpy as np from sklearn.model_selection import train_test_split from sklearn.preprocessing import StandardScaler import tensorflow as tf from tensorflow import keras from keras.models import Sequential from keras.layers import Dense
+
+Datos de entrada
+edad = np.array([25, 30, 35, 40, 45, 50, 55, 60, 65, 70]) salario = np.array([50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000]) dinero_gastado = np.array([1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000]) objetos_comprados = np.array([5, 6, 7, 8, 9, 10, 11, 12, 13, 14]) gusta_anuncio = np.array([0, 0, 0, 0, 1, 1, 1, 1, 1, 1]) # 0 = No gusta, 1 = Gusta
+
+Preprocesamiento de los datos
+X = np.column_stack((edad, salario, dinero_gastado, objetos_comprados)) y = gusta_anuncio scaler = StandardScaler() X = scaler.fit_transform(X)
+
+División de los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+Creación del modelo de red neuronal
+model = Sequential() model.add(Dense(16, input_dim=4, activation='relu')) model.add(Dense(1, activation='sigmoid'))
+
+Compilación y entrenamiento del modelo
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']) model.fit(X_train, y_train, epochs=100, batch_size=8)
+
+Evaluación del modelo
+loss, accuracy = model.evaluate(X_test, y_test) print('Precisión del modelo:', accuracy)
+
+Predicción de nuevos datos
+nueva_persona = np.array([[35, 75000, 5000, 6]]) nueva_persona = scaler.transform(nueva_persona) prediccion = model.predict(nueva_persona) print('Predicción:', prediccion)
+

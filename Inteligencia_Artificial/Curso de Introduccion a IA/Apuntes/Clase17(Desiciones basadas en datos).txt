@@ -1,0 +1,28 @@
+Decisiones basadas en datos PPDAC
+
+Problema. Plantear una pregunta con claridad, explicar por qué es problemático, cuantos afecta, a quién afecta. Por qué pasa, a que categoría, mejores opciones, que sucedería sí, hay algo raro o anormal. Plan. Sentarse a planear como abordar el problema. Qué preguntas hay. Qué datos necesitamos. Donde están y estarán. Tengo acceso. Hay suficientes datos. Hay implicaciones éticas. Datos. Qué herramientas usar. Recolectar y estructurar datos. Calidad y precisión de los datos. Limpieza de datos. Dónde están Análisis. Preparar y manipular datos. Encontrar nueva información. Visualizar información. Conclusiones. Comparte tus hallazgos.
+
+Crear un buen plan en el método PPD AC implica establecer una estrategia clara y detallada para abordar el problema identificado. Aquí hay algunos pasos clave que puedes seguir al desarrollar un plan efectivo en el contexto del método PPDAC:
+
+Comprender el Problema:
+Asegúrate de tener una comprensión clara y completa del problema que estás abordando. Define el problema de manera específica y asegúrate de comprender sus aspectos esenciales. Establecer Objetivos Claros:
+
+Define los objetivos que deseas lograr con tu plan. Estos objetivos deben estar alineados con la resolución del problema identificado y deben ser medibles para evaluar el éxito del plan. Identificar Recursos Necesarios:
+
+Determina los recursos necesarios para ejecutar el plan de manera efectiva. Esto puede incluir recursos humanos, financieros, tecnológicos, entre otros. Desarrollar un Cronograma:
+
+Establece un cronograma que detalla las fechas y los plazos para cada fase del plan. Esto proporcionará una estructura temporal para la ejecución del plan y ayudará a gestionar eficientemente el tiempo. Seleccionar Métodos y Técnicas:
+
+,...............
+El método PPDAC es un enfoque estructurado utilizado en el ámbito de la resolución de problemas. PPDAC son las iniciales de "Problem, Plan, Data, Analysis, Conclusion" (Problema, Planificación, Datos, Análisis, Conclusión, en español). Este método es comúnmente asociado con el campo del análisis de datos y la estadística. Veamos cómo se aplica cada fase del PPDAC al proceso de definir un problema:
+
+Problema (Problem): En esta fase, se identifica y define claramente el problema que se va a abordar. Es crucial formular el problema de manera precisa para asegurarse de que el enfoque en su resolución sea claro y efectivo. Esto implica comprender la naturaleza del problema, sus dimensiones y su impacto.
+
+Planificación (Plan): Una vez que el problema está definido, se desarrolla un plan para abordarlo. Esto implica pensar en las estrategias y pasos necesarios para recopilar datos relevantes y realizar un análisis adecuado. La planificación también puede incluir la identificación de recursos necesarios y la determinación de un cronograma para la ejecución del plan.
+
+Datos (Data): En esta fase, se recopilan los datos necesarios para abordar el problema. Los datos pueden provenir de diversas fuentes, como encuestas, experimentos, observaciones, bases de datos, entre otras. Es fundamental recoger datos de calidad y relevantes para obtener resultados precisos en el análisis posterior.
+
+Análisis (Analysis): Una vez que se tienen los datos, se lleva a cabo un análisis para extraer información valiosa. Esto puede implicar el uso de métodos estadísticos, gráficos, o cualquier otro enfoque analítico relevante. El análisis tiene como objetivo entender las relaciones y patrones en los datos que puedan arrojar luz sobre la naturaleza del problema.
+
+Conclusión (Conclusion): Basándose en los resultados del análisis, se llega a conclusiones sobre el problema original. Esto implica interpretar los hallazgos y determinar las implicaciones prácticas. Las conclusiones deberían proporcionar información útil para la toma de decisiones y la resolución efectiva del problema.
+

@@ -1,0 +1,6 @@
+Aprender Bien excel, practicar con tablas dinamicas, filtros, limpiar información (es bueno con un dataset menor a 1m de registros) depende tambien de tu PC
+Aprender SQL, basicos y subquerys, segmentarción y joins de tablas.
+Aprender software de visualizacion, Power BI o Tableau y de storytelling para aprender a reportar mejor.
+Aprender a programar, Python o R, las librerias para manejar datasets mucho más grandes.
+ese es el camino que he seguido, hasta ahora voy para el cuarto punto, la programación. No soy el experto en ninguno de ellos pero si he notado por experiencia el saber que herramienta utilizar de acuerdo a las necesidades del negocio.
+

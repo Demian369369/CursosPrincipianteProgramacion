@@ -1,0 +1,75 @@
+Sistemas expertos
+Generación de condicionales para preguntas especificas.
+Cuando los resultados son previsibles y hay pasos específicos.
+Machine Learning
+Aprendizaje supervisado
+Cuando tienes datos etiquetados.
+Tipos
+Clasificación
+Regresión
+Aprendizaje no supervisado
+Para descubrir patrones no conocidos.
+Aprendizaje por refuerzo
+Sistema de recompensas y castigos, dependiendo si se acerca o aleja al objetivo que le damos.
+Deep learning
+Puede aprender a características importantes, a partir de los datos, por si mismo.
+Ideal para gran cantidad de datos no estructurados.
+Sistemas de Recomendación
+Analizan historial de comportamientos para saber que puede querer el usuario.
+Visión Computacional
+Detección de imágenes.
+Inteligencia Artificial Generativa
+Crear, simular o predecir información que no existe actualmente.
+Usa NLP para generar nuevo contenido.
+..........
+<u>Tecnologías de IA y Sus Aplicaciones</u>
+
+Sistemas Expertos
+
+Aplicaciones:Medicina, ingeniería y campos técnicos.
+
+Descripción:Funcionan como guías expertos en áreas especializadas, ofreciendo respuestas precisas basadas en reglas predefinidas.
+
+Machine Learning (Aprendizaje Automático)
+
+Aprendizaje Supervisado
+Aplicaciones:Clasificación y predicción.
+
+Descripción:Aprende de datos etiquetados para predecir resultados futuros o clasificar información.
+
+Aprendizaje No Supervisado
+Aplicaciones:Procesamiento de datos no estructurados.
+
+Descripción:Identifica patrones y estructuras en datos sin etiquetar.
+
+Aprendizaje por Refuerzo
+Aplicaciones:Robótica, videojuegos, navegación autónoma.
+
+Descripción:Aprende a través de recompensas y castigos para maximizar resultados en entornos específicos.
+
+Deep Learning (Aprendizaje Profundo)
+
+Aplicaciones:Procesamiento de datos no estructurados, reconocimiento de objetos, procesamiento de imágenes y voz.
+
+Descripción:Utilizado para tareas que involucran grandes volúmenes de datos no estructurados y reconocimiento de patrones complejos.
+
+Visión Computacional
+
+Aplicaciones:Detección de objetos, seguimiento de movimientos, reconstrucción 3D.
+
+Descripción:Permite a las computadoras ver e interpretar imágenes y videos, habilitando aplicaciones como cámaras de seguridad y vehículos autónomos.
+
+Sistemas de Recomendación
+
+Aplicaciones:Personalización de recomendaciones basadas en historial y preferencias del usuario.
+
+Descripción:Utilizados por empresas como Amazon y Netflix para sugerir productos y contenido a los usuarios.
+
+Inteligencia Artificial Generativa
+
+Aplicaciones:Creación de contenido nuevo y original, generación de texto, imágenes y asistentes virtuales.
+
+Descripción:Utilizada para generar contenido simulando características humanas y procesamiento de lenguaje natural.
+
+..................................
+La Clustering (Closterización) es un método de aprendizaje no supervisado en IA, que organiza datos en grupos o "clusters" basados en similitudes, sin etiquetas previas, revelando estructuras ocultas en los datos.

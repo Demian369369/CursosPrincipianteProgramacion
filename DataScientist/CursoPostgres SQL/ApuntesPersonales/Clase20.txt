@@ -1,0 +1,90 @@
+Funciones Especiales avanzadas en PosgreSQL • COALES: compara dos valores y retorna el que es nulo • NULLIF: Retorna null si son iguales • GREATEST: Compara un arreglo y retorna el mayor • LEAST: Compara un arreglo de valores y retorna el menor • BLOQUES ANONIMOS: Ingresa condicionales dentro de una consulta de BD
+
+SELECT id, nombre, fecha_nacimiento,
+	CASE
+	WHEN nombre ILIKE 'a%' THEN 'Comienza con A' 
+	WHEN nombre ILIKE 'e%' THEN 'Comienza con E'
+	WHEN nombre ILIKE 'i%' THEN 'Comienza con I'
+	WHEN ( current_date - fecha_nacimiento) > 6570 Then 'Es mayor de 18 años'
+	ELSE 'Su nombre no inicia con A, E o I y ademas es un niño'
+	END
+FROM pasajero ORDER BY fecha_nacimiento;```
+
+
+
+COALESCE: te permite comparar 2 valores y retornar el que no es nulo. Pero la función acepta un número ilimitado de argumentos. Cuando son más de 2 argumentos devuelve el primero no NULL (en sentido de izquierda a derecha). Si todos los argumentos son NULL, devuelve NULL. Se utiliza para evitar devolver valores nulos. Esto es útil cuando el valor devuelto tiene que ser usado dentro de una función. Para que esta función no tenga un argumento nulo. https://www.postgresqltutorial.com/postgresql-coalesce/
+NULLIF: te permite comparar 2 valores y retorna NULL si son iguales. Si no son iguales retorna el argumento de la izquierda. Esta función se puede usar como denominador de una división con el argumento de la izquierda igual a cero. La división siempre se dividirá por el argumento de la izquierda salvo cuando sea cero. Para ese caso NULLIF devuelve NULL, haciendo que el resultado de la división sea NULL y no indefinido. https://www.postgresqltutorial.com/postgresql-nullif/
+GREATEST: te permite comparar un arreglo de valores y te retorna el mayor
+LEAST: idem anterior pero para este caso retorna el menor
+BLOQUES ANÓNIMOS: al igual que el desarrollo de software te permite ingresar condicionales pero dentro de una consulta de base de datos. Se agrega más información a una misma tabla sin agregar ningún tipo de consulta
+
+
+
+SELECT * FROM pasajero WHERE id = 5;
+UPDATE pasajero SET nombre = NULL WHERE id = 5
+SELECT COALESCE(nombre, 'Nombre en Null') AS nombrenull , * FROM pasajero WHERE id = 5;
+SELECT NULLIF(0,0);
+SELECT NULLIF(0,1);
+SELECT GREATEST(5,5,8,95,75,4225,8,6,9,212,6);
+SELECT LEAST(5,5,8,95,75,4225,8,6,9,212,6);
+-- Reto
+SELECT COALESCE(nombre, 'Nombre en Null') AS nombrenull , *,
+CASE WHEN fecha_nacimiento > '2015-01-01' THEN
+'Niño' ELSE 'Mayor' END,
+CASE WHEN nombre ILIKE 'D%' THEN
+'Empieza con D' ELSE 'No empieza con D' END, 
+Case WHEN extract(years from age(current_timestamp,fecha_nacimiento::timestamp)) >= 18 THEN
+'Mayor de edad.' ELSE 'Menor de edad.' END
+FROM pasajero;
+
+
+
+RETO: 
+SELECT
+	id
+	,nombre
+	,CASE
+		WHEN nombre ILIKE 'A%' THEN 'A'
+		WHEN nombre ILIKE 'E%' THEN 'E'
+		WHEN nombre ILIKE 'I%' THEN 'I'
+		WHEN nombre ILIKE 'O%' THEN 'O'
+		WHEN nombre ILIKE 'U%' THEN 'U'
+		ELSE 'OTRA'
+	END AS comienzo
+	,fecha_nacimiento
+	,DATE_PART('year',current_date)-DATE_PART('year',fecha_nacimiento) as edad
+	,CASE 
+		WHEN DATE_PART('year',current_date)-DATE_PART('year',fecha_nacimiento)  >= 18 THEN 'MAYOR'
+		ELSE 'MENOR'
+	END AS mayores
+FROM pasajeros;
+
+
+
+///////
+MODIFICAR INFO DE UNA TABLA:
+SELECT id, COALESCE(nombre, 'No Aplica') AS nombre, direccion_residencia, fecha_nacimiento
+	FROM public.pasajeros WHERE id = 1;
+
+Sirve para cosas como divisiones por cero(generalmente cosas prohibidas)
+SELECT NULLIF (0,0);
+
+
+SELECT GREATEST (0,1,2,4,1,7,2,4)
+Selecciona el mayor numero
+
+SELECT LEAST (0,1,2,4,1,7,2,4)
+Selecciona el menor numero
+
+
+
+SELECT id, nombre, direccion_residencia, fecha_nacimiento,
+CASE
+WHEN fecha_nacimiento > '2015-01-01' THEN
+'Niño'
+ELSE
+'Mayor'
+END
+	FROM public.pasajeros;
+
+Hacer informacion con cambios para saber quien es niño y quien es mayor, esto enseña a filtrar la tabla y modificar al estilo python.

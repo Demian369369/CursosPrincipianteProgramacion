@@ -1,0 +1,22 @@
+Resumen: ■■■■■■■
+
+Es un algorito supervisado que pertece a los algoritmos de clasificación. Este no busca entregarnos un valro conituo si no que buscar entregar valores de 0 o 1. Es importante la desambiguación porque es cierto que en regresión lineal buscamos predecir valores continuos. La regresión logistica en su corazón se vale de la función sigmoidal, que va desde 0 a 1, un intervalo probabilistico para nuestras observaciones.
+
+¿Qué probabilidad tiene una observación o dato de estar en 0 o en 1?
+Podemos hacer una gráfica de Probabilidad de Aprobar vs Horas de estudio, y graficor algunos puntos de datos de estudiantes que practican desde 0 a n horas, cada punto de datos se puede mapear a la función sigmoide para mapear una probabilidad tal que:
+
+Si está entre [0.5-1] el estudiante tiene mejores chances de éxito.
+Si está entre [0-0.5) el estudiante tiene menos chances de ganar.
+Manjenado los intervalos de probabilidad podemos realizar clasificaciones binarias de si y no.
+
+
+
+..................
+SELECT
+Fecha_mes,
+country,
+p_dias_mes_actual,
+p_dias_mes_prev,
+CAST(p_ARPU as float)*350 as p_ARPU_multiplicado,
+p_BUYERS
+FROM tabla_datos;

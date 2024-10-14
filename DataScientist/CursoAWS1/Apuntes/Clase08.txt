@@ -1,0 +1,18 @@
+Cabe mencionar que el precio por “secreto almacenado” es de 0,40 dolares al mes (Al menos a la fecha de hoy). Ademas de cobrar por cada 10 mil llamadas al API para obtener esos secretos.
+
+Citando textualmente los precios en su sitio web:
+
+Por dato confidencial al mes
+
+0,40 USD por dato confidencial al mes. Una réplica de un dato confidencial se considera un dato confidencial distinto y también se facturará a 0,40 USD por réplica al mes. El precio se prorratea en el caso de los datos confidenciales que se almacenen durante menos de un mes (en función del número de horas).
+
+Cada 10 000 llamadas a la API
+
+0,05 USD cada 10 000 llamadas a la API.
+
+Aqui estan los precios de Secret Manager
+
+AWS Secrets Manager le ayuda a proteger los datos confidenciales necesarios para acceder a sus aplicaciones, servicios y recursos de TI. El servicio le permite alternar, administrar y recuperar fácilmente credenciales de bases de datos, claves de API y otros datos confidenciales durante su ciclo de vida. Los usuarios y las aplicaciones recuperan datos confidenciales con una llamada a las API de Secrets Manager, lo que elimina la necesidad de codificar información confidencial en texto sin formato.
+
+Secrets Manager ofrece la alternación de datos confidenciales con integración incorporada para Amazon RDS, Amazon Redshift y Amazon DocumentDB. Además, el servicio puede extenderse a otros tipos de datos confidenciales, incluidas las claves de API y los tokens de OAuth. Secrets Manager también le permite controlar el acceso a los datos confidenciales mediante permisos detallados y auditar la alternación de datos confidenciales de manera centralizada para recursos que se encuentren en la nube de AWS, en servicios de terceros o en las instalaciones.
+

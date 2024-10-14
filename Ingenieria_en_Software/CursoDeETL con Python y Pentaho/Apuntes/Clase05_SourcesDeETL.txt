@@ -1,0 +1,18 @@
+Consideraciones en la extracción de datos
+
+Formato📄: Es importante asegurarse de que los datos estén en formato compatible con la herramienta ETL que se esta utilizando. (¿json?, ¿SQL?, ¿Estan normalizados?)
+Calidad de los datos: ☑️ : Es necesario verificar la integridad y la precisión de los datos antes de cargarlos.
+Frecuencia de actualización 🔄 : Debes determinar la frecuencia con la que los datos deben ser extraídos y actualizados.
+Accesibilidad➡️ : Debes tener acceso a las fuentes de datos para poder extraerlos y cargarlos en el sistema.
+Seguridad🛡️ : Sebes asegurarte de que los datos estén protegidos y de que solo las personas autorizadas tengan acceso a ellos.
+Eficiencia ⚡ : debes buscar la manera mas eficiente de extraer y cargar los datos, para evitar retrasos y errores.
+Escalibilidad📈 : Debes tener en cuenta si a solución de ETL es escalable y si es posible manejar una cantidad creciente de datos en el futuro
+.............................
+5. Sources
+Formato: que estén en un formato compatible
+Calidad de los datos: verificar integridad
+Frecuencia de actualización
+Accesibilidad
+Seguridad: restringir accesos
+Eficiencia para evitar retrasos y errores
+Escalabilidad: saber si puedo manejar una cantidad de datos creciente

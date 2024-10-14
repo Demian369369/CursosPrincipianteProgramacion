@@ -1,0 +1,28 @@
+Hay un concepto en Machine Learning llamado DATA LEAKAGE, que basicamente consiste en que información fuera de los datos de entrenamiento es usada para entrenar el modelo, por ejemplo entrenar un escalador con todos los datos cuando debería ser solo entrenado con los datos de entrenamiento , esto genera que se puedan obtener resultados muy optimistas al entrenar nuestro modelo,pueden leer sobre eso aquí: https://machinelearningmastery.com/data-leakage-machine-learning/
+.....................
+Este código es la misma lógica solamente que uso el MinMax scaler
+
+
+# Libraries
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+
+# Selecting X and y
+X = df_data_processing.drop('Churn', axis=1)
+y = df_data_processing.Churn
+
+# Spliting Data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2 ,random_state=42)
+
+# Scaling Data
+scaler = MinMaxScaler()
+X_train_scaled = pd.DataFrame(scaler.fit_transform(X_train), columns=X.columns)
+X_test_scaled = pd.DataFrame(scaler.transform(X_test), columns=X.columns)
+................
+Supongo que es un data set distinto al del curso, se ve raro porque la correlacion de una variable consigo misma siempre es uno, si quieres que se vea mas claro quita el ulitmo elemento.
+
+
+# un slicing
+churn_onehot.corr().Churn.sort_values(ascending=True)[:-1]
+# con un pop
+churn_onehot.corr().Churn.sort_values(ascending=True).pop(-1)

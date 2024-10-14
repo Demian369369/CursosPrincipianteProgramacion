@@ -1,0 +1,32 @@
+Un servidor está compuesto de un
+Cómputo: CPU
+Memoria: RAM
+Almadenamiento: datos
+Base de datos: información almacenada de forma estructurada
+Redes: routers, switch, servidor DNS
+Terminología de IT
+Redes: cables, routers y servidores conectados unos a otros.
+Router: un dispositivo de red que reenvía paquetes de datos entre redes informáticas.
+Switch: toma un paquete y lo envía al servidor/cliente correcto en la red.
+Diseño de infraestructura "tradicional"
+Garage, con un servidor, dos servidores -> oficinas -> data centers
+Problemas del enfoque de IT Tradicional
+Renta
+Mantenimiento
+Reemplazar y agregar hardware
+Escalamiento limitado
+Contratar 24/7 para monitorear
+Desastres naturales
+
+Ventajas del Cloud Computing sobre el enfoque tradicional de infrastructura:
+
+Menores costos: no se incurre en gastos de espacio, mantenimiento, hardware
+
+Mayor escalabilidad: uso eficiente de los recursos necesarios sin importar el tamaño o crecimiento del proyecto
+
+Confiabilidad: soporte tecnico 24/7, proteccion contra eventualidades y/o desastres naturales
+
+👩🏿‍💻 ➡️ 🌐 ⬅️ 🖥️ 📭 ➡️ 🛂 ⬅️ 👩🏻‍🦰
+
+Existen muchos modelos para publicar una página web, o un servicio web. Si quisiéramos hacer esto desde una computadora en nuestra casa necesitaríamos una IP pública a la que podamos asociar un nombre de dominio. Además necesitaríamos una computadora de alta disponibilidad y suficientes recursos de Hardware para mantener nuestra página o sitio funcionando. Entonces, los recursos al final del día van a traducirse en electricidad, infraestructura de red, ISP que nos ofrezca IP pública, alquiler del nombre de dominio, soluciones de resiliencia energética o UPS/generador para mantener el equipo funcionando en caso de caídas energéticas, uno o varios computadores con suficiente procesador/RAM y disco duro para darle soporte a la cantidad de usuarios que vayan a tener acceso a nuestro servicio. Al final del día, sostener esta arquitectura puede ser tan complejo que resulta mucho más eficiente contratar un servicio que nos permita hacer todo esto sin preocuparnos demasiado por los detalles y aún mejor: que nos permita escalar la arquitectura bajo demanda según sea la necesidad del tráfico que vayamos a soportar.
+

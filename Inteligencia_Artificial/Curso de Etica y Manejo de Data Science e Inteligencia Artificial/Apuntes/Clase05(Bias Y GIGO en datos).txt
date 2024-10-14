@@ -1,0 +1,9 @@
+Resumen de la clase Bias (Sesgo) y GIGO
+Bias
+Tiene que ver con la recolección de datos de forma errónea de una muestra en donde no se representa a la totalidad de la población.
+
+En algunos casos como el reconocimiento facial suele haber sesgos en donde no se toman en cuenta todas las personas y sus distintos rasgos.
+
+GIGO (Garbage in / Garbage out)
+Si metemos basura en nuestros análisis la conclusión no será buena y por tanto no obtendremos los resultados esperados. (Debe haber calidad en los datos y estos deben ser de valor según los requerimientos del proyecto/negocio)
+

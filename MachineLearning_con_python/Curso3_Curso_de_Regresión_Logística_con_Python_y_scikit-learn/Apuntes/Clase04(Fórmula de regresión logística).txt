@@ -1,0 +1,20 @@
+Los "odds" (en español, "cuotas" o "probabilidades") son una forma de expresar la probabilidad de que ocurra un evento. En particular, los "odds" representan la relación entre la probabilidad de que ocurra un evento y la probabilidad de que no ocurra.
+
+Por ejemplo, si la probabilidad de que un equipo de fútbol gane un partido es del 60%, entonces la probabilidad de que pierda es del 40%. En términos de "odds", la probabilidad de ganar se puede expresar como 3 a 2, lo que significa que por cada 2 veces que pierde el equipo, gana 3 veces. De manera similar, la probabilidad de perder se puede expresar como 2 a 3, lo que significa que por cada 3 veces que gana el equipo, pierde 2 veces.
+
+Los "odds" se utilizan comúnmente en las apuestas y en los juegos de azar, donde se usan para determinar las ganancias potenciales de una apuesta. En la estadística, los "odds" se utilizan en la regresión logística para modelar la relación entre las variables independientes y la variable dependiente binaria.
+
+...........
+Odds
+Imagina que estás apostando en un juego. Los "odds" o probabilidades a favor de un evento representan la relación entre la probabilidad de que el evento suceda y la probabilidad de que no suceda. Por ejemplo, si en un juego la probabilidad de ganar es de 1 a 4, significa que por cada 1 vez que ganes, se espera perder 4 veces. Si lo expresamos como probabilidad, donde la probabilidad de ganar es P y la de perder es 1−P, los "odds" se calculan como P/1-P​.
+
+Log Odds
+Los "log odds" o logaritmo de los odds es simplemente tomar el logaritmo natural de los odds. Esta transformación es útil porque convierte una escala que va de 0 a infinito (odds) en una que va de menos infinito a infinito, lo que facilita el manejo matemático, especialmente en la regresión.
+
+Relación entre Regresión Logística y Lineal
+La regresión lineal y la regresión logística son similares en el sentido de que ambas intentan encontrar una relación entre una o más variables independientes (X) y una variable dependiente (Y). La diferencia clave radica en cómo tratan la variable dependiente.
+
+Regresión Lineal: Se usa cuando la variable dependiente es continua. La relación se modela directamente como una combinación lineal de las variables independientes. Es decir, intenta predecir el valor exacto de Y basado en X.
+Regresión Logística: Se usa cuando la variable dependiente es categórica (por ejemplo, sí/no, 0/1). En lugar de modelar esta variable directamente, la regresión logística modela los "log odds" de la probabilidad de que la variable dependiente sea 1 (o "sí"). Esto se hace para asegurarse de que la salida del modelo esté entre 0 y 1 y se pueda interpretar como una probabilidad. Matemáticamente, transforma la combinación lineal de las variables independientes usando la función logística (o sigmoide), lo que garantiza que el resultado sea una probabilidad.
+En resumen, mientras que la regresión lineal puede predecir cualquier valor dentro de un rango continuo, la regresión logística se utiliza para predecir la probabilidad de que ocurra un evento específico, convirtiendo una entrada lineal en una probabilidad usando los "log odds".
+

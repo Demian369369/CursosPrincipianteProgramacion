@@ -1,0 +1,99 @@
+Solución al reto:
+
+Al analizar los pesos de los distintos features sobre el modelo, se hace evidente que algunos de ellos no son tan relevantes, como lo son: ['gender', 'MultipleLines', 'PhoneService', 'StreamingMovies', 'StreamingTV'].
+
+En este script se eliminan del dataframe y se analizan los resultados.
+
+
+df_data['Churn'].replace(to_replace=['Yes', 'No'], value = [1,0], inplace = True)
+
+#Eliminamos los features que no presentan un alto grado de correlacion
+df_data2 = df_data.copy()
+df_data2 = df_data2.drop(['gender', 'MultipleLines', 'PhoneService', 'StreamingMovies', 'StreamingTV'], axis=1)
+
+#Convertimos las variables categoricas a numericas y normalizamos los datos
+df_data2 = pd.get_dummies(df_data2)
+df_scaled_r = scaler.fit_transform(df_data2)
+df_scaled_r = pd.DataFrame(df_scaled_r)
+df_scaled_r.columns = df_data2.columns
+
+#Dividimos el dataset en features y el target de nuestro modelo
+x_r = df_scaled_r.drop(['Churn'], axis=1)
+y_r = df_scaled_r['Churn']
+
+#Dividimos el dataset
+x_train_r, x_test_r, y_train_r, y_test_r = train_test_split(x_r,y_r,train_size=0.7, random_state=42)
+
+#Creamos el modelo
+model_r = LogisticRegression()
+model_r.fit(x_train_r, y_train_r)
+pred_r = model_r.predict(x_test_r)
+
+#Visualizamos los resultados
+cm_r = confusion_matrix(y_test_r, pred_r, labels=model_r.classes_)
+disp_r = ConfusionMatrixDisplay(confusion_matrix=cm_r, display_labels=model_r.classes_)
+disp_r.plot(cmap='gray')
+plt.show()
+
+print("Accuracy model: ", metrics.accuracy_score(y_test_r, pred_r))
+print("Recall Churn='NO': ", metrics.recall_score(y_test_r, pred_r, pos_label=0))
+print("Recall Churn='YES': ", metrics.recall_score(y_test_r, pred_r, pos_label=1))
+Resultados: Se puede observar que no presentó mejores resultados.
+
+Captura.JPG
+Para solucionar el bajo desempeño que presenta el modelo con los resultados negativos ('Churn=NO') podemos hacer uso de la metodología SMOTE (SMOTE en español es: Técnica estadística de sobremuestreo de minorías sintéticas) con la cual podemos aumentar el número de casos de un conjunto de datos de forma equilibrada. Link documentación: Documentación método SMOTE librería imbalanced.
+
+En el siguiente script realizamos nuevamente la eliminación de los features, además se ejecuta el balanceo de datos y se analizan los resultados.
+
+
+df_data['Churn'].replace(to_replace=['Yes', 'No'], value = [1,0], inplace = True)
+
+#Eliminamos los features que no presentan un alto grado de correlacion
+df_data2 = df_data.copy()
+df_data2 = df_data2.drop(['gender', 'MultipleLines', 'PhoneService', 'StreamingMovies', 'StreamingTV'], axis=1)
+
+#Convertimos las variables categoricas a numericas y normalizamos los datos
+df_data2 = pd.get_dummies(df_data2)
+df_scaled_r = scaler.fit_transform(df_data2)
+df_scaled_r = pd.DataFrame(df_scaled_r)
+df_scaled_r.columns = df_data2.columns
+
+#Dividimos el data set en features y el target de nuestro modelo
+x_r = df_scaled_r.drop(['Churn'], axis=1)
+y_r = df_scaled_r['Churn']
+
+#Aplicamos balanceo de clases con SMOTE
+oversample_r = SMOTE()
+x_rsmote, y_rsmote = oversample.fit_resample(x_r, y_r)
+
+#Dividimos el dataset
+x_train_rsmote, x_test_rsmote, y_train_rsmote, y_test_rsmote = train_test_split(x_rsmote,y_rsmote,train_size=0.7, random_state=42)
+
+#Creamos el modelo
+model_rsmote = LogisticRegression()
+model_rsmote.fit(x_train_rsmote, y_train_rsmote)
+pred_rsmote = model_rsmote.predict(x_test_rsmote)
+
+#Visualizamos los resultados
+cm_rsmote = confusion_matrix(y_test_rsmote, pred_rsmote, labels=model_rsmote.classes_)
+disp_rsmote = ConfusionMatrixDisplay(confusion_matrix=cm_rsmote, display_labels=model_rsmote.classes_)
+disp_rsmote.plot(cmap='gray')
+plt.show()
+
+print("Accuracy model: ", metrics.accuracy_score(y_test_rsmote, pred_rsmote))
+print("Recall Churn='NO': ", metrics.recall_score(y_test_rsmote, pred_rsmote, pos_label=0))
+print("Recall Churn='YES': ", metrics.recall_score(y_test_rsmote, pred_rsmote, pos_label=1))
+Resultados: Se puede observar que el modelo presenta una mejoría en la predicción de los valores negativos.
+
+...................
+un output mas interpretable el siguiente codigo calcula el efecto marginal de cada input. Se interpretaria como el tener un contrato mes a mes incrementa la probabilidad de churn en 2.4%
+
+
+# Efectos marginales
+odds = np.exp(model.coef_[0])
+pd.DataFrame(odds, 
+             X.columns, 
+             columns=['coef']).sort_values(by='coef', ascending=False)
+Lo malo de este enfoque es que pierde poder predictivo porque los features no estarian escalados
+
+

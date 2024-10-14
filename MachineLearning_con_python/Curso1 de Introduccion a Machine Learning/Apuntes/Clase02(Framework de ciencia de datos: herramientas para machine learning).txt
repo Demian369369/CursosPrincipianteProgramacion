@@ -1,0 +1,61 @@
+Data science framework
+Terminología:
+Data/Datos: unidades de información o “hechos” de observaciones. Features: tipos de información acerca de tus observaciones. Filas: observaciones individuales o muestras. Columnas: features que describen tus observaciones. Outlier: punto(s) de datos o data point(s) que se comporta de forma extraña. Pre-processing: preparar datos para su uso en un modelo de machine learning. ETL pipeline: framework de data science para extraer, transformar y cargar. un dataset comúnmente viene en forma de tabla y tienen 2 componentes: fila: es un registro, un datapoint. ejemplo: datos de un paciente en un hopital, datos de una cuenta de banco de un cliente. comúnmente tienen un ID asignado. columna: es una característica de la información, cada columna tiene un nombre. En ML supervisado siempre tendremos una columna target (output), que muestra la variable a predecir. y las demás columnas nos servirán como input para poder predecir. ejemplo: input= nivel de azúcar en sangre, presión arterial. output = paciente con o sin diabetes.
+
+Tipos de datos
+Numéricos: su feature es un número de tipo entero o flotante. Categórica: sus features representan una clase o tipo; usualmente se representan como un mapeo de números o un “one-hot” vector. Image: su feature representa una imagen. Texto: su feature es en la forma de texto, sea corto (como Twitter) o largo (como en noticias). NaN: su feature es desconocido o perdido. Convertir datos categóricos en etiquetas los modelos de ML no pueden manejar strings(palabras) solo entienden números, así que si queremos suministrar una variable categórica a un modelo, primero debemos
+
+transformarla a número.
+podríamos asignar un id a cada categoria y listo pero los modelos no manejan bien las relaciones de los datos en esta forma de código, la forma mas optima de hacer esta conversión es mediante 1-hot encoding el cual asigna a cada categoría un vector que se diferencia de los demás por la posición de un 1 en el vector, ejemplo: “SI” > (1,0,0) “NO” > (0,1,0) “talvez” > (0,0,1)
+
+Pandas
+esta librería es la ideal para cargar y entender tus datos. los comandos mas basicos son: pd.read_csv(): Leer un archivo CSV df.head(): Muestra las primeras 5 filas df.dtypes: Muestra el tipo de representación de los datos (float, int, object)
+
+Visualizando tus datos
+los gráficos más famosos para analizar tus datos son: Histogramas: Te dice qué tan “frecuentes” y distribuidos son ciertos valores en tus datos. Gráficas de dispersión: Muestra la relación entre 2 features graficándolos como pares ordenados. Te puede ayudar a detectar anomalías.
+
+.....................
+frameworks más populares:
+scikit-learn:
+Es una biblioteca de aprendizaje automático en Python que proporciona una amplia gama de algoritmos de aprendizaje supervisado y no supervisado, así como herramientas para la selección de características, preprocesamiento de datos, evaluación de modelos y más. Es uno de los frameworks más utilizados debido a su simplicidad y eficiencia.
+TensorFlow: Desarrollado por Google, TensorFlow es una biblioteca de código abierto que permite construir y entrenar modelos de aprendizaje automático utilizando redes neuronales y otros algoritmos. Está diseñado para ser flexible y escalable, y se utiliza ampliamente en tareas de aprendizaje profundo (deep learning). TensorFlow ofrece APIs para varios lenguajes de programación, incluyendo Python y C++.
+Keras:
+Keras es una API de alto nivel escrita en Python que se ejecuta sobre TensorFlow (también puede funcionar sobre otros frameworks de aprendizaje profundo como Theano o Microsoft Cognitive Toolkit). Proporciona una interfaz sencilla y fácil de usar para crear y entrenar redes neuronales, lo que la convierte en una opción popular para principiantes en el aprendizaje profundo.
+PyTorch:
+PyTorch es otro framework popular para el aprendizaje profundo que proporciona una interfaz flexible y dinámica para construir y entrenar modelos. Es conocido por su facilidad de uso y su capacidad para realizar cálculos en tiempo real, lo que lo hace adecuado para aplicaciones en tiempo real. PyTorch también tiene una gran comunidad y está respaldado por Facebook.
+Apache Spark:
+Spark es un framework de procesamiento distribuido diseñado para el análisis de grandes volúmenes de datos. Proporciona un conjunto de bibliotecas y APIs en varios lenguajes, incluyendo Python y Scala. Spark MLlib es la biblioteca de machine learning de Spark, que ofrece algoritmos de aprendizaje automático escalables y herramientas para el procesamiento de datos en paralelo.
+H2O:
+H2O es una plataforma de código abierto para el análisis de datos y el desarrollo de modelos de aprendizaje automático. Proporciona una interfaz fácil de usar para construir, entrenar y evaluar modelos, y es compatible con varios lenguajes de programación, incluyendo Python y R. H2O también ofrece capacidades de procesamiento distribuido y se integra bien con otros frameworks de aprendizaje automático como scikit-learn y TensorFlow.
+Estas son solo algunas de las herramientas y frameworks disponibles para el desarrollo de proyectos de machine learning en la ciencia de datos. La elección de la herramienta depende del tipo de proyecto, los requisitos específicos y las preferencias personales.
+
+...............................
+Terminología:
+Data/Datos: unidades de información o “hechos” de observaciones.
+Features: tipos de información acerca de tus observaciones.
+Filas: observaciones individuales o muestras.
+Columnas: features que describen tus observaciones.
+Outlier: punto(s) de datos o data point(s) que se comporta de forma extraña.
+Pre-processing: preparar datos para su uso en un modelo de machine learning.
+ETL pipeline: framework de data science para extraer, transformar y cargar.
+Componentes de un dataset:
+Un dataset comúnmente viene en forma de tabla con dos componentes:
+Fila: es un registro, un datapoint (por ejemplo, datos de un paciente en un hospital o datos de una cuenta bancaria).
+Columna: es una característica de la información, cada columna tiene un nombre.
+Tipos de datos:
+Numéricos: features que son números enteros o flotantes.
+Categórica: features que representan una clase o tipo, a menudo se representan como un mapeo de números o un "one-hot" vector.
+Image: features que representan una imagen.
+Texto: features en forma de texto, ya sea corto (como Twitter) o largo (como en noticias).
+NaN: features con datos desconocidos o perdidos.
+Transformación de datos categóricos:
+Los modelos de ML no pueden manejar strings, por lo que es necesario transformar variables categóricas a números.
+Se sugiere el uso de "1-hot encoding" para esta conversión.
+Ejemplo de "1-hot encoding":
+Asignar a cada categoría un vector que se diferencia de los demás por la posición de un 1 en el vector.
+Pandas:
+Librería ideal para cargar y entender datos.
+Comandos básicos incluyen pd.read_csv(), df.head(), df.dtypes.
+Visualizando tus datos:
+Histogramas: indican la frecuencia y distribución de ciertos valores en tus datos.
+Gráficas de dispersión: muestran la relación entre 2 features graficándolos como pares ordenados, útil para detectar anomalías.

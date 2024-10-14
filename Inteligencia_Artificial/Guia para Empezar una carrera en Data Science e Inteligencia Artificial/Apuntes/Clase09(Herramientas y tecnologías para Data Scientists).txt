@@ -1,0 +1,68 @@
+Data Scientist / Cientifico de Datos Funciones del cargo
+
+El cargo conlleva los siguientes desafíos
+
+Participar en el diseño de la lógica de negocio y mostrar información de valor a las diferentes interfaces.
+
+Utilizar herramientas de Google Cloud para la creación y consulta de modelos predictivos.
+
+Adicionalmente, podrás aportar y generar conocimiento de IA, IoT, Machine Learning en conjunto con el equipo especializado de Data Science y profesionales de diferentes disciplinas en el centro I+D+i.
+
+Trabajaras en el área de Data Science respondiendo al líder del área en proyectos de diseño y programación de herramientas de análisis de datos
+
+Funciones: • Consolidar datos de diversas fuentes de datos para crear modelos predictivos o descriptivos • Generar insights, basados en analítica moderna e innovadora, y métodos estadísticos de Data Science. • Desarrollar y aplicar metodologías de analítica.
+
+Requerimientos del cargo
+
+Carreras:
+
+Ingeniería civil en computación / matemática / eléctrica o a fin.
+Licenciatura en Física, Matemática, Astronomía o carrera a fin
+Nivel de experiencia
+
+Sin experiencia hasta 1 año.
+Conocimientos deseables:
+
+Lenguaje de programación como Python.
+Idealmente manejo en librerías para procesamiento y análisis de datos.
+Conocimientos y manejo de repositorios Git
+Manejo de bases de datos y conocimientos en SQL
+Experiencia trabajando en alguna nube
+Competencias:
+
+Trabajo en Equipo
+Orientación al logro de excelencia
+Pensamiento analítico.
+Orden y planificación
+Comunicación efectiva
+........................
+Herramientas y tecnologías:
+
+Programación con Python y R (incluyendo el paradigma POO)
+
+Jupyter Notebooks (para creación de nuestro código, tablas dinámicas)
+
+Algoritmos y librerías de ML como sckit y TensorFlow (comocer algoritmos de ML de tipo supervisados, no supervisados y de aprendizaje por refuerzo y su implementacion a código)
+
+Bases de datos SQL y NoSQL (para la extracción y análisis de datos para desarrollo de algoritmos de ML)
+
+Matemáticas para Data Science:
+
+-Algebra (para entender ecuaciones, funciones y sus representaciones en planos)
+
+-Estadistica descriptiva e inferencial + Probabilidad (Para analizar, entender datos, hallar información valiosa y descubrir patrones ocultos en los datos )
+
+Algebra lineal (para entender el funcionamiento de los algoritmos de ML)
+
+Cálculo (para formular funciones que permitan a los algoritmos cumplir su objertivo de forma cada vez más eficiente)
+
+Para empezar a hacer proyectos de análisis exploratorio de datos se necesita:
+
+Python (librerias de manipulación y visualización de datos)
+
+Jupyter Notebooks (creación de código en proyectos y análisis exploratorio de datos)
+
+Estadística y probabilidad aplicada a dara science
+
+:)
+

@@ -1,0 +1,60 @@
+¿Cómo funciona la inteligencia artificial?
+Entrenamos modelos para que realicen tareas que simulen el razonamiento humano.
+Aprendizaje supervisado datos etiquetados.
+Aprendizaje no supervisado datos sin etiquetar.
+Aprendizaje supervisado + no supervisado = deep learning
+Las redes neuronales simulan las neuronas de nuestro cerebro.
+Pieza claven el NLP Generative Pre trained Transformer
+Cerebros digitales que aprenden de una cantidad de información.
+GPT es una IA generativa.
+Prompt = instrucción para describir lo que queremos lograr
+Todos podemos aprender a usar la IA.
+.........................................
+Personas que trabajan con IA
+Investigadores de modelos, algoritmos y arquitecturas de la IA.
+Desarrolladores de aplicaciones.
+Usuarios de herramientas.
+IA
+Campo de teorías para crear sistemas computacionales que realices tareas consideradas propias del intelecto humano.
+Necesita un entrenamiento con datos para que aprenda el entendimiento humano y pueda hacer predicciones.
+Aprendizaje automático
+Supervisado
+Datos etiquetados.
+No supervisado
+Datos sin etiquetar.
+Deep learning
+Uso de redes neuronales.
+Procesamiento de lenguaje natural.
+Función de atención
+La probabilidad que una palabra pueda influir en el contexto.
+Transformer
+Función de atención + Redes neuronales
+Cómo se construyen estas herramientas.
+A partir de modelos fundacionales
+Large Language Model (LLM)
+IA generativa
+Crear contenido para el día a día
+Texto
+ChatGPT
+Google Bard
+Imagen
+Midjourney
+Dall-E
+Stable Diffusion
+Audio
+MusicLM
+Outter
+Prompts
+Máx. 400 caracteres (recomendación de OpenAI)
+.............................................
+¿Cómo funciona la inteligencia artificial?
+
+Algoritmos:Un algoritmo es un conjunto de instrucciones o reglas definidas y no ambiguas, ordenadas y finitas que permite llevar a cabo una actividad mediante pasos sucesivos que no generen dudas a quien deba hacer dicha actividad. En términos de programación y ciencias de la computación, un algoritmo es una secuencia de instrucciones que se utilizan para resolver un problema o realizar una tarea.
+Redes neuronales y aprendizaje profundo (deep learning): Las redes neuronales son un modelo computacional inspirado en el funcionamiento de las neuronas biológicas. Una red neuronal consiste en un conjunto de nodos o "neuronas" interconectadas que procesan información. El aprendizaje profundo es una subcategoría de machine learning que se basa en redes neuronales con muchas capas -de ahí el término "profundo". Estas redes neuronales profundas permiten que la máquina aprenda a través de grandes cantidades de datos no estructurados y son fundamentales en muchas aplicaciones de IA modernas.
+Procesamiento de lenguaje natural (NLP): El procesamiento de lenguaje natural es una rama de la inteligencia artificial que se centra en la interacción entre las computadoras y el lenguaje humano. Su objetivo es leer, descifrar, entender y hacer sentido de la lengua humana de una manera valiosa. Se utiliza en muchas aplicaciones, incluyendo la traducción automática, el reconocimiento de voz, y la generación de texto.
+Función de atención en las redes neuronales: La atención es un mecanismo que se introdujo en las redes neuronales para mejorar la extracción de características y la interpretación de los datos de entrada. En esencia, permite a la red "enfocarse" en ciertas partes de la entrada sobre otras. Esto es especialmente útil en tareas como la traducción automática, donde ciertas palabras en la entrada pueden ser más relevantes para la traducción que otras.
+Transformers como una nueva arquitectura para modelos de IA: Los Transformers son un tipo de modelo de aprendizaje profundo introducido en 2017 que utiliza mecanismos de atención para mejorar la velocidad y la calidad de las tareas de procesamiento del lenguaje natural. Los Transformers han demostrado ser muy eficaces en una serie de tareas de NLP y han sido la base de muchos modelos de lenguaje de gran escala, como GPT-3 y BERT.
+Modelos fundacionales y LLM (Large language Model) en NLP: Los modelos fundacionales son modelos de aprendizaje profundo que se entrenan en grandes cantidades de datos y luego se afinan para tareas específicas. Los modelos de lenguaje de gran escala (LLM) son un tipo de modelo fundacional que se entrena en grandes cantidades de texto. Estos modelos, como GPT-3, pueden generar texto coherente y relevante y se utilizan en una serie de aplicaciones, desde la generación de texto hasta el asistente de chat.
+Inteligencia artificial generativa: La inteligencia artificial generativa se refiere a los sistemas de IA que pueden crear contenido nuevo y original. Esto puede incluir la generación de texto, la creación de imágenes o música, o incluso la creación de nuevos diseños de productos. Estos sistemas suelen utilizar técnicas de aprendizaje profundo y pueden ser entrenados en una variedad de datos.
+Herramientas como "ChatGPT (Generative Pre Trained Transformers)" o "Google Bart" para trabajar con texto: ChatGPT y Google BART son ejemplos de modelos de lenguaje de gran escala que se utilizan para trabajar con texto. ChatGPT, desarrollado por OpenAI, es capaz de generar respuestas a preguntas, escribir ensayos, y más. Google BART es similar, y se utiliza en una variedad de tareas de procesamiento de lenguaje natural.
+La importancia de un buen prompt para obtener resultados útiles y confiables: Un "prompt" es la entrada que se da a un modelo de lenguaje para generar una respuesta. Un buen prompt es crucial para obtener resultados útiles de un modelo de lenguaje. Un prompt bien formulado puede ayudar a guiar al modelo hacia la generación de una respuesta útil y relevante, mientras que un prompt vago o mal definido puede llevar a respuestas menos útiles o incluso incoherentes.

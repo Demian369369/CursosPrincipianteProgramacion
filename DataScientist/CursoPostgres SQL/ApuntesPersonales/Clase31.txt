@@ -1,0 +1,5 @@
+Es importante evitar los bloqueos por inserción y borrados en la misma tabla
+
+Para esto puedo cambiar el nombre de la tabla que necesite consolidar y creo una tabla nueva en donde mi aplicación va a estar llenando los datos, así una tabla estará en consolidación y la tabla nueva estará recibiendo datos y no se bloqueara mi app
+
+Este cambio de nombre lo debo hacer periódicamente, pero depende de la cantidad de volumen de información que estoy recibiendo

@@ -1,0 +1,21 @@
+Conocer al Cliente:
+
+Tener disponibilidad 24/7 de la inteligencia artificial
+Recomendaciones según el perfil del cliente , y adaptarse según el "feedback" que recibe de los usuarios
+Tener disponibilidad inmediata para recibir "feedback" de nuestra empresa y que entienda el estado de animo al finalizar una llamada.
+Recomendaciones de productos afines que puedan ser de interés del cliente tal como entender al mismo.
+Personalizar el contenido dependiendo de ciertas variables (cliente/país/ciudad/estación del año)
+Traducción a tiempo real, permite llegar a mas clientes.
+Segmentación de cliente según su perfil (actividad, edad, lugar)
+Predicción de comportamiento de cliente según el estado de satisfacción.
+Predicción de retención de clientes según su actividad (churn)
+Análisis de comentarios como se sienten los clientes con respecto al producto
+..........
+Tener un sistema de IA va a tener muchas ventajas
+Entre ella va a permitirnos:
+
+Reducir éste costo, siempre la IA va a requerir una inversión previa, pero al largo plazo nos va a ayudar a que se a mucho más personalizado, mucho más asertivo en las respuestas que está dando a nuestro cliente final, nos va a poder ayudar a monitorear eso porque al final lo que lograremos es objetividad y además lo haremos a un costo más bajo.
+La velocidad a la que se está respondiendo, en menos de un segundo, una persona ya puede tener una respuesta personalizada creada por IA.
+Disponibilidad, sabemos que la IA no duerme, entonces disponemos de ella 24/7 y éste esquema es lo que nos permite hacerlo mucho más escalable.
+Podemos hacer recomendaciones mucho más personalizadas, podemos entender quién es nuestro usuario, si es alguien nuevo en nuestra plataforma, si es alguien que ha comprado muchas veces, y por ende sabremos el nivel de conocimiento que tiene en nuestra empresa, cómo interpretar su pregunta, saber si ya a preguntado muchas veces, si éste tema es nuevo, si ha sido respondido anteriormente, o si nuestra respuesta no fue tan clara, podremos adaptar y personalizar mucho más cada una de las respuestas que le daremos.
+Nos permite darle un feedback que sea mucho más conversacional, que nosotros después de ofrecerle un servicio de respuesta a la persona, le decimos califica nuestro servicio, vamos a poder adaptar mucho más el lenguaje por edad del usuario, entender y empatizar con ésta persona si está enojada o alegre. También podemos evaluar si al finalizar la llamada, el tono de la persona es más calmado, contento o si nos evaluó bien. Poder ver que partes funcionan y que partes no funcionan dentro de la automatización de nuestra respuesta.

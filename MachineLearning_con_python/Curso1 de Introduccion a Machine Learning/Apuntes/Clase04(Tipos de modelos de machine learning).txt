@@ -1,0 +1,94 @@
+Los modelos de machine learning (aprendizaje automático) se pueden clasificar en varias categorías, dependiendo de cómo aprenden de los datos y cómo realizan predicciones o toman decisiones. Aquí están los tipos principales:
+
+Aprendizaje Supervisado: Estos modelos se entrenan con datos etiquetados, lo que significa que cada ejemplo en el conjunto de entrenamiento está asociado con la respuesta correcta (etiqueta). El objetivo es aprender un mapeo de las entradas a las salidas. Ejemplos comunes incluyen:
+Regresión Lineal: Predice valores continuos.
+Regresión Logística: Utilizado para clasificación binaria.
+Árboles de Decisión y Bosques Aleatorios: Pueden usarse para clasificación y regresión.
+Máquinas de Soporte Vectorial (SVM): Para clasificación y regresión.
+Redes Neuronales: Ampliamente utilizadas en tareas complejas como el reconocimiento de imágenes y voz.
+Aprendizaje No Supervisado: Estos modelos trabajan con datos no etiquetados. El objetivo es explorar la estructura de los datos para extraer patrones significativos.
+
+Untitled
+Clustering (Agrupamiento): Como K-means, para agrupar datos en subconjuntos basados en similitudes.
+Reducción de Dimensionalidad: Como el Análisis de Componentes Principales (PCA), para reducir el número de variables.
+Reglas de Asociación: Como el algoritmo A priori, para descubrir relaciones entre variables.
+Aprendizaje Semi-Supervisado: Combina un pequeño conjunto de datos etiquetados con un gran conjunto de datos no etiquetados durante el entrenamiento. Es útil cuando las etiquetas son costosas de obtener.
+Aprendizaje por Refuerzo: En este tipo, los modelos aprenden a tomar decisiones secuenciales. Reciben señales de recompensa o penalización a medida que interactúan con un entorno. Ejemplos incluyen:
+Q-Learning
+Deep Q Networks (DQN)
+Política de Gradientes
+Aprendizaje Profundo (Deep Learning): Un subcampo del aprendizaje automático que utiliza redes neuronales con muchas capas. Es muy efectivo en tareas complejas como el procesamiento del lenguaje natural y el reconocimiento de imágenes y voz.
+Modelos Híbridos/Ensemble Learning: Combinan múltiples modelos de machine learning para mejorar el rendimiento. Ejemplos incluyen:
+Bagging: Como el Bosque Aleatorio.
+Boosting: Como XGBoost, AdaBoost.
+Stacking: Combinar las predicciones de múltiples modelos.
+Cada tipo de modelo tiene sus propias fortalezas y debilidades, y la elección del modelo adecuado depende en gran medida del problema específico, la naturaleza de los datos disponibles y los objetivos del análisis.
+
+..................
+MACHINE LEARNING
+
+SUPERVISADO
+
+El modelo obtine features de entrada y salida.
+
+Hay un target/objetivo a predecir.
+
+Regresion lineal(Estimacion de esperanza de vida, Advertising popularity prediction, Pronostico de temperatura, mercado):
+
+Target output (objetivo de salida) es numerico.
+
+Clasificacion: (Clasificacion de imagenes, Retencion de clientes, Deteccion de fraudes de identidad, diagnostico)
+
+Target output es una etiqueta.
+
+Regresion logistica.
+
+Random forest.
+
+NO SUPERVISADO
+
+Objetivo desconocido, queremos encontrar estructira y grupos dentro de los datos.
+
+Clustering:
+
+Queremos encontrar grupos en los datos.
+
+K-means.
+
+Hierarchical clustering
+
+Dimensionality reduction:
+
+Queremos encontrar que features de entrada en los datos son de ayuda.
+
+PCA Analisis de componentes principales.
+
+TSNE.
+
+......................
+Los modelos de machine learning (aprendizaje automático) se pueden clasificar en varias categorías, dependiendo de cómo aprenden de los datos y cómo realizan predicciones o toman decisiones. Aquí están los tipos principales:
+
+Aprendizaje Supervisado: Estos modelos se entrenan con datos etiquetados, lo que significa que cada ejemplo en el conjunto de entrenamiento está asociado con la respuesta correcta (etiqueta). El objetivo es aprender un mapeo de las entradas a las salidas. Ejemplos comunes incluyen:
+Regresión Lineal: Predice valores continuos.
+Regresión Logística: Utilizado para clasificación binaria.
+Árboles de Decisión y Bosques Aleatorios: Pueden usarse para clasificación y regresión.
+Máquinas de Soporte Vectorial (SVM): Para clasificación y regresión.
+Redes Neuronales: Ampliamente utilizadas en tareas complejas como el reconocimiento de imágenes y voz.
+Aprendizaje No Supervisado: Estos modelos trabajan con datos no etiquetados. El objetivo es explorar la estructura de los datos para extraer patrones significativos.
+
+Untitled
+Clustering (Agrupamiento): Como K-means, para agrupar datos en subconjuntos basados en similitudes.
+Reducción de Dimensionalidad: Como el Análisis de Componentes Principales (PCA), para reducir el número de variables.
+Reglas de Asociación: Como el algoritmo A priori, para descubrir relaciones entre variables.
+Aprendizaje Semi-Supervisado: Combina un pequeño conjunto de datos etiquetados con un gran conjunto de datos no etiquetados durante el entrenamiento. Es útil cuando las etiquetas son costosas de obtener.
+Aprendizaje por Refuerzo: En este tipo, los modelos aprenden a tomar decisiones secuenciales. Reciben señales de recompensa o penalización a medida que interactúan con un entorno. Ejemplos incluyen:
+Q-Learning
+Deep Q Networks (DQN)
+Política de Gradientes
+Aprendizaje Profundo (Deep Learning): Un subcampo del aprendizaje automático que utiliza redes neuronales con muchas capas. Es muy efectivo en tareas complejas como el procesamiento del lenguaje natural y el reconocimiento de imágenes y voz.
+Modelos Híbridos/Ensemble Learning: Combinan múltiples modelos de machine learning para mejorar el rendimiento. Ejemplos incluyen:
+Bagging: Como el Bosque Aleatorio.
+Boosting: Como XGBoost, AdaBoost.
+Stacking: Combinar las predicciones de múltiples modelos.
+Cada tipo de modelo tiene sus propias fortalezas y debilidades, y la elección del modelo adecuado depende en gran medida del problema específico, la naturaleza de los datos disponibles y los objetivos del análisis.
+

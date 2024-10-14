@@ -1,0 +1,35 @@
+Cifrado de mensajes.
+Copias de seguridad de la información.
+Control de accesos por sistema.
+Mantener un registro de accesos.
+Utilizar sistemas que pueden alertar comportamientos sospechosos.
+........................
+<u>Protección de Datos en la Inteligencia Artificial</u>
+
+Responsabilidades Compartidas
+
+Vulnerabilidad de los Accesos
+Riesgos y Soluciones
+
+Pérdida de Datos
+Robo de Información Confidencial
+Mecanismos de Seguridad
+ Colaboración y Comprensión de Riesgos
+
+ Consecuencias de Violaciones de Datos
+
+Pérdida de Reputación
+Sanciones y Multas
+Interrupciones Comerciales
+Pérdida de Ingresos
+Ejemplos de Violaciones de Datos
+
+Trade-off entre Datos y Riesgos
+
+.................
+Definir mecanismo de seguridad para evitar vulnerabilidad en un proyecto IA
+
+•la responsabilidad recae tanto en tu organización como en el proveedor de servicios tecnológicos. •La vulnerabilidad de los accesos es tu responsabilidad •Más tecnología/ más responsabilidad •Ningún proveedor de servicio se hará cargo de los daños en ningún caso •Riesgos más conocidos: Pérdida de datos y robo de información •mecanismos de seguridad: cifrado de mensajes / copias de seguridad de información / control de accesos por sistema / Mantener un registro de accesos / utilizar sistemas que alerta. De comportamientos sospechosos
+
+El principal error es dar por sentado que las áreas de negocio y tecnología tienen la misma compresión de estos riesgos.
+

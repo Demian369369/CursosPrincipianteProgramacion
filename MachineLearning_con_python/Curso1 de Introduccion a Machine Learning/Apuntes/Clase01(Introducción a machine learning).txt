@@ -1,0 +1,29 @@
+Conocimientos previos
+Programacion con Python.
+
+Los mejores kits de herramientas de machine learning están escritos en Python de ahi la importancia de estar familiarizado con este lenguaje.
+Uso de Pandas.
+
+Tener experiencia con el paquete pandas de Python, el cual permite trabajar con conjuntos de datos, y ayudar con los procesos de preparación y visualización de datos.
+Uso de Matplotlib.
+
+Una herramienta de trazado como Matplotlib ayuda cuando se tracen puntos de datos con el fin de poder entender las relaciones entre los datos, esto antes de entrenar o incluso después de entrenar los modelos de machine learning.
+Probabilidad, estadistica y calculo fundamentales.
+
+Los fundamentos de probabilidad y estadística ayudan a entender qué hacen estos modelos y por qué son capaces de hacer tan buenas predicciones.
+.............
+El proceso de aprendizaje automático generalmente consta de las siguientes etapas:
+
+Recopilación de datos:
+-Se reúnen los datos relevantes para el problema que se desea resolver. Estos datos pueden provenir de diversas fuentes, como bases de datos, archivos, sensores, etc.
+
+Preprocesamiento de datos:
+Los datos recopilados pueden requerir limpieza y transformación para asegurarse de que sean adecuados para el análisis. Esto puede incluir la eliminación de valores atípicos, la normalización de los datos, la codificación de variables categóricas, etc.
+Selección de características:
+En algunos casos, es necesario seleccionar un subconjunto de características relevantes del conjunto de datos para entrenar el modelo. Esto ayuda a reducir la complejidad y mejorar la eficiencia del modelo.
+Entrenamiento del modelo:
+Se utiliza un algoritmo de aprendizaje automático para entrenar un modelo utilizando los datos de entrenamiento. Durante el entrenamiento, el modelo ajusta sus parámetros internos para minimizar la diferencia entre las predicciones del modelo y los valores reales conocidos en los datos de entrenamiento.
+Evaluación del modelo:
+Una vez alterado, el modelo se evalúa utilizando datos de prueba o validación. Se calculan métricas de evaluación para medir qué tan bien se desempeña el modelo en la tarea para la cual fue diseñada. Si el rendimiento del modelo no es satisfactorio, se pueden realizar ajustes en el proceso de entrenamiento o en la selección de características.
+Predicciones y toma de decisiones:
+Una vez que el modelo ha sido evaluado y se considera adecuado, se puede utilizar para hacer predicciones o tomar decisiones sobre nuevos datos. El modelo generaliza a partir de los patrones y relaciones aprendidas durante el entrenamiento y puede aplicar a datos desconocidos.

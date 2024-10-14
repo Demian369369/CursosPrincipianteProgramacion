@@ -1,0 +1,34 @@
+++Tecnologías basadas en inteligencia artificial++ .
+
+Vulnerabilidad a ciberataques y propensas a errores: extracción de información sensible, riesgo para la reputación empresarial.
+
+Propiedades de la seguridad de la información: Confidencialidad (autorización de acceso a la información). Integridad (autorización de modificación de información). Disponibilidad (acceso oportuno a la información).
+
+++Recomendaciones para el uso seguro de inteligencia artificial++.
+
+Validación de garantías de privacidad del producto
+
+Cumplimiento de requisitos de protección de información: protección de datos, propósitos de algoritmos y marketing.
+
+Claridad sobre el acceso a la información
+
+Ejemplos de validación de compromiso de privacidad: Openai: seguridad en el desarrollo, principios de minimización del daño, construcción de confianza, cumplimiento de normas internacionales, ayuda al cumplimiento de regulaciones. Adobe: cumplimientos industriales, política de privacidad de productos.
+
+++Consideraciones adicionales para la seguridad++.
+
+Control de usuario: autenticación y autorización, factor de autenticación múltiple.
+
+Control de gasto: establecimiento de límites de uso, alertas de consumo.
+
+Verificación de respuestas de inteligencia artificial: precisión y actualización, verosimilitud vs. realidad, comprobación con fuentes adicionales.
+
+++Maximizando el uso seguro de la inteligencia artificial++ .
+
+Validación con fabricantes.
+
+Conciencia de la información enviada.
+
+Implementación de controles mínimos de seguridad.
+
+Uso de resultados como guía validadora.
+

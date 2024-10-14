@@ -1,0 +1,18 @@
+Pregunta 1
+
+Tienes un conjunto de datos de información de ventas sobre equipos electrónicos. Una de las columnas del conjunto de datos describe qué es el producto: tableta, teléfono inteligente, TV, computadora. ¿Qué tipo de datos es este?
+
+- Es un tipo de dato int64, porque es una categoría de mapeo.
+
+Pregunta 2
+
+A partir del mismo conjunto de datos de equipos electrónicos anterior, tienes información sobre el precio de cada artículo. ¿Qué tipo de datos es este?
+
+Sería float64 ya que los precios pueden llegar a tener decimales.
+
+Pregunta 3
+
+Tienes información sobre el kilometraje (distancia recorrida) de varios automóviles en un concesionario. ¿Qué tipo de información es esta?
+
+También sería float64 ya que el kilometraje cuenta con decimales.
+

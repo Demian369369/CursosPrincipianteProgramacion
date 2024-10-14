@@ -1,0 +1,29 @@
+df_under=X_under
+df_under['Class']=y_under
+plt.figure(figsize=(15,10))
+sns.heatmap(df_under.corr(), annot= True, cmap='coolwarm',cbar=False);
+
+
+
+..................
+
+
+
+
+fig = px.imshow(
+    df_under.corr().round(2),
+    color_continuous_scale=px.colors.diverging.RdBu[::-1],
+    text_auto=True,
+    zmin=-1,
+    zmax=1,
+)
+
+fig.update_yaxes(tickfont=dict(family='Arial', size=10), automargin='height')
+fig.update_xaxes(tickfont=dict(family='Arial', size=10), automargin='height')
+fig.update_layout(title_text='Graphic correlation your dataset', coloraxis_colorbar_title_text = 'Correlation')
+
+fig.show()
+
+
+newplot (8).png
+

@@ -1,0 +1,51 @@
+I strongly recommend to the people who is interest on the advance of Machine Learning/Deep Learning/ IA to read the book titulated "Alquimia: Cómo los datos se están transformando en oro" By: Juan Manuel López Zafra. In that book, they look to many cases of use of that type of technology, in my opinion, is a really good book to introduce yourself in the daily use of the data and how important it's nowadays, y lo importante que seran en un futuro, no tan lejano...
+.......................
+ML es la ciencia de usar algoritmos para identificar patrones en datos con el fin de resolver un problema de interés.
+
+Los conjuntos de datos van a contener features que describen nuestros datos. Se puede encontrar en su uso patrones o clusters.
+
+ML aparecen en problemas del día como el filtro de spam de los mails o como los sistemas de recomendación de websites como Amazon.
+
+Actualmente AI/ML es una área en pleno crecimiento donde el financiamiento a empresas que desarrollan soluciones basadas en esta tecnología sigue aumentando.
+..........................................
+El "Machine Learning" (ML), o aprendizaje automático, es una rama de la inteligencia artificial (IA) que se centra en el desarrollo de sistemas capaces de aprender y mejorar a partir de la experiencia sin ser explícitamente programados. Utiliza algoritmos y modelos estadísticos para que las computadoras realicen tareas sin instrucciones específicas, identificando patrones y tomando decisiones basadas en datos.
+
+Historia del Machine Learning:
+Inicios (1950s - 1970s):
+1950s: Alan Turing crea el "Test de Turing" para medir la inteligencia de una máquina.
+1952: Arthur Samuel desarrolla un programa de juego de damas que aprende de sus propias partidas.
+1967: Se introduce el algoritmo del vecino más cercano.
+Desarrollo Temprano (1980s):
+1980s: Popularización de las redes neuronales y algoritmos como el backpropagation.
+1985: Se introduce el concepto de "aprendizaje profundo".
+Expansión y Popularización (1990s - 2000s):
+1990s: Avances en algoritmos de aprendizaje automático y aumento en la disponibilidad de datos digitales.
+1997: IBM Deep Blue vence al campeón mundial de ajedrez Garry Kasparov.
+2006: Geoffrey Hinton et al. reviven el interés en las redes neuronales con el aprendizaje profundo.
+Era Moderna (2010s - Presente):
+2010s: Explosión en la popularidad del ML debido a la mayor capacidad de cómputo, grandes conjuntos de datos y avances en algoritmos.
+2012: Avance significativo en el reconocimiento de imágenes con redes neuronales convolucionales (CNNs).
+2016: AlphaGo de Google DeepMind vence al campeón mundial de Go.
+Componentes Clave del Machine Learning:
+Datos: El ML requiere grandes cantidades de datos para entrenar los modelos y mejorar su precisión.
+Modelos y Algoritmos: Incluyen desde simples regresiones lineales hasta complejas redes neuronales.
+Aprendizaje: Puede ser supervisado, no supervisado, semi-supervisado o por refuerzo.
+Evaluación y Mejora: Los modelos se prueban y ajustan continuamente para mejorar su rendimiento.
+Aplicaciones Actuales:
+Reconocimiento de voz y de imagen
+Vehículos autónomos
+Predicción y análisis de datos
+Sistemas de recomendación
+Diagnóstico médico automatizado
+El machine learning continúa evolucionando rápidamente, impulsando avances significativos en tecnología y ciencia. Su capacidad para aprender y adaptarse lo hace fundamental en la era de la información y la digitalización.
+
+..................
+Se remonta a la década de 1950, cuando los científicos e investigadores comenzaron a explorar la idea de enseñar a las máquinas a aprender y adaptarse por sí mismas. Uno de los primeros hitos importantes en el campo fue el desarrollo del modelo de neurona artificial por Warren McCulloch y Walter Pitts en 1943, que fue una representación matemática de una neurona biológica y sentó las bases para los modelos de redes neuronales.
+En la década de 1950 y 1960
+Se realizaron avances significativos en el campo del aprendizaje automático. Uno de los primeros sistemas de aprendizaje automático fue el Perceptrón, desarrollado por Frank Rosenblatt en 1957. El Perceptrón fue capaz de aprender a reconocer patrones simples en imágenes y fue uno de los primeros ejemplos de aprendizaje supervisado.
+Durante las décadas siguientes, el aprendizaje automático se desarrolló gradualmente con nuevos algoritmos y enfoques. Sin embargo, a mediados de la década de 1980, el interés en el campo disminuyó debido a las limitaciones de los algoritmos disponibles en ese momento y la falta de grandes conjuntos de datos y potencia de cómputo.
+
+El resurgimiento del aprendizaje automático comenzó en la década de 1990 con avances en las técnicas de aprendizaje automático basadas en redes neuronales y la disponibilidad de conjuntos de datos más grandes. Además, los algoritmos de aprendizaje automático basados en métodos estadísticos, como las máquinas de vectores de soporte (SVM) y los árboles de decisión, ganaron popularidad.
+Con el advenimiento del siglo XXI, el aprendizaje automático ha experimentado un rápido crecimiento y una mayor adopción en una amplia gama de aplicaciones. Esto se ha debido en gran parte a la proliferación de datos digitales y el aumento de la capacidad de procesamiento computacional. Además, los avances en el campo, como el uso de redes neuronales profundas (deep learning), han llevado a mejoras significativas en el rendimiento y la precisión de los modelos de aprendizaje automático.
+Hoy en día, el aprendizaje automático se utiliza en numerosas aplicaciones y sectores, incluyendo reconocimiento de voz, visión por computadora, procesamiento del lenguaje natural, comercio electrónico, medicina, finanzas y más. El campo continúa evolucionando rápidamente, impulsado por nuevos algoritmos, técnicas de modelado y avances en hardware y tecnología de datos.
+

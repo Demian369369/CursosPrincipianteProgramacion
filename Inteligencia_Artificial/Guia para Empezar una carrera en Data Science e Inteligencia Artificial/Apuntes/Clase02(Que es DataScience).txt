@@ -1,0 +1,38 @@
+Data Science
+¿Qué es Data Science?
+
+Data science o ciencia de datos es el proceso de descubrir información valiosa de los datos.
+
+¿Cuál es su finalidad?
+
+Tomar decisiones y crear estrategias de negocio
+Crear productos de software más inteligentes y funcionales.
+¿De qué trata este proceso?
+
+Obtención de los datos
+
+Mediciones
+Encuestas
+Internet
+Transformar y limpiar los datos
+
+Incompletos
+Formato Incorrecto
+Explorar, analizar y visualizar datos
+
+Patrones o tendencias
+Insights
+Visualizaciones, gráficos o reportes
+Usar modelos de machine learning
+
+Machine learning o aprendizaje automático es una rama de inteligencia artificial. Su objetivo es que las computadoras aprendan. En machine learning, las computadoras observan grandes cantidades de datos y construyen un modelo capaz de generar predicciones para resolver problemas.
+
+Integrar datos e IA a productos de software
+
+Ponerlos a disposición del usuario final.
+Proceso de la ciencia de datos
+Método científico llevado a los datos.
+El proceso entre proyecto a proyecto cambia poco.
+Data Science in short.
+Es una intersección de los conocimientos matemáticos, programación e interpretación de los datos.
+

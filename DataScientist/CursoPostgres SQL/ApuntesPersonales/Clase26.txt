@@ -1,0 +1,7 @@
+Existen algunas extensiones instaladas más no activas dentro de PgAdmin que nos ayudan a ejecutar ciertos comandos
+
+Con levelnshtein encontramos el número de diferencias que tienen dos palabras en su escritura.
+
+Es importante crear la extensión para usar las funciones normalmente
+
+Con difference encontramos que tan similares suenan dos palabras

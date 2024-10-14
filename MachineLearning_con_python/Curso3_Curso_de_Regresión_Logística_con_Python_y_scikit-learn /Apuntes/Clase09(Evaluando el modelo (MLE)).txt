@@ -1,0 +1,10 @@
+la estimación de máxima verosimilitud (MLE) no es igual a la función de costo, pero están relacionadas en el contexto del aprendizaje automático y la optimización de modelos estadísticos.
+
+El MLE es un método estadístico utilizado para encontrar los valores de los parámetros de un modelo probabilístico que maximizan la probabilidad de observar los datos que tienes. Es un enfoque común en estadísticas para estimar parámetros desconocidos en una distribución de probabilidad.
+
+La función de costo, por otro lado, es una medida que se utiliza en el aprendizaje automático para evaluar qué tan bien se ajusta un modelo a los datos de entrenamiento. La función de costo cuantifica la diferencia entre las predicciones del modelo y los valores reales de los datos. El objetivo en el aprendizaje automático es minimizar esta función de costo para encontrar los parámetros del modelo que hacen que las predicciones se ajusten mejor a los datos de entrenamiento.
+
+La relación entre el MLE y la función de costo radica en que en muchos casos, la función de costo utilizada en el aprendizaje automático es de hecho la negación del logaritmo de la función de verosimilitud. Esto se debe a que al maximizar la verosimilitud, se minimiza su negativo (es decir, se maximiza el logaritmo de la verosimilitud negativo), lo que es equivalente a minimizar la función de costo. Esta relación se utiliza en la optimización de modelos para encontrar los valores de parámetros que maximizan la probabilidad de los datos o minimizan la función de costo.
+
+En resumen, aunque no son lo mismo, el MLE y la función de costo están relacionados en el contexto del aprendizaje automático, ya que la función de costo puede estar basada en la verosimilitud negativa, y el proceso de optimización busca minimizar esta función para encontrar los mejores parámetros del modelo.
+

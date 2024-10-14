@@ -1,0 +1,26 @@
+Quiebres de stocks (revisar curva de disponibilidad)
+Estacionalidad de la demanda (comprar con meses de años anteriores)
+Aumento de reclamos (revisar reclamos, no conformidades y notas de créditos en el tiempo)
+Aumento de precios (revisar comportamiento de precios y márgenes de venta)
+Cambios en las condiciones crediticias (aumento de deudas de clientes claves, cambios de formas de pago de clientes con mayores bajas, aumento de protestos, días calle, etc.)
+Cambio en la oferta de la competencia (revisar benchmark y determinar cambios relevantes en la oferta de los productos con mayor baja en la venta, aumento en los stocks propios de productos con baja de venta, etc.)
+Cambios en la fuerza de ventas (revisar si hay reasignaciones de cartera que impliquen correlación con baja de ventas, licencias médicas, vacaciones, etc.)
+Problemas de producción (revisar el proceso productivo y determinar si hay anomalías en tiempos de entrega, calidad - reclamos por ejemplo, etc.)
+Disrupción tecnológica o cambio de moda (determinar condiciones nuevas de mercado y correlacionar esos datos con esos cambios, para determinar validez)
+Entrada de nuevos competidores (revisar datos de importaciones por partidas arancelarias, baja de exportaciones que impliquen mayor disponibilidad de stock de la competencia en el mercado local)
+Problemas de la cadena de abastecimiento (determinar problemas de disponibilidad no atribuibles a producción ni a la demanda, enquistados en almacenaje, distribución y abastecimiento de proveedores locales y extranjeros).
+Otros
+....................
+Que hace un Data Analyst?
+Utiliza los datos para obtener Insights. es decir info de valor que permita y ayude en la toma de decisiones y planteamiento de estrategias de negocio.
+
+Esto lo realiza con la extracción de datos recolectados, análisis de datos y reporte de resultados con con un formato amigable → dashboard, tableros, métricas
+
+Es el rol que mas comunicación tiene con otras áreas para identificar necesidades de información
+Extraer datos de fuentes con SQL o Python
+Limpiar y organizar los datos, para su análisis
+Analizar los datos para identificar patrones y tenencias
+Comunicar los hallazgos en tableros o dashboards
+Flujo de trabajo de Data Analyst
+Problema o pregunta → Exploración y queries → Recopilar info de valor → Crear visualizaciones de la info → comunicar hallazgos
+

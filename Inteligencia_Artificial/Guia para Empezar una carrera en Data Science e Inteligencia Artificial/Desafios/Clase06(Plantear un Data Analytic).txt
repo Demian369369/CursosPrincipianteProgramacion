@@ -1,0 +1,14 @@
+Hipótesis:
+
+Quiebres de stocks (revisar curva de disponibilidad)
+Estacionalidad de la demanda (comprar con meses de años anteriores)
+Aumento de reclamos (revisar reclamos, no conformidades y notas de créditos en el tiempo)
+Aumento de precios (revisar comportamiento de precios y márgenes de venta)
+Cambios en las condiciones crediticias (aumento de deudas de clientes claves, cambios de formas de pago de clientes con mayores bajas, aumento de protestos, días calle, etc.)
+Cambio en la oferta de la competencia (revisar benchmark y determinar cambios relevantes en la oferta de los productos con mayor baja en la venta, aumento en los stocks propios de productos con baja de venta, etc.)
+Cambios en la fuerza de ventas (revisar si hay reasignaciones de cartera que impliquen correlación con baja de ventas, licencias médicas, vacaciones, etc.)
+Problemas de producción (revisar el proceso productivo y determinar si hay anomalías en tiempos de entrega, calidad - reclamos por ejemplo, etc.)
+Disrupción tecnológica o cambio de moda (determinar condiciones nuevas de mercado y correlacionar esos datos con esos cambios, para determinar validez)
+Entrada de nuevos competidores (revisar datos de importaciones por partidas arancelarias, baja de exportaciones que impliquen mayor disponibilidad de stock de la competencia en el mercado local)
+Problemas de la cadena de abastecimiento (determinar problemas de disponibilidad no atribuibles a producción ni a la demanda, enquistados en almacenaje, distribución y abastecimiento de proveedores locales y extranjeros).
+Otros

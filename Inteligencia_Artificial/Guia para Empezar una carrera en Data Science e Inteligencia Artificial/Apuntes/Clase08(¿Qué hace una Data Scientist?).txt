@@ -1,0 +1,23 @@
+Día a día del Data Scientist: -Obtener datos de distinstas fuentes. -Diseñar y aplicar modelos de Machine Learning. -Diseñar herramientas para monitorear datos. -Automatizar procesos de recolección, limpieza y trasformación de datos. -Incoporar datos a los productos junto con el equipo de ingenieria.
+........
+Data scientist:
+
+Toma datos internos o externos de la empresa y los utiliza para crear servicios de machine learning esto es para tomar decisiones basadas en datos e incorporar datos en los productos de software.
+
+Rutina: -Obtiene datos, analiza y procesa -Diseña y utiliza modelos de machine learning (predecir futuro) -Automatiza procesos de recolección y transformación de datos -Crear reportes -Incorpora datos a los productos basados en datos
+.................
+El dia a dia de un Data Science:
+
+Ingesta de datos
+
+Validacion de datos
+
+Preparacion de datos
+
+Entrenamiento del modelo
+
+Monitoreo del modelo
+
+Visualizacion de los reportes
+
+Incorporar datos a los productos

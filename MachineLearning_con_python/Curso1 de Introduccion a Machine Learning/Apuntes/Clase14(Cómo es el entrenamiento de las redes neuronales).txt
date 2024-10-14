@@ -1,0 +1,40 @@
+De las arquitecturas mas recientes es la arquitectura transformer, desarrollada para traducciones de texto principalmente, utiliza mecanismos de atencion para sopesar los limites de memoria que tienen las RNNs. Tambien estan empezando a ser usada en imágenes.
+
+Recomiendo este articulo de medium
+
+https://medium.com/inside-machine-learning/what-is-a-transformer-d07dd1fbec04
+
+y el paper original
+
+https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+................
+Entrenamiento de las redes neuronales:
+Inicialización de pesos:
+Al comenzar, los pesos y sesgos de las neuronas se inicializan con valores aleatorios o predefinidos.
+Propagación hacia adelante:
+Los datos de entrenamiento se envían a través de la red neuronal desde la capa de entrada hasta la capa de salida. Cada neurona realiza una combinación lineal de las entradas ponderadas por sus pesos, y luego aplica una función de activación para producir una salida.
+Cálculo de la función de pérdida:
+Se compara la salida predicha por la red neuronal con los valores reales de entrenamiento y se calcula una medida de la diferencia, conocida como función de pérdida. El objetivo es minimizar esta función de pérdida durante el entrenamiento.
+Retropropagación:
+Se calcula el gradiente de la función de pérdida con respecto a los pesos y sesgos de la red neuronal. Esto se hace mediante el algoritmo de retropropagación, que utiliza la regla de la cadena para calcular los gradientes en cada capa de la red. El gradiente indica la dirección y magnitud del cambio que se debe realizar en los parámetros para reducir la función de pérdida.
+Actualización de parámetros:
+Utilizando el gradiente calculado en el paso anterior, se actualizan los pesos y sesgos de la red neuronal mediante un algoritmo de optimización, como el descenso de gradiente. El objetivo es mover los parámetros en la dirección opuesta al gradiente para reducir la función de pérdida.
+Repetición del proceso:
+Los pasos 2 a 5 se repiten varias veces (a través de múltiples épocas) para mejorar gradualmente el rendimiento del modelo. Durante cada época, se presentan diferentes lotes de datos de entrenamiento a la red neuronal, lo que permite que el modelo generalice mejor.
+...........
+El valor óptimo de la tasa de aprendizaje (learning rate) en una red neuronal depende del problema específico, el conjunto de datos y la arquitectura de la red. No hay un valor único y universalmente óptimo para la tasa de aprendizaje, ya que puede variar en diferentes situaciones.
+
+Una tasa de aprendizaje demasiado baja puede hacer que el entrenamiento sea lento y puede llevar mucho tiempo llegar a una solución óptima. Por otro lado, una tasa de aprendizaje demasiado alta puede provocar que el entrenamiento sea inestable, haciendo que el modelo no converja o salte de un mínimo a otro.
+
+En la práctica, encontrar la tasa de aprendizaje óptima a menudo implica un proceso de prueba y error. Algunas estrategias comunes para encontrar una tasa de aprendizaje adecuada incluyen:
+
+Grid search: Probar diferentes valores predefinidos de la tasa de aprendizaje en un rango amplio y evaluar su rendimiento en términos de precisión o función de costo en un conjunto de validación. Luego, seleccionar el valor que brinde el mejor rendimiento.
+
+Descenso de aprendizaje adaptativo: Utilizar algoritmos que ajustan automáticamente la tasa de aprendizaje durante el entrenamiento. Algunos ejemplos populares son el descenso de aprendizaje con momento (momentum) y el algoritmo Adam, que adaptan la tasa de aprendizaje en función de la información de los gradientes y las actualizaciones anteriores.
+
+Ajuste manual: Iniciar con una tasa de aprendizaje moderada y, si el entrenamiento es inestable o lento, ajustarla gradualmente hacia arriba o hacia abajo según los resultados observados.
+
+Es importante tener en cuenta que el valor óptimo de la tasa de aprendizaje puede variar durante diferentes etapas del entrenamiento. Por ejemplo, es común utilizar una tasa de aprendizaje más alta al principio para un entrenamiento más rápido y luego disminuirla a medida que se acerca a una solución óptima.
+
+En resumen, encontrar la tasa de aprendizaje óptima implica un enfoque experimental y depende del problema y los datos específicos. Se recomienda probar diferentes valores y técnicas para encontrar la mejor configuración para su caso particular.
+

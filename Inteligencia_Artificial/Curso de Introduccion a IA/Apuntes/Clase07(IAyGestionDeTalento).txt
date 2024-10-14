@@ -1,0 +1,78 @@
+IA en la gestión del talento
+Hay que saber que queremos lograr para empezar el trabajo.
+Las mayores oportunidades están en el campo de recolección y análisis de datos.
+Comenzar a plantear preguntas
+El reto está en el contexto que tenga el equipo de trabajo del modelo de negocio de la empresa.
+Formas de cambiar la naturaleza del producto para una experiencia de usuario que solo es posible con un conocimiento profundo del negocio.
+....................
+Use la herramienta https://heypi.com/talk y resulto mejor de lo esperado, les comparto mi experiencia. ¡Comparte tu opinión!
+
+Las personas hacen dinero de diferentes maneras.
+Los servicios pueden generar ingresos de manera más efectiva que los productos (perspectiva interesante).
+Las experiencias personalizadas y significativas son clave para el valor agregado (evolución del valor agregado).
+Comprender las necesidades y deseos de las personas es fundamental (estrategias efectivas).
+Las necesidades universales y específicas son importantes en la creación de valor agregado (necesidades y deseos diversos).
+La tecnología y los datos facilitan la personalización de la experiencia (tecnología de la información).
+El factor humano y la comprensión de las personas son esenciales (factor humano y experiencia personal).
+Las estrategias deben basarse en información adecuada (tomar decisiones informadas).
+El enfoque basado en la persona puede proporcionar valiosa información (enfoque personal y cognitivo).
+La vivencia en diferentes contextos puede cambiar la perspectiva de las personas (impacto de experiencias contrastantes).
+...............................
+
+¿Cómo recomiendas a las personas aprovechar estas nuevas oportunidades para optimizar los procesos de gestión del talento?
+Una recomendación para que los managers puedan aprovechar la IA es comenzar a plantear preguntas, cosas que quisieran saber sobre el funcionamiento o las dinámicas de sus equipos. Y esto puede partir también con hipótesis, teorías que tienen de coas que suceden en el día a día que tengan que ver con performance, resultados, procesos, incluso en ésta primera etapa herramientas de lenguaje como ChatGPT pueden ser muy valiosas para comenzar a explorar. A veces uno no tiene claro por donde empezar y eso hace que uno no se acerque a hablar con personas para resolver un problema, pero es muy buena práctica ponerlo en palabras.
+
+..........
+
+- ¿COMO LA IA PUEDE AYUDAR A LAS EMPRESAS EN LOS PROCESOS DE GESTION DE TALENTO?
+
+o Ejemplo 01, mapear las distintas habilidades que tiene un equipo de trabajo
+
+§ 1°diseñar un proceso para recoger toda la info
+
+§ 2° procesar con un modelo de lenguaje que permita encontrar patrones, palabras clave o conexiones
+
+Ejemplo 02, crear planes de capacitacion
+
+§ que haga sentido con lo que el equipo necesita y que esa inversión valga la pena
+
+- ¿QUE NUEVAS OPORTUNIDADES SE ESTÁN ABRIENDO EN LA GESTIÓN DE EQUIPOS DE TRABAJO GRACIAS A LAS NUEVAS HERRAMIENTAS DE IA?
+
+o Las oportunidades más evidentes están en los procesos de recolección y análisis de datos
+
+§ Luego de eso ya depende de cada uno, ya que , como a partir de ese data pueden tomar decisiones o ver patrones más fácilmente donde antes no se habrían dado cuenta
+
+- ¿COMO RECOMIENDAS A LAS PERSONAS APROVECHAR ESTAS NUEVAS OPRTUNIDADES PARA OPTIMMIZAR LOS PROCESOS DE GESTION DE TALENTO?
+
+o Los managers pueden aprovechar esta oportunidad comenzando a plantear preguntas, cosas que quisieran saber sobre el
+
+§ Funcionamiento
+
+§ Dinámicas de equipo
+
+§ Hipótesis, teorías de su día a día que tengan que ver con su performance, resultados o procesos
+
+( utilizar chat gpt puede ser valioso en esta primera etapa ), ya que a veces uno no tiene claro por donde empezar es por eso que se acerca a las personas para resolver los problemas , por ello es una buena práctica poner en palabras è herramientas usada es “heypi” ( herramienta para reflexionar y obtener feedback)
+
+- ¿Cuáles son los retos a los que las empresas podría enfrentarse al utilizar IA en sus procesos de IA?
+
+El reto está en el contexto de las personas de un equipo de trabajo, su estrategia, las prioridades y el modelo de negocio, recuerda q los retos no están a lado de la IA ni de sus herramientas
+
+Aprender a utilizar estas herramientas tiene sus curvas de aprendizaje, pero si no sabes que preguntas hacerle, a lo mejor ese aprendizaje termine siendo tiempo perdido. (es como aprender a conducir un auto y no sabes a donde ir )
+
+El momento mágico realmente sucede cuando conocemos a profundad los problemas que tiene la compañía y vemos las posibilidades que tiene la IA para poder resolverlos.
+
+- ¿De qué forma esto puede ayudar al crecimiento de tu negocio?
+
+La IA nos ha permitido automatizar tareas y optimizar recursos desde hace mucho tiempo, pero el acceso ha estado limitado por una barrera de conocimientos que dejaban por fuera a la mayoría de personas para poder sacarle provecho.
+
+Hoy la curva de aprendizaje es mucho más fácil, y esto hace que personas q piensen diferente puedan utilizarla también.
+
+o Equipos de marketingè haciendo mejores inversiones en anuncios
+
+ð Mejores copies generados en segundos
+
+o Diseñadores è produciendo piezas en fracciones de tiempo
+
+Lo más interesante viene cuando queremos cambiar la naturaleza de un producto que estamos construyendo y logramos diferentes modelos que se unan en una experiencia de usuario, que solo es posible a través de nuestro conocimiento profundo sobre los negocios y los propulsores que puede poner la IA
+

@@ -1,0 +1,33 @@
+En el contexto de la regresión logística y otros modelos de aprendizaje automático, los "solvers" (solucionadores) son algoritmos que se utilizan para encontrar los parámetros del modelo que minimizan la función de costo. La elección del solver puede afectar el rendimiento y la velocidad de convergencia del modelo. Algunos solvers comunes incluyen:
+
+Newton-CG (newton-cg): Utiliza el método de Newton para la optimización. Es eficaz para conjuntos de datos pequeños, pero puede ser costoso en términos computacionales para conjuntos de datos grandes.
+LBFGS (lbfgs): Utiliza el método de optimización de BFGS (Broyden-Fletcher-Goldfarb-Shanno). Es adecuado para conjuntos de datos grandes y suele ser más rápido que Newton-CG.
+Liblinear (liblinear): Es un solver de optimización para problemas de clasificación binaria. Es eficiente para conjuntos de datos grandes y es una buena opción cuando se trabaja con datos linealmente separables.
+SAG (saga): Utiliza el método de promedio estocástico de gradiente (Stochastic Average Gradient). Es eficiente para grandes conjuntos de datos y, en particular, para problemas con muchos ejemplos y características.
+Estos solvers son opciones implementadas en bibliotecas como scikit-learn en Python. La elección del solver dependerá del tamaño de tu conjunto de datos, la naturaleza del problema y los recursos computacionales disponibles. Es recomendable probar varios solvers y ajustar otros parámetros del modelo para encontrar la configuración que mejor se adapte a tu caso específico.
+
+.........
+Concepto: Regresión Logística Multinomial
+
+La regresión logística multinomial es un algoritmo de clasificación utilizado para predecir la probabilidad de múltiples clases en un problema de clasificación. Utiliza la función logística para modelar la relación entre las variables independientes y las clases.
+
+Técnica: One vs Rest (Uno contra el resto)
+
+One vs Rest es una técnica utilizada en la regresión logística multinomial. Consiste en entrenar un clasificador binario para cada clase, distinguiendo esa clase de todas las demás.
+
+Modelo: Clasificadores Logísticos Multinomiales
+
+Los clasificadores logísticos multinomiales son modelos de clasificación utilizados para problemas con más de dos categorías posibles. Estos modelos emplean la función softmax para calcular las probabilidades de pertenencia a cada clase.
+
+Conceptos Adicionales: Logits y Softmax
+
+Los logits son los valores resultantes de aplicar el modelo de regresión logística antes de la función softmax. Representan la evidencia a favor de cada clase. Softmax es una función que convierte los logits en probabilidades, asegurando que la suma de todas las probabilidades sea igual a uno.
+
+Métrica de Evaluación: Entropía Cruzada (Cross Entropy)
+
+La entropía cruzada es una métrica utilizada para evaluar la diferencia entre la distribución de probabilidad predicha por el modelo y la distribución de probabilidad real. Es comúnmente utilizada como función de pérdida en problemas de clasificación.
+
+Algoritmos de Optimización: Solvers en scikit-learn
+
+Los solvers en scikit-learn son algoritmos utilizados para ajustar los parámetros de los modelos de regresión logística. Buscan minimizar la función de pérdida, como la entropía cruzada, para encontrar los coeficientes óptimos del modelo.
+

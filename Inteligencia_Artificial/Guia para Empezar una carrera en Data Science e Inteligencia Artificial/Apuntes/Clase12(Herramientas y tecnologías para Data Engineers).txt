@@ -1,0 +1,57 @@
+Herramientas y tecnologías para Data Engineer
+
+Python
+
+Scala
+
+Bases sólidas de ingeniería de software (creación de software con buenas prácticas).
+
+Automatización y scripting
+
+Jypyter Notebooks y editores de código como Visual Studio Code.
+
+Manejo avanzado de bases de datos SQL y NoSQL
+
+Administrar bases de datos como OLAP y OLTP
+
+Librerías para procesar datos: Pandas (pequeña cantidad), Dask y Apache (datos de más de gigabyte o terabytes).
+
+Automatizar y agendar workflows para que se ejecuten de manera periódica (Apache Airflow)
+
+Tecnologías cloud (AWS, Google Cloud o Azure)
+
+Contenedores Docker, para crear software reproducible en diferentes máquinas.
+
+Orquestadores Kubernetes para utilizar varios de estos contenedores a la vez, porque se trabaja con diferentes máquinas de cómputo paralelo.
+
+Matemáticas para Data Engineer
+
+Estadística descriptiva, para lograr entender mejor los datos con los que trabajas y para mejorar la comunicación con el resto del equipo de Data Scientist e IA
+.............
+Beneficios Obtenidos de la descripción completa del empleo Seguro de gastos médicos mayores Seguro de vida Uniformes gratuitos Descripción completa del empleo Vacante como Ingeniero de datos en empresa de salud.
+
+requiere un especialista de datos para su área de Centro de analítica de inteligencia
+
+Conocimiento básico de algunos skill's:
+Tableau
+
+. Power BI
+
+. MYSQL
+
+. Visualizadores
+
+Sueldo: $25,000 neto + prestaciones superiores de ley Capacitación Constante Horarios 8:30a 18:000 lunes-viernes. Modalidad: Remota
+
+Tipo de puesto: Por tiempo indeterminado
+
+Salario: A partir de $25,000.00 al mes
+
+Horario:
+
+Lunes a viernes Turno de 8 horas Prestaciones:
+
+Seguro de gastos médicos mayores Seguro de vida Uniformes gratuitos Tipos de compensaciones:
+
+Bono anual Bono de asistencia Consideraciones ante el COVID-19: todo nuestro proceso es 100% virtual
+

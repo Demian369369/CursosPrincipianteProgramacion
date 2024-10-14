@@ -1,0 +1,12 @@
+Dia a día de una Data Engineer
+
+Data pipelines de ETL y bases de datos (mantiene, crea y desarrolla).
+
+Extrae datos de diferentes fuentes (internas o externas de la organización).
+
+Transforma los datos (limpieza).
+
+Los almacena en bases de datos especializadas para análisis.
+
+No podemos utlizar las bases de datos que funcionan en los sistemas de producción de software (usados por la empresa para trabajar o usados por clientes) porque estas son transaccionales (OLTP) y no están diseñadas para consultar o extraer datos de manera muy frecuente. Si las usamos para buscar datos como Data Scientist y/o Data Analyst vamos a causar que el sistema deje de funcionar. Para este fin podemos usar bases de datos especializadas (OLAP)
+

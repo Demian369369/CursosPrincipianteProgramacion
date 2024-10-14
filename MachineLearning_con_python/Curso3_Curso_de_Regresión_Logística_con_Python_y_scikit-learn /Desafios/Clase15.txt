@@ -1,0 +1,11 @@
+fig, ax1 = plt.subplots(figsize=(10,5))
+
+ax = sns.barplot(
+        ax=ax1,
+        x  = params,
+        y = scores
+        )
+ax.set_title('Beans Accuracy')
+ax.set_xticklabels(labels = ax.get_xticklabels(), rotation=66)
+ax.bar_label(ax.containers[0])
+plt.show()

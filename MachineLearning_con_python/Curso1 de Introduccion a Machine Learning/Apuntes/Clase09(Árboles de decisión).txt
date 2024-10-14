@@ -1,0 +1,13 @@
+si quieren aprender de pies a cabeza como funciona un arbol de decision recomiendo este video muy visual y con un ejemplo claro: https://www.youtube.com/watch?v=kqaLlte6P6o PD: el canal tambien tiene un video sobre los bosques de decision. pero si entienden lo de los arboles lo demas es pan comido.
+............
+To complement the max_feautures concept:
+
+max_features is the number of features selected at random and without replacement at split. Suppose you have 10 independent columns or features, then max_features=5 will select at random and without replacement 5 features at every split. From stackoverflow
+/..............
+La función de coste se utiliza en algoritmos de optimización para minimizar el error entre las predicciones del modelo y los valores reales. Por ejemplo, en la regresión lineal, la función de coste utilizada es el error cuadrático medio (MSE), que calcula la diferencia cuadrada entre las predicciones del modelo y los valores reales. Sin embargo, los árboles de decisión no se optimizan directamente utilizando una función de coste.
+
+En cuanto a la regla de actualización, esta se utiliza en algoritmos de aprendizaje que iterativamente ajustan los parámetros del modelo para minimizar la función de coste. Por ejemplo, en la regresión logística, la regla de actualización utiliza el gradiente descendente para ajustar los pesos del modelo en cada iteración. Sin embargo, los árboles de decisión no siguen un proceso de actualización iterativo como esos algoritmos
+
+Conozca los pros y los contras de usar árboles de decisión para realizar tareas de minería de datos y descubrimiento de conocimiento, con IBM.
+https://www.ibm.com/es-es/topics/decision-trees#:~:text=Un%20%C3%A1rbol%20de%20decisi%C3%B3n%20es,nodos%20internos%20y%20nodos%20hoja.
+

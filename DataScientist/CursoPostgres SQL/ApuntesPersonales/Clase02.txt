@@ -1,0 +1,36 @@
+A: Atomicity – Atomicidad -> Separar las funciones desarrolladas en la BD como pequeñas tareas y ejecutarlas como un todo. Si alguna tarea falla se hace un rollback(Se deshacen los cambios) • C: Consistency – Consistencia -> Todo lo que se desarrolló en base al objeto relacional. Los datos tienen congruencia • I: Isolation – Aislamiento -> Varias tareas ejecutándose al mismo tiempo dentro de la BD • D: Durability – Durabilidad -> Puedes tener seguridad que la información no se perderá por un fallo catastrófico. PostgreSQL guarda la información en una Bitácora
+
+¿Qué es Postgresql?
+Es un motor de base de datos. Tenemos que tener en cuenta 3 cosas importantes:
+
+Lenguaje
+Motor
+Servidor
+Postgres es el motor. Existe desde 1986. Usa Objeto Relacional.
+
+A: Atomicity -> Separar las funciones desarrolladas en la BD como pequeñas tareas y ejecutarlas como un todo. Si alguna tarea falla se hace un rollback(Se deshacen los cambios)
+C: Consistency -> Todo lo que se desarrolló en base al objeto relacional. Los datos tienen congruencia.
+I: Isolation -> Varias tareas ejecutándose al mismo tiempo dentro de la BD.
+D: Durability -> Puedes tener seguridad que la información no se perderá por un fallo catastrófico. PostgreSQL guarda la información en una Bitácora.
+¿Por qué PostgreSQL?
+
+Tipos de datos
+Integridad de datos
+Concurrencia, rendimiento
+Fiabilidad, recuperación antre desastres
+Seguridad
+Extensibilidad
+Internalización, búsqueda de texto
+Sitema de geolocalización
+
+Por qué PostgreSQL
+
+Tipos de Datos
+Integridad de Datos
+Concurrencia. Rendimiento
+Fiabilidad, recuperación ante desastres
+Seguridad
+Extensibilidad
+Internacionalización, Búsqueda de texto.
+
+1- El motor de bases datos (RDBMS) es quién estructura toda la información de la base de dato. 2- El servidor es una computadora dónde se instala el motor de base de dato. 3- La bases es la información ordenada, relacionada y estructurada a la cual accedemos con SQL

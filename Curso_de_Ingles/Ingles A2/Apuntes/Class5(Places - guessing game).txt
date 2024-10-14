@@ -1,0 +1,5 @@
+library, Amusement
+
+
+Amusement park = parque de atracciones
+Delightfull = very pleasant, attractive, or enjoyable

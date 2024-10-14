@@ -1,0 +1,31 @@
+A) la experiencia hace al maestro, en el ejemplo de la IA es el algoritmo y la experimentacion, una IA por su cuenta realmente no tiene conciencia y por ende carece de logica pero si tiene algoritmos y estos algoritmos son los que ayudan a la IA, con cierto entrenamiento la IA mejora ya que obtiene experiencia de dichos algoritmos 
+
+B) Los Large Language Models procesan los lenguajes y tratan de traducirlo a nuestro proceso natural, por ejemplo si tu hablas con una persona de otro pais y no tienes dominio de lenguaje habra problemas para comunicarse(en un ejemplo de IA seria falta de LLM) pero el concepto de usar simbolos o gestos es un LLM para los humanos, en el ejemplo de la IA se busca que haya una perfecta comunicacion con el usuario ya que no solo se trata del algoritmo que desea el usuario si no que tambien se trata de que el usuario logre comprender la informacion solicitada.
+B) se basa en el algoritmo de cosas existentes en la red para generar textos, audios e imagenes y completar lo solicitado por el usuario de una manera "logica"
+
+...........
+1- (A) Los modelos para aprender necesitan se entrenados. Por lo que después de un entrenamiento, se genera el modelo útil que puede ser reusado
+
+2- (B) Son modelos que como objetivo principal es el análisis de texto permitiendo generar frases con sentido y entender como si de un humano se tratase todo el contexto
+
+3- (B) Se le denominan generativas por el hecho de que pueden crear a partir de lo que aprender, dependiendo del modelo lo que generan es distinto
+............................
+
+🚀 La Inteligencia Artificial (IA) está revolucionando nuestro mundo laboral y cotidiano. Desde tareas básicas hasta procesos complejos, la IA se ha convertido en un aliado formidable. Comprender su funcionamiento y las posibilidades que ofrece es esencial para adaptarnos y prosperar en la actualidad.
+
+🌐 ¿Cómo aprenden los modelos de IA a procesar datos? El proceso clave es el entrenamiento. Los modelos de IA necesitan grandes volúmenes de datos previamente clasificados o etiquetados por humanos. Por ejemplo, para enseñar a un sistema de IA a diferenciar entre correos spam y legítimos, se le proporciona una base de datos con ejemplos de ambos. Esto permite al modelo identificar los patrones que caracterizan al spam.
+
+En el caso del procesamiento del lenguaje, los modelos analizan corpus de texto compuestos por millones de palabras. Para la generación de imágenes, se utilizan bases de datos con billones de imágenes cuidadosamente descritas. Los patrones descubiertos durante este entrenamiento son la base que permite a la IA realizar tareas como clasificación, generación de texto y reconocimiento de imágenes, comportándose de una manera que emula el razonamiento humano.
+
+Los Modelos de Lenguaje de Gran Escala (LMs) están transformando la forma en que interactuamos con el lenguaje natural. Además de su impresionante número de parámetros técnicos, los LMs tienen habilidades excepcionales:
+
+Multilingüismo: Pueden comprender y generar contenido en múltiples idiomas.
+Interacción contextual: Son capaces de clasificar textos y entender entradas en formato de chat.
+Asistentes virtuales y chatbots: Son fundamentales en el desarrollo de estas herramientas.
+🎨 La revolución de la IA generativa Dentro del campo de la inteligencia artificial, la IA generativa se enfoca en la creación de contenido. Estos sistemas pueden generar secuencias de texto, imágenes, audio y movimientos motrices. Su potencial para producir nuevo contenido basado en patrones aprendidos es fascinante.
+
+📝 Aplicaciones concretas:
+
+Generación de texto: Modelos como GPT-4 y ChatGPT escriben textos coherentes y relevantes, desde correos electrónicos hasta artículos.
+Creación de imágenes: DALL-E de OpenAI genera imágenes realistas a partir de descripciones textuales.
+Síntesis de audio: Proyectos como MusicVAE de Magenta producen secuencias musicales nuevas y creativas.

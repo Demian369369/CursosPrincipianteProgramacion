@@ -1,0 +1,22 @@
+Ejemplos de los tipos de computación de la nube
+Infraestructura como servicio (IaaS)
+Azure
+Linode
+Digital ocean
+S2 AWS
+Plataforma como servicio (PaaS)
+Heroku
+Google App Engine
+AWS Elastic Beanstalk
+Software como servicio (SaaS)
+Amazon Rekognition
+Dropbox
+Zoom
+Gmail
+
+
+Tipos de cómputo en la nube
+
+laaS: Infraestructura como Servicio. Proporciona componentes básicos para las tecnologías de información en la nube: redes, computadores, espacio de almacenamiento de datos, con un máximo nivel de flexibilidad y fácil paralelo de las tecnologías de la información tradicional en las instalaciones
+PaaS: Plataforma como Servicio. Elimina la necesidad de que nuestra organización administre la infraestructura y nos vamos a centrar en la implementación y la gestión de las aplicaciones
+SaaS: Software como Servicio. Producto terminado y que es ejecutado y administrado por el proveedor del servicio.

@@ -1,0 +1,46 @@
+La AI ayuda a:
+Puede encontrar nuevas dimensiones que sean importantes medir, al poder analizar grandes cantidades de información.
+Automatización de tareas para ahorro de tiempo y disminución de error humano.
+Usa Aprendizaje automático.
+Análisis predictivo y prescriptivo.
+Procesamiento del lenguaje natural.
+Impacto de usar AI:
+Eficiencia operativa.
+Productividad de los recursos.
+Tiempo de procesamiento para resolver una tarea.
+Los costos operativos.
+Precisión y calidad del modelo.
+Experiencia del cliente.
+Satisfacción del cliente. (Usando NPS)
+Tasa de rebote de los usuarios.
+Adherencia de innovación.
+Eficiencia de la toma de decisiones.
+Tiempo requerido para tomar decisiones.
+Precisión de las predicciones.
+Confianza en las recomendaciones proporcionadas por la AI.
+.........................
+La literatura relacionada con métricas de inteligencia artificial (IA) aborda diversas áreas, desde la evaluación de modelos hasta la medición del rendimiento y la ética. Aquí tienes algunas referencias que podrían ser útiles para explorar métricas en el campo de la IA:
+
+"Machine Learning Yearning" de Andrew Ng:
+Este libro ofrece una guía práctica para construir sistemas de aprendizaje automático y también aborda la evaluación de modelos y la importancia de elegir métricas adecuadas para problemas específicos.
+"Evaluating Machine Learning Models" de Alice Zheng:
+Un artículo que destaca la importancia de evaluar modelos de aprendizaje automático y proporciona una guía detallada sobre cómo seleccionar y entender métricas de rendimiento.
+"Fairness and Abstraction in Sociotechnical Systems" de Timnit Gebru et al.:
+Este trabajo destaca la importancia de evaluar la equidad en modelos de IA y presenta métricas y enfoques para abordar los sesgos en los sistemas de aprendizaje automático.
+"Ethics of Artificial Intelligence and Robotics" de Vincent C. Müller:
+Un libro que explora aspectos éticos de la inteligencia artificial, incluidas las métricas para evaluar la ética en el diseño y la implementación de sistemas de IA.
+"Interpretable Machine Learning" de Christoph Molnar:
+Este recurso aborda la interpretación de modelos de aprendizaje automático y proporciona métricas y técnicas para entender y comunicar los resultados de manera efectiva.
+...............
+La literatura relacionada con métricas de inteligencia artificial (IA) aborda diversas áreas, desde la evaluación de modelos hasta la medición del rendimiento y la ética. Aquí tienes algunas referencias que podrían ser útiles para explorar métricas en el campo de la IA:
+
+"Machine Learning Yearning" de Andrew Ng:
+Este libro ofrece una guía práctica para construir sistemas de aprendizaje automático y también aborda la evaluación de modelos y la importancia de elegir métricas adecuadas para problemas específicos.
+"Evaluating Machine Learning Models" de Alice Zheng:
+Un artículo que destaca la importancia de evaluar modelos de aprendizaje automático y proporciona una guía detallada sobre cómo seleccionar y entender métricas de rendimiento.
+"Fairness and Abstraction in Sociotechnical Systems" de Timnit Gebru et al.:
+Este trabajo destaca la importancia de evaluar la equidad en modelos de IA y presenta métricas y enfoques para abordar los sesgos en los sistemas de aprendizaje automático.
+"Ethics of Artificial Intelligence and Robotics" de Vincent C. Müller:
+Un libro que explora aspectos éticos de la inteligencia artificial, incluidas las métricas para evaluar la ética en el diseño y la implementación de sistemas de IA.
+"Interpretable Machine Learning" de Christoph Molnar:
+Este recurso aborda la interpretación de modelos de aprendizaje automático y proporciona métricas y técnicas para entender y comunicar los resultados de manera efectiva.

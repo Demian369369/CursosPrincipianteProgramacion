@@ -1,0 +1,41 @@
+puede predecir los resultados deportivos de acuerdo con el desempeño de jugadores, lesiones, condiciones del juego.
+puede clasificar datos o patrones de acuerdo con la información
+nos permite entender textos sintetizándolos o dándonos datos esenciales, mostrándolos se una forma más entendibles
+genera imágenes en base a lo que le pedimos
+..............................
+Descubriendo el Poder Transformador de la Inteligencia Artificial (IA) 🤖
+
+La Inteligencia Artificial está redefiniendo nuestra perspectiva sobre negocios y la vida en general, gracias a sus habilidades de predicción, clasificación, comprensión y generación.
+
+¿Qué Puede Hacer la IA? La IA brilla al prever el futuro, como una empresa de calefacción que anticipa el aumento de ingresos en las temporadas frías, basándose en análisis de datos pasado y presente.
+
+¿Cómo Comprende la IA? Su capacidad para entender es impresionante. Desde interpretar texto hasta responder preguntas de comprensión lectora, la IA demuestra su dominio en el procesamiento de información.
+
+¿Cómo Genera Contenido la IA? Con herramientas como GPT-3, DALI, Table Diffusion y GATO, la IA puede crear contenido: texto, imágenes y hasta contenido auditivo. Una revolución en la creación impulsada por la inteligencia artificial.
+
+¿Qué No Puede Hacer la IA? La creación pura sigue siendo un terreno inexplorado para la IA. La innovación requiere originalidad, algo que la IA, basada en datos anteriores, aún no puede lograr.
+
+¿Puede la IA Formar Opiniones? No, la IA no puede opinar. La formación de opiniones implica un criterio subjetivo, algo que la IA, al procesar datos de manera objetiva, no posee.
+
+¿Cómo impacta la IA en tus herramientas diarias? Identifica cómo la IA predice, clasifica, comprende y genera en tu entorno cotidiano. ¡Comparte tus reflexiones y únete a la conversación sobre el impacto de la IA en nuestras vidas! 💬
+.................................
+18 ejemplos de inteligencia artificial que está utilizando en la vida diaria en 2023++
+
+Chatbots 2)Microsoft Bing
+Google Duplex y espera para mí
+Redacción inteligente, respuesta rápida y revisión gramatical
+Grabadora de Google, subtítulos en vivo y transcripción
+Google Lens y OCR
+Detección de caídas y detección de accidentes automovilísticos
+Feeds de redes sociales, recomendaciones de Amazon y Netflix
+Asistente de Google y cámara
+Generadores de imágenes de IA
+Vehículos Autónomos
+Servicios de transmisión de música y medios
+Videojuegos
+Navegación y Viajes
+Seguridad y Vigilancia
+Reconocimiento facial
+Altavoces Inteligentes
+Batería adaptativa/Carga Fuente: https://beebom.com/examples-of-artificial-intelligence/
+

@@ -1,0 +1,49 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-10, 10, 100)
+y = 1 / (1 + np.exp(-x))
+plt.plot(x, y)  # Use plt.plot to create the plot
+plt.show()
+...........................
+import random
+from math import exp
+
+
+import matplotlib.pyplot as plt
+
+
+def sigmoid(x):
+    return ( 1 ) / ( 1 + exp( -x ) )
+
+
+def main():
+    x = []
+    y = []
+
+    for _ in range(200):
+        num = random.randint(-10, 10)
+        x.append(num)
+        y.append(sigmoid(num))
+
+    plt.plot(x, y, 'bo')
+
+
+if __name__ == "__main__":
+    main()
+.........
+x = np.arange(-10, 10, 0.5)
+# y = 1/(1+np.exp(-x))
+
+
+from scipy.special import expit
+
+y = expit(x)
+
+fig1=px.line(x=x, y=y)
+fig1.update_xaxes(showgrid=True, gridwidth=1, gridcolor='red', range=[int(x.min()), int(x.max())])
+fig1.update_yaxes(showgrid=True, gridwidth=1, gridcolor='red',
+        scaleanchor="y",
+        scaleratio=1,
+    )
+fig1.show()

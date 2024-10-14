@@ -1,0 +1,31 @@
+Cuando se crea el usuario IAM, para acceder sigan estos pasos:
+
+En la ventana de iniciar sesión escojan "Usuario de AIM"
+En el ID de cuenta coloquen el número que esta en la cuanta root (se ve en la parte superior derecha)
+Colocas nombre del usuario IAM que creaste y el password que entrego la plataforma.
+Cambiar la clave y listo
+
+No es buena practica usar la cuenta raíz para gestionar los servicios de AWS, lo mejor es crear otra cuenta
+
+Podemos crear un grupo de administradores en donde este grupo tendrá todos los accesos a los servicios de AWS
+
+Los permisos también pueden ser llamados políticas
+
+A cada usuario debemos asignarle el grupo al que pertenece
+
+Es importante practica
+
+Agosto 2023.
+
+AWS cambió un poco por lo que luego de crear al usuario. Deberás crear un grupo con título del grupo y descripción.
+
+Luego deberás agregar al grupo los usuarios que necesitas.
+
+Y luego deberás de ingresar a Permisos para varias cuentas > Conjuntos de permisos > Crear conjunto de permisos (Botón naranja)
+
+Aquí ir a** Conjunto de permisos personalizados**
+
+Luego Política administradas por AWS
+
+Ahora nos pedirá nombre y descripción del permiso y una duración de la sesión y listo.
+

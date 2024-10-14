@@ -1,0 +1,54 @@
+Importancia de los Datos en la Inteligencia Artificial
+
+Calidad y Cantidad de Datos
+
+La calidad y cantidad de los datos son fundamentales en proyectos de inteligencia artificial.
+Modelos de lenguaje generativos pueden utilizar información pública sin entrenamiento personalizado.
+Selección del Tipo de Datos
+
+Se debe seleccionar el tipo de datos adecuado para el proyecto.
+Agregar más datos no siempre mejora los resultados.
+La "regla de 10" sugiere que se necesitan al menos 10 veces más datos que características en un modelo.
+Calidad de los Datos
+
+Es importante garantizar la calidad de los datos, evitando errores y duplicados.
+Acceso y Actualización de Datos
+
+Diseñar la infraestructura necesaria para mantener los datos actualizados.
+El acceso en tiempo real puede ser crucial en algunos casos.
+Aspectos Legales y Contractuales
+
+Cumplir con los aspectos legales y contractuales al acceder a los datos de los clientes.
+.................
+Las preguntas esenciales que debemos plantearnos son las siguientes:
+
+¿Qué categorías de datos posee la empresa acerca del cliente?
+¿Son pertinentes para el proyecto de inteligencia artificial que aspiramos implementar?
+¿Cuántas características o tipos de datos son requeridos para alcanzar la meta deseada?
+¿Qué detalles minuciosos puedo obtener al desglosar o combinar información ya existente?
+¿Es verdaderamente indispensable contar con datos específicos de los clientes para lo que deseamos lograr, o la información general y pública resulta suficiente?
+................
+***Consideraciones previas de datos en un proyecto de IA***
+
+Análisis de factibilidad
+
+1)Tipo de información necesaria(características o variables del modelo):
+
+•Valor a futuro = muestras de ese mismo valor en el pasado
+
+•clasterizar a los usuarios (categorizarlos ) = a más datos mejor
+
+•Principal component Analízis (pca)
+
+2)Cantidad y calidad de los datos
+
+•cuantas muestras tenemos de cada dato que queremos usar
+
+•Que tan limpios están esos datos (duplicados, faltantes , erros,proceso de validación en la captura, son confiables )
+
+3)Disponibilidad de acceso a los datos
+
+•Necesito acceder a la información una vez o necesito que se actualice con frecuencia
+
+•La disponibilidad en el acceso a los datos ( están disponibles técnica y legalmente)
+

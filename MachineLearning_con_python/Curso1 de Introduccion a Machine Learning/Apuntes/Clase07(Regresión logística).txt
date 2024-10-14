@@ -1,0 +1,93 @@
+se utilizan datos de ejemplo con dos variables independientes (X) y una variable dependiente categórica (y). Se crea un modelo de regresión logística utilizando LogisticRegression de scikit-learn y se ajusta a los datos de entrenamiento. Luego, se obtienen los coeficientes del modelo (coef y intercept) y se utiliza una función personalizada para graficar la línea de decisión.
+
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+# Datos de ejemplo
+X = np.array([[2, 3], [4, 5], [6, 7], [8, 9], [10, 11]])  # Variables independientes
+y = np.array([0, 0, 0, 1, 1])  # Variable dependiente (clase)
+
+# Crear el modelo de regresión logística
+model = LogisticRegression()
+
+# Ajustar el modelo a los datos
+model.fit(X, y)
+
+# Obtener los coeficientes del modelo
+coef = model.coef_
+intercept = model.intercept_
+
+# Crear una función para graficar la línea de decisión
+def plot_decision_boundary(X, y, coef, intercept):
+    plt.scatter(X[:, 0], X[:, 1], c=y)
+    x1 = np.linspace(np.min(X[:, 0]), np.max(X[:, 0]), 100)
+    x2 = -(coef[0][0] * x1 + intercept) / coef[0][1]
+    plt.plot(x1, x2, color='r')
+    plt.xlabel('Variable 1')
+    plt.ylabel('Variable 2')
+    plt.title('Regresión Logística')
+    plt.show()
+
+# Graficar la línea de decisión
+plot_decision_boundary(X, y, coef, intercept)
+Aquí tienes un ejemplo más completo de regresión logística utilizando datos reales
+
+
+
+# Cargar el conjunto de datos Iris
+iris = load_iris()
+X = iris.data[:, :2]  # Tomar solo las dos primeras características para facilitar la visualización
+y = iris.target
+
+# Dividir los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Crear el modelo de regresión logística
+model = LogisticRegression()
+
+# Ajustar el modelo a los datos de entrenamiento
+model.fit(X_train, y_train)
+
+# Realizar predicciones en los datos de prueba
+y_pred = model.predict(X_test)
+
+# Calcular la precisión del modelo
+accuracy = accuracy_score(y_test, y_pred)
+print("Precisión del modelo:", accuracy)
+
+# Crear una función para graficar las regiones de decisión
+def plot_decision_regions(X, y, model):
+    x1_min, x1_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+    x2_min, x2_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    xx1, xx2 = np.meshgrid(np.arange(x1_min, x1_max, 0.1),
+                           np.arange(x2_min, x2_max, 0.1))
+    Z = model.predict(np.c_[xx1.ravel(), xx2.ravel()])
+    Z = Z.reshape(xx1.shape)
+    plt.contourf(xx1, xx2, Z, alpha=0.8)
+    plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k')
+    plt.xlabel('Característica 1')
+    plt.ylabel('Característica 2')
+    plt.title('Regresión Logística - Regiones de decisión')
+    plt.show()
+
+# Graficar las regiones de decisión
+plot_decision_regions(X_train, y_train, model)
+..................................................
+Rendimiento
+Para verificar que el modelo de regresion logistica esta funcionando correctamente aplicamos una Matriz de Confusion. Esta matriz busca evaluar si las predicciones de tu modelo de ciertas etiquetas o grupos reflejan la verdad en relacion a esos valores.
+
+Cuando se entrena con el conjunto de validacion puedes pedir especificamente el numero de positivos reales y negativos reales y preguntarte cuantos se predijeron correctamente? Cual es el modo en el que se esta mas probablemente fallando? Fallo cuando se tenia resultados negativos? Tenias mayores posibilidades positivos o viceversa?
+
+El objetivo de la matriz es muy bueno cuando se tiene un desequilibrio en el conjunto de datos; es decir, mas estudiantes que aprueban que los que no aprueban y por tanto esto podria reflejar que lo que intentas es predecir cuantos aprueban en contraposicion a cuantos fracasan.
+
+Si el conjunto de datos es equilibrado, el enfoque mas comun para lograr rendimiento es la precision, que es el recuento de las veces que predijiste la etiqueta correcta en los datos (Vedadero positivo y Verdadero negativo) sobre todos los puntos de datos que pasaste a tu modelo. La idea es tener una precision cercana a 1
+
+
+
+
+

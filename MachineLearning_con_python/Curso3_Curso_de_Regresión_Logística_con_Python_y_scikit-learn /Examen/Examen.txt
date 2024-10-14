@@ -1,0 +1,84 @@
+1. ¿Para qué tipo de tareas funciona el algoritmo de regresión logística? 
+
+Clasificación 
+
+2. ¿Cuál es la función base en la regresión logística? 
+
+Sigmoid 
+
+3. NO es una ventaja de la regresión logística:
+
+Recibe variables categóricas. 
+
+4. Una desventaja de la regresión logística es que se degrada su performance ante datasets linealmente no 
+separables. ¿Esto es verdadero o falso? 
+
+Verdadero 
+
+5. ¿Con qué tipo de datasets es preferible usar regresión logística? 
+
+Binomial 
+
+6. El rate de probabilidad de ocurrencia sobre probabilidad de no ocurrencia tipo (0.80 / 0.20 = 4) se denomina:
+
+Odds
+
+7. ¿Cuál es la fórmula de la regresión logística? 
+
+Untitled design.png 
+
+8. ¿Cómo se denomina al proceso para llevar todos los datos de un dataset a una misma escala numérica? 
+
+Normalización 
+
+9. Eliminar valores nulos hace parte del proceso de preparación de datos en regresión logística:
+
+Verdadero 
+
+10. ¿Por qué es necesario realizar un análisis exploratorio de datos antes de entrenar un modelo de machine learning? 
+
+Ayuda a entender el comportamiento de los datos y cómo trabajarlos. 
+
+11. Un dataset en cuya variable objetivo es true o false en cuanto a detección de spam en un mail es considerado: 
+
+Binomial 
+
+12. ¿Evaluando el MLE es preferible un resultado menor o mayor? 
+
+Menor 
+
+13. La función de coste evalúa las diferencias en la predicción del modelo y el valor real a predecir. 
+¿Esto es verdadero o falso? 
+
+Verdadero 
+
+14. Para importar la librería necesaria para la regresión logística desde sklearn se debe usar la siguiente 
+línea de código:
+
+from sklearn.linear_model import LogisticRegression
+
+15. ¿Qué se busca evitar al aplicar regularizers en regresión logística? 
+
+Overfitting 
+
+16. ¿Cuál es la técnica de regularización basada en el valor absoluto de los pesos? 
+
+L1 
+
+17. ¿Cómo se usa en scikit-learn la técnica de regresión logística multiclase que separa una clase y la evalúa 
+contra el resto para clasificar?
+
+ovr (One vs Rest) 
+
+18. Todos los solvers en logistic regression funcionan con todas las combinaciones de regulatizers y 
+tipo de regresion multiple: 
+
+Falso 
+
+19. Para realizar la predicción de la clase puedo utilizar el método: 
+
+predict 
+
+20. ¿Qué retorna el método predict_proba?
+
+La probabilidad para cada clase

@@ -1,0 +1,36 @@
+Línea del tiempo de AWS
+2002: Internamente lanzado
+2003: La infraestructura de Amazon es una de sus principales fortalezas idea para comercializar
+2004: Se lanza al público SQS
+2006: Se relanza al público SQS, S3 y EC2
+2007: Se lanza en Europa
+2009: Se lanza RDS
+2010: Se lanza route 53
+2012: Se lanza DynamoDBThe future… no lo sabemos
+AWS en números
+AWS tuvo $35.02 mil millones en ingresos anuales en 2019.
+AWS representó el 47% del mercado en 2019 (Microsoft es 2º con 22%)
+Mas de 1.000.000 de usuarios activos
+
+
+Benjamin Black y Chris Pinkman son los responsables del crecimiento de AWS y su funcionamiento
+
+AWS se lanza en el 2002
+
+RDS = Servicios de bases de datos relacionales
+
+DynamoDB = Bases de datos nos relacionales
+
+AWS es el principal jugador
+
+
+SQS, S3 y EC2 son servicios de computación en la nube de Amazon Web Services (AWS).
+
+Amazon Simple Queue Service (SQS) es un servicio de mensajería que permite la comunicación entre diferentes componentes de una aplicación de forma asíncrona y escalable. SQS permite que los mensajes se encolen y se procesen posteriormente de forma distribuida y tolerante a fallos.
+
+Amazon S3 (Simple Storage Service) es un servicio de almacenamiento en la nube que proporciona una capacidad de almacenamiento duradero y escalable para objetos, archivos y datos en diferentes formatos. S3 permite almacenar y recuperar datos en cualquier momento y lugar a través de una interfaz web simple.
+
+Amazon Elastic Compute Cloud (EC2) es un servicio de informática en la nube que proporciona una capacidad de procesamiento escalable y flexible en la nube. EC2 permite lanzar y ejecutar instancias de servidores virtuales, lo que permite una escalabilidad vertical y horizontal de la capacidad informática en función de la demanda.
+
+En conjunto, estos servicios de AWS permiten a las empresas construir, desplegar y escalar aplicaciones y servicios en la nube de manera más eficiente y rentable.
+

@@ -1,0 +1,12 @@
+Los datos y la educación en las escuelas online
+Las escuelas online, como Platzi, utilizan el monitoreo y evaluación de datos para conocer mejor a sus estudiantes y hacer recomendaciones en función de esta información.
+
+Uso de algoritmos de recomendación en el monitoreo de datos
+Las recomendaciones que se ofrecen a los estudiantes son el resultado de algoritmos de recomendación que han recolectado información sobre los comportamientos de los estudiantes, como sus gustos, los tipos de cursos que han finalizado y los cursos más exitosos.
+
+Información valiosa obtenida a través de los datos
+Platzi utiliza la información obtenida a través del monitoreo de datos para detectar los gustos de los estudiantes, los cursos más populares y exitosos, y la escuela a la que pertenece cada estudiante. Esto permite hacer una predicción específica y personalizada para cada estudiante.
+
+Beneficios del uso de datos en la educación
+El uso de datos en la educación permite un acceso más fácil al mundo laboral. Los diplomas y certificados obtenidos en plataformas educativas en línea pueden ser fácilmente compartidos en redes sociales como LinkedIn, lo que facilita a los empleadores encontrar a candidatos con las habilidades y conocimientos necesarios.
+

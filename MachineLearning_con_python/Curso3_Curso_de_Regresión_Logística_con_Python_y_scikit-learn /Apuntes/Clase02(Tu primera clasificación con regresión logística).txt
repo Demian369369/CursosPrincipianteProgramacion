@@ -1,0 +1,14 @@
+<u>INTERPRETACION DE LA MATRIZ DE CONFUSION</u>
+
+array([[27, 0, 0, 0, 0, 0, 0, 0, 0, 0], [ 0, 34, 0, 0, 0, 0, 0, 0, 1, 0], [ 0, 0, 35, 1, 0, 0, 0, 0, 0, 0], [ 0, 0, 0, 29, 0, 0, 0, 0, 0, 0], [ 0, 0, 0, 0, 29, 0, 0, 1, 0, 0], [ 0, 0, 0, 0, 0, 37, 0, 0, 0, 3], [ 0, 1, 0, 0, 0, 0, 43, 0, 0, 0], [ 0, 0, 0, 0, 1, 0, 0, 38, 0, 0], [ 0, 2, 1, 0, 0, 0, 0, 0, 36, 0], [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 40]])
+
+La matriz que has proporcionado parece ser una matriz de confusión. En una matriz de confusión, los elementos en la diagonal principal representan las predicciones correctas para cada clase, mientras que los elementos fuera de la diagonal principal representan las predicciones incorrectas. Veamos cómo interpretar los elementos fuera de la diagonal:
+
+Fila 1, Columna 9 (1, 9): Hay un 1 en esta posición, lo que indica que hay 1 instancia que pertenece a la clase 1 pero fue incorrectamente clasificada como clase 9.
+Fila 2, Columna 8 (2, 8): Hay un 1 en esta posición, lo que indica que hay 1 instancia que pertenece a la clase 2 pero fue incorrectamente clasificada como clase 8.
+Fila 5, Columna 8 (5, 8): Hay un 1 en esta posición, lo que indica que hay 1 instancia que pertenece a la clase 5 pero fue incorrectamente clasificada como clase 8.
+Fila 6, Columna 10 (6, 10): Hay un 3 en esta posición, lo que indica que hay 3 instancias que pertenecen a la clase 6 pero fueron incorrectamente clasificadas como clase 10.
+Fila 8, Columna 2 (8, 2): Hay un 2 en esta posición, lo que indica que hay 2 instancias que pertenecen a la clase 8 pero fueron incorrectamente clasificadas como clase 2.
+Fila 9, Columna 3 (9, 3): Hay un 1 en esta posición, lo que indica que hay 1 instancia que pertenece a la clase 9 pero fue incorrectamente clasificada como clase 3. También, hay un 2 en la posición (9, 2), lo que indica que hay 2 instancias que pertenecen a la clase 9 pero fueron incorrectamente clasificadas como clase 2.
+Estos valores indican las instancias que fueron clasificadas incorrectamente para cada par de clases. En general, una matriz de confusión proporciona información detallada sobre el rendimiento del modelo de clasificación, permitiendo identificar los tipos y cantidades de errores cometidos por el modelo.
+

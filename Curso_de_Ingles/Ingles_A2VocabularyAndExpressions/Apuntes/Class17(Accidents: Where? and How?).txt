@@ -1,0 +1,30 @@
+What is wrong with the 4 patients ?
+
+The first patient has a headache.
+
+The second patient hurt his nose.
+
+The third patient hurt his foot .
+
+The fourth patient hurt her hand.
+
+What happened to them ?
+
+The first patient was in his garage, he must have been hit himself something.
+
+The second patient was playing volleyball, the ball must have hit him.
+
+The third patient was doing martial arts, so he must have been hit by another person.
+
+The fourth patient was in the kitchen, maybe she was cooking.
+
+.........
+Rooms in a house:
+
+Bedroom -> Dromitorio
+Kitchen -> Cocina
+Living Room -> Sala de estar
+Bathroom - Cuarto de baño
+Garage -> Garaje
+Study -> Cuarto de estudio
+Dining Room -> Comedor

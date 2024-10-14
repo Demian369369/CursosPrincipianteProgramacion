@@ -1,0 +1,32 @@
+Consideraciones de ETL
+Debo asegurar la calidad de los datos
+Tener claro las fuentes y los objetivos
+Definir si mi ETL sera en Batch (cada 20 min) o Streaming (en menos de 1 seg)
+Definir si mi ETL sera incremental o total
+La documentación
+..................................................
+Definir si mi ETL sera en Batch (cada 20 min) o Streaming (en menos de 1 seg)
+El término "batch" y "streaming" se refiere a la forma en que se manejan y procesan los datos durante las etapas de transformación y carga.
+
+Proceso en Batch: Los datos se procesan en lotes o conjuntos predefinidos en intervalos regulares de tiempo. Esto implica que los datos se extraen de las fuentes, se transforman y se cargan en el destino en grupos o lotes completos.
+
+Características clave del procesamiento en batch:
+
+Los datos se procesan y transforman en función de un horario programado o en intervalos de tiempo específicos (p. ej., diariamente, cada hora, cada noche).
+Los datos se almacenan y se procesan en memoria o en disco antes de aplicar las transformaciones y cargarlos en el destino.
+Los datos se cargan en el destino una vez que se ha completado todo el procesamiento y transformación del lote actual.
+Ejemplos: Analisis historicois de venta, Analisis Financieros
+El procesamiento en batch es útil cuando se necesita procesar grandes volúmenes de datos, realizar transformaciones complejas que requieren el procesamiento conjunto de los datos o cuando los requisitos de tiempo real no son estrictos.
+
+Proceso en Streaming: En contraste con el procesamiento en batch, el procesamiento en streaming implica el procesamiento continuo y en tiempo real de los datos a medida que se generan o llegan. Los datos se procesan y se cargan de manera incremental y continua a medida que fluyen en el sistema.
+
+Los datos se procesan y transforman a medida que se generan o llegan, generalmente en pequeñas unidades o eventos individuales.
+
+Las transformaciones y los cálculos se aplican a los datos a medida que se reciben, lo que permite obtener resultados y actualizaciones en tiempo real.
+
+Los datos se cargan o transmiten continuamente en el destino a medida que se procesan.
+
+Ejemplos: Detección de fraudes en tiempo real, Análisis de redes sociales en tiempo real
+
+El procesamiento en streaming es útil cuando se requiere tomar decisiones o actuar de manera casi instantánea sobre los datos, como en aplicaciones de monitoreo en tiempo real, análisis de datos en tiempo real o detección de anomalías.
+

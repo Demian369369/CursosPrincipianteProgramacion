@@ -1,0 +1,10 @@
+El debate sobre este tema aún le falta mucho tiempo para desarrollarse y creo que empezará realmente a cobrar más sentido en la medida de que las IAs vayan ocupando más espacios en la sociedad nos encontraremos en la necesidad de crear regulaciones sobre el tema. En este momento se ha visto la necesidad de hablar de la propiedad intelectual sobre obras de arte visual creadas por inteligencia artificial como DALL-E y el problema surge cuando las personas intentan hacer pasar como propias obras que se han hecho apartir de las obras de un artista o imitando su estilo. Por otra parte, hasta el momento las IAs existen y se mantienen por que tienen un equipo de desarrollo que las ha puesto en producción y un equipo de soporte que las mantiene, sin estas personas no hay una viabilidad para una IA, por lo tanto siguen siendo dependientes de los humanos por lo cual estas personas responsables de su desarrollo y mantenimiento deberán ser las que tomen las decisiones si debe tener libre acceso o si debe ser patentado. Como digo anteriormente, esto cambiara de acuerdo como vaya cambiando la tecnología y nuestra relación con ella.
+
+..........................
+En general, se podría decir que el dueño de lo que genera la inteligencia artificial es la persona o entidad que ha desarrollado o posee la propiedad intelectual de la IA.
+
+Si la IA fue creada por una empresa, esta generalmente es la titular de los resultados generados.
+
+Si la IA fue desarrollada por un individuo, esa persona retendría los derechos de propiedad.
+
+Sin embargo, la propiedad de los resultados generados por una IA pueden estar sujetos a leyes y acuerdos específicos, y el tema sigue siendo objeto de debate legal y ético.

@@ -1,0 +1,12 @@
+plt.figure(figsize=(10,8))
+plt.subplot(1,1,1)
+plt.hist(data['Age'], bins=5, facecolor="g", alpha=0.4,
+         edgecolor='black', linewidth=2)
+plt.title("Age range of patients")
+plt.ylim([0,510])
+plt.xlabel("Age")
+plt.ylabel("Count")
+ax = plt.gca()
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+plt.show()

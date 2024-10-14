@@ -1,0 +1,129 @@
+ENTRAR A LA CONSOLA DE POSTGRES psql -U postgres -W
+VER LOS COMANDOS \ DE POSTGRES \?
+LISTAR TODAS LAS BASES DE DATOS \l
+VER LAS TABLAS DE UNA BASE DE DATOS \dt
+CAMBIAR A OTRA BD \c nombre_BD
+DESCRIBIR UNA TABLA \d nombre_tabla
+VER TODOS LOS COMANDOS SQL \h
+VER COMO SE EJECTUA UN COMANDO SQL \h nombre_de_la_funcion
+CANCELAR TODO LO QUE HAY EN PANTALLA Ctrl + C
+VER LA VERSION DE POSTGRES INSTALADA, IMPORTANTE PONER EL ';' SELECT version();
+VOLVER A EJECUTAR LA FUNCION REALIADA ANTERIORMENTE \g
+INICIALIZAR EL CONTADOR DE TIEMPO PARA QUE LA CONSOLA TE DIGA EN CADA EJECUCION ¿CUANTO DEMORO EN EJECUTAR ESA FUNCION? \timing
+LIMPIAR PANTALLA DE LA CONSOLA PSQL Ctrl + L
+
+
+
+
+
+
+
+
+
+// Clase 07
+Toda jerarquía de base de datos se basa en los siguientes elementos:
+
+Servidor de base de datos: Computador que tiene un motor de base de datos instalado y en ejecución.
+
+Motor de base de datos: Software que provee un conjunto de servicios encargados de administrar una base de datos.
+
+Base de datos: Grupo de datos que pertenecen a un mismo contexto.
+
+Esquemas de base de datos en PostgreSQL: Grupo de objetos de base de datos que guarda relación entre sí (tablas, funciones, relaciones, secuencias).
+
+Tablas de base de datos: Estructura que organiza los datos en filas y columnas formando una matriz.
+
+PostgreSQL es un motor de base de datos.
+
+La estructura de la base de datos diseñada para el reto corresponde a los siguientes
+elementos:
+
+1.png
+La base de datos se llama transporte, usaremos su esquema predeterminado public.
+
+El esquema public contiene las siguientes tablas:
+
+Estación
+
+Pasajero
+
+Tren
+
+Y las tablas de relaciones entre cada uno de los elementos anteriores son:
+
+Trayecto
+
+Viaje
+
+El esquema relacional entre las tablas corresponde al siguiente diagrama:
+
+2.png
+Estación
+Contiene la información de las estaciones de nuestro sistema, incluye datos de nombre con tipo de dato texto y dirección con tipo de dato texto, junto con un número de identificación único por estación.
+
+Tren
+Almacena la información de los trenes de nuestro sistema, cada tren tiene un modelo con tipo de dato texto y una capacidad con tipo de dato numérico que representa la cantidad de personas que puede llevar ese tren, también tiene un ID único por tren.
+
+Trayecto
+Relaciona los trenes con las estaciones, simula ser las rutas que cada uno de los trenes pueden desarrollar entre las estaciones
+
+Pasajero
+Es la tabla que contiene la información de las personas que viajan en nuestro sistema de transporte masivo, sus columnas son nombre tipo de dato texto con el nombre completo de la persona, direccion_residencia con tipo de dato texto que indica dónde vive la persona, fecha_nacimiento tipo de dato texto y un ID único tipo de dato numérico para identificar a cada persona.
+
+Viaje
+Relaciona Trayecto con Pasajero ilustrando la dinámica entre los viajes que realizan las personas, los cuales parten de una estación y se hacen usando un tren.
+
+// Clase 08
+
+CREATE TABLE "Estaciones" (
+  "id" int PRIMARY KEY,
+  "nombre" varchar,
+  "direccion" varchar
+);
+
+CREATE TABLE "Trenes" (
+  "id" int PRIMARY KEY,
+  "modelo" varchar,
+  "capacidad" int
+);
+
+CREATE TABLE "Pasajeros" (
+  "id" int PRIMARY KEY,
+  "nombre" varchar,
+  "residencia" int,
+  "fecha" datetime
+);
+
+CREATE TABLE "trayectos" (
+  "id" int PRIMARY KEY,
+  "nombre_ruta" varchar,
+  "id_estacion_inicio" int,
+  "id_estacion_fin" int,
+  "id_tren" int
+);
+
+CREATE TABLE "viajes" (
+  "id" int PRIMARY KEY,
+  "id_pasajero" int,
+  "id_trayecto" int,
+  "inicio" datetime,
+  "fin" datetime
+);
+
+ALTER TABLE "trayectos" ADD FOREIGN KEY ("id_estacion_inicio") REFERENCES "Estaciones" ("id");
+
+ALTER TABLE "trayectos" ADD FOREIGN KEY ("id_estacion_fin") REFERENCES "Estaciones" ("id");
+
+ALTER TABLE "trayectos" ADD FOREIGN KEY ("id_tren") REFERENCES "Trenes" ("id");
+
+ALTER TABLE "viajes" ADD FOREIGN KEY ("id_pasajero") REFERENCES "Pasajeros" ("id");
+
+CREATE TABLE "trayectos_viajes" (
+  "trayectos_id" int NOT NULL,
+  "viajes_id_trayecto" int NOT NULL,
+  PRIMARY KEY ("trayectos_id", "viajes_id_trayecto")
+);
+
+ALTER TABLE "trayectos_viajes" ADD FOREIGN KEY ("trayectos_id") REFERENCES "trayectos" ("id");
+
+ALTER TABLE "trayectos_viajes" ADD FOREIGN KEY ("viajes_id_trayecto") REFERENCES "viajes" ("id_trayecto");

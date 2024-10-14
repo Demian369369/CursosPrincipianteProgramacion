@@ -1,0 +1,13 @@
+4. Servicios y herramientas para ETL
+Pentaho (open source)
+Pandas
+IBM Data Stage
+Oracle Data Integrator
+Azure
+AWS
+Google Dataflow
+talend
+SINGER
+nifi
+python
+SQL

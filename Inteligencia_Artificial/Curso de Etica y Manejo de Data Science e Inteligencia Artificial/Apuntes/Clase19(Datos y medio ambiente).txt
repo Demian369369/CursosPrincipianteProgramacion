@@ -1,0 +1,12 @@
+Bee2FireDetection
+Calcular las probabilidades de que se produzcan incendios. Esta IA ayudará a combatir los incendios de forma más rápida y ágil. 🔥
+.
+
+Rainforest Connection
+Localiza sonidos emitidos por motosierras y camiones madereros en entornos forestales protegidos. 🚚
+.
+
+Farm Beats
+Guía a los agricultores a la hora de establecer sus cultivos en el mejor momento y la mejor situación, consiguiendo cultivos hipereficientes que consumirán muchos menos recursos. 🌿
+👾
+

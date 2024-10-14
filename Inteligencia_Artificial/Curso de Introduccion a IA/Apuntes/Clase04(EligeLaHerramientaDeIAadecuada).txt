@@ -1,0 +1,56 @@
+¿Cómo elegir la herramienta de IA adecuada?
+
+1. ¿Cuáles son las necesidades y objetivos?
+
+l Cual es el objetivo
+
+l Para quien va dirigido
+
+l Que procesos de negocio impacta
+
+l Cual es la recurrencia de uso
+
+l Cuantas personas lo van a usar
+
+2. ¿Cómo se integrarán estas herramientas de IA con las herramientas de mi empresa?
+
+l ¿Requiere personal técnico?
+
+l Compatibilidad con infraestructura existente
+
+l Integración de datos
+
+l Soporte multiplataforma
+
+l Personalización y extensibilidad
+
+l APIS y conectores
+
+3. ¿Cuántas personas usarán la herramienta?
+
+l Cantidad de usuarios
+
+l Adaptabilidad a cargas de usuario incrementadas
+
+l Manejar grandes volúmenes de datos
+
+4. ¿Cuáles son las políticas de seguridad de los proveedores?
+
+l Regulaciones (GDPR)
+
+l Encriptación de datos
+
+l Auditorías y rastreo de actividades
+
+l Controles de acceso
+
+5. ¿Cuáles son los costos de la herramienta de IA?
+
+l Costo de licencias o suscripciones
+
+l Gastos de implementación
+
+l Costos de mantenimiento y soporte
+
+l Costos de capacitación
+

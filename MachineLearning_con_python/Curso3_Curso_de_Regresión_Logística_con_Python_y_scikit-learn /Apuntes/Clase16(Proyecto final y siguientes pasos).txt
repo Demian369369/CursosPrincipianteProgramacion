@@ -1,0 +1,12 @@
+Consejos para Optimizar su Modelo de Regresión Logística:
+
+Selección de características: eliminar características irrelevantes o correlacionadas puede mejorar la precisión del modelo.
+
+Regularización: agregar un término de regularización (como L1 o L2) al modelo puede evitar el sobreajuste y mejorar la precisión del modelo.
+
+Ajuste de hiperparámetros: utilizar técnicas de optimización como el grid search o el random search para encontrar los mejores valores para los hiperparámetros del modelo.
+
+Balanceo de clases: si el conjunto de datos tiene un desequilibrio de clases, puede ser útil utilizar técnicas de balanceo de clases para mejorar la precisión del modelo.
+
+Evaluar el modelo con métricas adecuadas: utilizar métricas como la precisión, el recall, la curva ROC, entre otras pueden ayudar a evaluar la precisión del modelo y a determinar dónde se encuentran las limitaciones del modelo.
+

@@ -1,0 +1,15 @@
+Star schema
+. Un star schema es un tipo de técnica de modelado de datos utilizada en los data warehouses para representar datos de una manera estructurada e intuitiva. Los datos se organizan en una fact table central que contiene las medidas de interés, rodeadas de dimension tables que describen los atributos de las medidas. Las dimension tables permiten a los usuarios analizar los datos desde diferentes perspectivas. Cada dimension table se une a la fact table a través de una relación de foreign key. Esto permite a los usuarios consultar los datos en la fact table utilizando atributos de las dimension tables. . El star schema es una técnica popular de modelado de datos en el data warehouse porque es fácil de entender y consultar. La estructura simple del star schema permite tiempos de respuesta de consulta rápidos y un uso eficiente de los recursos de la base de datos. Además, el star schema se puede ampliar fácilmente agregando nuevas dimension tables o medidas a la fact table, lo que la convierte en una solución escalable y flexible para el almacenamiento de datos (data warehousing).
+..............................................s
+Diferencia entre Data Lake vs Data Lakehouse
+
+Data Lake:
+
+Almacena grandes cantidades de datos sin procesar y en bruto
+No tiene una estructura predefinida o una organización específica de datos.
+Se enfoca en almacenar grandes cantidades de datos en bruto para su posterior procesamiento y análisis.
+Data Lakehouse:
+
+Combina la escalabilidad de un Data Lake con la estructura y organización de un Data Warehouse.
+Organiza los datos en tablas y columnas como un Data Warehouse, pero se almacena en un entorno escalable y abierto como un Data Lake.
+Se enfoca en proporcionar acceso y análisis en tiempo real a los datos, y en la implementación de prácticas de gobernanza de datos y aseguramiento de calidad.

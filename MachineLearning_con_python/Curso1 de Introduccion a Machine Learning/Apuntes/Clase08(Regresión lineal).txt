@@ -1,0 +1,78 @@
+Linear Regression : parameters
+different parameters change what we think of a relation between input features (X) and the output target (y_pred).
+
+y{pred}=w_1x+w_0_
+
+w_1= a change in “x” means a change in "y" w_0= the value of “y” if “x” is 0
+
+Linear Regression : cost function
+Mean-square Error
+(MSE) Loss :
+The cost (E) is the difference between the target value (y_i) and our line predicted value (y_pred)
+
+j\left(w,:w_0\right)=\frac{1}{N}\sum {i=1}^N:\left(y_i-y{i:pred}\right)^2
+
+Linear Regression : actualization rule
+We want to minimize the distance (y_i pred) above each point on training data We change w_0 and w_1 'til find a smaller distance sum is found
+
+_update rule = min J(w_0, w_1) _
+
+pd: i want to add the screenshot, but i don’t know why doesn’t let me, it pop up an error:
+
+
+..................
+Rendimiento
+Cabe la pregunta Cuando sabemos que mi modelo ML esta funcionando bien? En el caso de una regresion lineal utilizamos el Error Cuadratico Medio que es un cierto valor de la funcion de error o un termino llamado R cuadrado, que viene a ser la correlacion entre los valores de entrada y la salida que buscas predecir. Con tales valores puedes decir si tu relacion es fuerte o debil dependiendo de la cifra arrojada. Para R cuadrado, un valor cercano a 1 indica una estrecha relacion entre X e Y. Valores cercanos a 0 indica una relacion muy mala
+................
+Regresión lineal
+
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+# Datos de ejemplo
+X = np.array([[1], [2], [3], [4], [5]])  # Variables independientes
+y = np.array([2, 4, 6, 8, 10])  # Variable dependiente
+
+# Crear el modelo de regresión lineal
+model = LinearRegression()
+
+# Ajustar el modelo a los datos
+model.fit(X, y)
+
+# Realizar predicciones
+X_new = np.array([[6], [7]])  # Nuevos datos para predecir
+predictions = model.predict(X_new)
+
+print("Coeficientes:", model.coef_)  # Coeficientes de las variables independientes
+print("Intercepto:", model.intercept_)  # Término de intercepción
+print("Predicciones:", predictions)  # Predicciones para los nuevos datos
+Regrecion lineal parametros
+
+from sklearn.linear_model import LinearRegression
+
+# Datos de ejemplo
+X = [[1], [2], [3], [4], [5]]  # Variables independientes
+y = [2, 4, 6, 8, 10]  # Variable dependiente
+
+# Crear el modelo de regresión lineal
+model = LinearRegression()
+
+# Ajustar el modelo a los datos
+model.fit(X, y)
+
+# Obtener los parámetros estimados
+intercept = model.intercept_  # Término de intercepción
+coefficients = model.coef_  # Coeficientes de las variables independientes
+
+print("Término de intercepción:", intercept)
+print("Coeficientes:", coefficients)
+Regresión lineal: función de coste
+
+MSE = (1/n) * sum((y - y_pred)^2)
+
+import numpy as np
+
+def mean_squared_error(y_true, y_pred):
+    n = len(y_true)
+    mse = np.sum((y_true - y_pred) ** 2) / n
+    return mse

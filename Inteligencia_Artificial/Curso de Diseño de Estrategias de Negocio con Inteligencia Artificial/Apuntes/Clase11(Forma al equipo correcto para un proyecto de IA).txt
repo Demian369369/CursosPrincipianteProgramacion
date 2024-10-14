@@ -1,0 +1,55 @@
+Roles principalmente involucrados en proyectos de IA.
+Roles asociados al equipo de producto.
+Sponsor del proyecto y Project Manager. o
+Stakeholder y Product Owner o Product Manager.
+Diseñador UX y Product Desinger.
+Equipo de ingenieria de software.
+Desarrolladores Backend
+Desarrolladores Frontend o
+Desarrollador FullStack si se encanrgan de ambas cosas.
+Quality Assurance
+Tech Lead
+Cientificos de datos.
+Ingeniero de datos.
+Analista de datos.
+Data Traslator.
+.......................................
+Costo de setup en un proyecto IA
+
+Reducción de recursos y tiempo necesario de alrededor del 20%/ optimiza la capacidad operativa/ la entrega de valor / la iniciación de nuevos proyectos
+
+Machine learning - Alta capacidad de almacenamiento diario de datos / soluciones de infrastructure y software requerido para modelar datos para generar proyecciones / pago atraves de cantidad de horas de uso o datos procesados - suscripción
+
+LLM - Capacidad de cómputo y velocidad de procesamiento, GPU / Memoria Ram / capacidad de almacenamiento / instancias de procesamiento / pago de la suscripción - velocidad y calidad de respuesta/ también cantidad de tokens
+
+Costo diario LLM (Variable cantidad de texto)= #tokens * #interacciones * #usuarios
+
+Fine Tuning= proveer de más información o palabras a modo de ejemplo (más tokens) - solo se realiza una vez / ej: asistente virtuales
+
+Embedding= técnica que los modelos usan para buscar la información en nuestra base, hay que transformar la información en una representación matemática que luego el sistema usa para calcular la cercanía a esa información/ procesamiento de información para que LLM pueda buscar la información en nuestra base de datos sin necesidad de haber entrenado el modelo con esto/ tiene un costo por separado / one shop para cada set de datos a incluir
+
+..............................................
+Roles en proyectos de IA
+
+En producto: Sponsor de proyecto o project manager = Tienen intereses en el resultado del proyecto / fondean el proyecto / alejado en el di a día / coordinación todas las partes del proyecto (planificación, ejecución y el control) / habilidades de liderazgo, comunicación, organización / conocimientos básicos de IA
+
+Stakeholder y producto owner o product manager / definí métricas de éxito / dependiendo del proyecto debe ser un experto en su área
+
+Diseñador UX y product designer/ lideran product discover= Dolores y necesidades del usuario / idear hipótesis de soluciones que se alinie con el objetivo del negocio / diseña experimentos para validar hipótesis/ genera conocimientos / empatía con el usuario/ investigación / escucha activa
+
+Innovación: proceso constante de ideation y experimentación/ técnica disig thinking
+
+Equipo de ingeniería de software:
+
+Desarrollo Rea se backend y frontend (o full stock ) Quality assurance ( controladores de calidad) Tech lead (de cada un de las especialidades)
+
+Equipo de data:
+
+Científicos de datos:trabajan con grande cantidades de datos usando reñidas de modelado estadístico, matching learning y análisis de de datos para extraer insights utilidades y desarrollar soluciones de IA/ matemática / estadística / conocimientos de algoritmos de IA
+
+Ingenieros de datos: gestión, organización y pre procesamiento de los datos para su uso en los proyectos de ia , infraestructura de donde se va almacenar los datos y su organización, desarrollan los procesos para realizar la ingesta de datos de plataformas y fuentes externas a nuestra base de datos, habilidades en bases de datos, lengua de porfa chin como cql o Payton
+
+Analista de base de datos: interpretar, visualizar y reportar los datos, utilizan herramientas estadísticas y software de visualización de datos para analizar los datos detectar tendencias y patrones , proporcionar informales y visualizaciones que ayuden a tomar decisiones
+
+Data translator: puente ente los equipos técnicos y no técnicos, facilitando la compresión de los insight que conseguimos con los analices de datos, este rol es crucial para garantizar que los bendecidos de la ia se traduzca en valor tangible para la organización, capacidad de comunicación y empatía conocimiento técnico del análisis de datos/ aveces el mismo data análisis aveces
+

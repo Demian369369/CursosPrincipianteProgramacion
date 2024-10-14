@@ -1,0 +1,35 @@
+Análisis de datos y visualización
+
+Tableau
+Power BI
+Qlik Sense
+Inteligencia empresarial
+
+ThoughtSpot
+Sisense
+Asistentes virtuales de negocios
+
+Salesforce Einstein Analytics
+RPA (Automatización de procesos empresariales)
+
+UiPath
+Automation Anywhere
+Inteligencia de mercado
+
+Gong
+...............
+Herramientas:
+
+ThoughtSpot
+Sisense
+Salesforce einsten analytics
+RPA (UiPath, Automation Anywhere)
+Gong
+..............
+Herramientas de inteligencia artificial para empresas
+
+Análisis de datos y visualización: Identificar patrones, tendencias y relaciones en los datos. Herramientas: Tableau, Power BI y Qlik Sense.
+Inteligencia empresarial: obtener información empresarial, responder a preguntas complejas, proporcionar recomendaciones. Herramientas: ThoughtSpot y Sisense.
+Asistentes virtuales de negocio: proporcionar métricas e información de negocios, responder preguntas, ofrecer análisis de datos. Herramientas: Salesforce con su producto  Einstein Analytics.
+Automatización de procesos: automatizar tareas y procesos empresariales, mejorar la eficiencia operativa y el rendimiento de los empleados. Herramientas: UiPath y  Automation Anywhere.
+Inteligencia de mercado: analizar grandes volúmenes de datos de mercado, identificar patrones en los datos de ventas, analizar la competencia, ofrecer información estratégica para el crecimiento del negocio. Herramientas: Gong.

@@ -1,0 +1,72 @@
+To understand a little bit more about overfitting and underfitting, I found this example:
+Let's Imagine we have three students, let's call them student A, B and C respectively
+
+Student A is not interested in learning and he/she doesn't pay much attention
+Student B pays attetion in class, but he/she memorizes absolutely all that professor says, not learning the main concepts
+Student C pays attention in class and he/she learns the gist concepts from the classes, not memorizing but learning
+
+Now, the professor decides to take a class test previosly before the official test, the class test would be the training set and the official test would be the test set
+
+Screenshot-2020-02-06-at-11.08.59-768x327.png
+|
+
+Student A obtains 50% in this class test because he/she is not interested in learning and hence in the official test she/he will obtain a bad result as well (Underfitting)
+Student B obtains 98% in this class test because he has memorized all, but he will obtain a lower score in the official test because he/she will have difficulties to face the new information that he/she didn't see in classes and the class test, since he/she doesn't learn just memorize (Overfitting)
+Student C obtains quite similiar results in both cases, because this student learned the main concepts and doesn't have problems with new information (Ideal Case)
+|
+
+Screenshot-2020-02-06-at-14.42.42-768x460.png
+
+Reference link: https://www.analyticsvidhya.com/blog/2020/02/underfitting-overfitting-best-fitting-machine-learning/
+
+..............
+Hay varias estrategias que se pueden utilizar para mejorar las predicciones de las redes neuronales.
+
+Recopilar más datos:
+A menudo, el rendimiento de una red neuronal mejora cuando se tienen más datos de entrenamiento. Cuanto más variado y representativo sea el conjunto de datos, mejor será la capacidad del modelo para generalizar y realizar predicciones precisas.
+Preprocesar los datos:
+Realizar un buen preprocesamiento de los datos puede ayudar a mejorar las predicciones. Esto puede incluir normalización, estandarización, codificación de variables categóricas, eliminación de valores atípicos, manejo de valores faltantes, entre otros. El preprocesamiento adecuado puede ayudar a reducir el ruido y mejorar la calidad de los datos de entrada.
+Ajustar la arquitectura de la red:
+La elección de la arquitectura de la red neuronal es crucial. Puedes experimentar con diferentes configuraciones, como el número de capas ocultas, el número de neuronas por capa, las funciones de activación, etc. A veces, aumentar la complejidad de la red o agregar capas adicionales puede mejorar su capacidad de aprendizaje.
+Regularización:
+La regularización es una técnica que ayuda a prevenir el sobreajuste (overfitting) de la red neuronal. Puedes utilizar métodos de regularización como la regularización L1 o L2, la eliminación aleatoria de neuronas (dropout), la normalización de lotes (batch normalization), entre otros. Estas técnicas ayudan a controlar la complejidad de la red y mejorar su capacidad de generalización.
+Optimización del aprendizaje:
+La elección del algoritmo de optimización y la tasa de aprendizaje pueden afectar el rendimiento del modelo. Puedes probar diferentes algoritmos de optimización, como el descenso de gradiente estocástico (SGD), el optimizador Adam, el optimizador RMSprop, entre otros. Además, ajustar la tasa de aprendizaje puede ayudar a encontrar un equilibrio entre la velocidad de convergencia y la estabilidad del entrenamiento.
+Aumento de datos (data augmentation):
+Esta técnica consiste en generar nuevas muestras de entrenamiento a partir de las muestras existentes mediante transformaciones y perturbaciones. Por ejemplo, se pueden aplicar rotaciones, desplazamientos, cambios de escala, recortes, cambios de iluminación, entre otros, a las imágenes de entrada. El aumento de datos puede ayudar a mejorar la capacidad de generalización y evitar el sobreajuste.
+Ensamblaje de modelos (model ensembling):
+Combinar las predicciones de varios modelos puede mejorar el rendimiento. Puedes entrenar múltiples redes neuronales con diferentes configuraciones y luego combinar sus predicciones utilizando métodos como el promedio, votación o stacking. Esto puede ayudar a reducir el sesgo y la varianza y mejorar la precisión del modelo final.
+...........
+Concepto de época en ML:
+
+Cada ciclo de corrección de propagación hacia atrás y hacia adelante para reducir la pérdida se denomina época. En resumen, la propagación hacia atrás consiste en determinar las mejores ponderaciones y sesgos de entrada para obtener un resultado más preciso o "minimizar la pérdida".
+
+https://learn.microsoft.com/es-es/archive/msdn-magazine/2019/april/artificially-intelligent-how-do-neural-networks-learn
+
+Una ejecución completa del conjunto de datos de entrenamiento a través del algoritmo se conoce como una época en el aprendizaje automático.
+
+https://coinmarketcap.com/academy/es/glossary/epoch
+
+Epoch en el aprendizaje automático, una época (o «epoch» en inglés) en inteligencia artificial se refiere a una iteración completa de entrenamiento de un modelo de aprendizaje automático en un conjunto de datos.
+
+Durante una época, el modelo recibe una serie de ejemplos de entrenamiento y ajusta sus parámetros (como los pesos de las conexiones en una red neuronal) en función de los errores cometidos en la predicción de las respuestas correctas.
+
+Una vez que todos los ejemplos de entrenamiento han sido vistos por el modelo, se completa una época y se repite el proceso de entrenamiento para tantas épocas como sea necesario para mejorar la precisión del modelo.
+
+El número de épocas necesarias para entrenar un modelo depende de varios factores, como el tamaño del conjunto de datos y la complejidad del modelo.
+
+https://ciberseguridadmax.com/epoch/
+
+Una Época es cuando un conjunto de datos ENTERO se pasa hacia adelante y hacia atrás a través de la red neuronal solo UNA VEZ. Dado que una época es demasiado grande para alimentar la computadora a la vez, la dividimos en varios lotes (batch) más pequeños.
+
+https://bookdown.org/victor_morales/TecnicasML/redes-neuronales.html
+
+Recuerde que cada neurona de una red neuronal toma los valores de entrada multiplicados por una ponderación para representar la fortaleza de esa conexión. La propagación hacia atrás detecta las ponderaciones correctas que se deben aplicar a los nodos de una red neuronal mediante la comparación de las salidas actuales de la red con los resultados correctos o deseados. La diferencia entre el resultado deseado y el resultado actual se calcula mediante la función de pérdida o costo. En otras palabras, la función de pérdida nos indica el grado de precisión que tiene nuestra red neuronal al realizar predicciones para una entrada determinada.
+
+La fórmula para calcular la pérdida está representada en la figura 1. No deje que las matemáticas le intimiden: solo se trata de sumar los cuadrados de todas las diferencias. Inicialmente, las ponderaciones y sesgos se suelen establecer en valores aleatorios que, a menudo, producen un valor alto de pérdida cuando se empieza a entrenar una red neuronal.
+
+<img height="172" width="589" alt="La función de costo o pérdida" src="file:///C:/Users/USUARIO/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png" /> **Figura 1 La función de costo o pérdida**
+A continuación, el algoritmo ajusta cada ponderación para minimizar la diferencia entre el valor calculado y el valor correcto. El término "propagación hacia atrás" procede del hecho de que el algoritmo retrocede y ajusta las ponderaciones y los sesgos después de calcular una respuesta. Cuanto menor sea la pérdida para una red, más precisa será. A continuación, se puede cuantificar el proceso de aprendizaje como la reducción del resultado de la función de pérdida. Cada ciclo de corrección de propagación hacia atrás y hacia adelante para reducir la pérdida se denomina época. En resumen, la propagación hacia atrás consiste en determinar las mejores ponderaciones y sesgos de entrada para obtener un resultado más preciso o "minimizar la pérdida". Si piensa que esto consume muchos recursos de proceso, está en lo cierto. De hecho, la capacidad de proceso era insuficiente hasta hace relativamente poco para que este proceso resultara práctico para el uso general.
+
+https://learn.microsoft.com/es-es/archive/msdn-magazine/2019/april/artificially-intelligent-how-do-neural-networks-learn
+

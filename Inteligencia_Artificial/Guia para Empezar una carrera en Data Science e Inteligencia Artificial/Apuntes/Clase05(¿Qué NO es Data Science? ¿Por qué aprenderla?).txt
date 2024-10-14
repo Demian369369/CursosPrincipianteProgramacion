@@ -1,0 +1,4 @@
+¿Qué NO es data science? No es magia No es Inteligencia Artificial No es tener solo métricas de un dato sin tener alguna métrica de valor No son puras matemáticas No es solo trabajar con Big Data.
+¿Por qué no aprender Data Science? Si no quieres tener un aprendizaje constante No disfrutas el trabajo sucio. Gran parte del tiempo es dedicada a limpiar los datos y hay que garantizar que los datos agregan valor y son confiables Si no te gusta comunicar y vender lo que logras y encuentras. No te sientes motivado a ayudar a otras personas. No te gusta hacer que las cosas pasen. Tienes que aprender constantemente
+¿Por qué SI aprender Data Science? Te emociona encontrar información de valor Si te interesa saber como se aplican las matemáticas Si quieres trabajar en una empresa Data Driven y verla crecer Si quieres crear productos y software que cambien el mundo (Proyectos como el sistema de recomendación de Netflix)
+

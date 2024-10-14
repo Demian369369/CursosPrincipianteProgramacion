@@ -1,0 +1,38 @@
+Conformar un equipo Heterogéneo.
+
+Hacer un proyecto transversal entre equipos.
+
+Validación constante.
+
+¿Cómo fomentar la experimentación con IA? a. Propiciar espacios para experimentar. b. Alinear los proyectos de IA con los KPI de la empresa. c. Feedback entre equipos.
+
+¿Qué debemos tener en cuenta con respecto a la protección de datos en un proyecto de IA? a. Garantizar el anonimato del usuario. b. ¿Para qué lo estamos haciendo? c. Cuales datos tenemos, Sensibles, biométricos, genéricos,etc.
+
+3 ¿ Qué tecnologías necesitas para implementar IA? a. Digitalización —> Infraestructura de datos, Todo lo debemos almacenar. Herramientas de recolección de datos, API. b. Análisis —> SQL , Herramientas de Visualización c. IA —> Exploratorio y predictiva, R, Python.
+
+¿ Cómo evitar hacer un análisis que no se va a implementar? a. Contratar personas que entendías para que lo están haciendo. b. Equipo técnico más compenetrado con el negocio.
+
+¿Qué métricas nos puede guiar en un proyecto de AI? a. Grado de acierto. Vs Tiempo que disponemos b. Urgencia del cambio c. Automatización (Es una vez , son varias veces).
+
+“Siempre hacer una validación ética del propósito”
+
+.............................
+Muy interesante
+
+Primera etapa digitalización Pensar e implementar infraestructura de recoleccion de datos asi mismo tambien importante las apis Segunda etapa Analisis herramientas como SQL para el hacer analisis descriptivo y visualizacion (presente y pasado) Tener muy claros los objetivos, del porque lo estamos haciendo y que queremos solucionar
+.......................
+Tres Puntos Clave en Proyectos de Inteligencia Artificial
+
+Equipo Multicultural y Diverso: Evitar sesgos desde el principio. Opiniones diversas para resultados inclusivos. Equipos homogéneos limitan el público objetivo. Diversidad en la definición de reglas.
+Transversalidad en Equipos: La inteligencia artificial debe ser un esfuerzo conjunto. Evitar la desconexión entre equipos técnicos y de negocio. Colaboración proactiva y comunicación constante. Evaluación y ajustes regulares.
+Validación Continua: No basta con crear algoritmos, es necesario validarlos. La curiosidad y la experimentación son esenciales. Espacio para la creatividad y pensar más allá de lo convencional. Ajustes y validación constantes.
+Aspectos Éticos y de Privacidad: Garantizar la privacidad de los usuarios. Evitar decisiones basadas en segmentaciones específicas. Cuestionar la recopilación de datos sensibles.
+
+Selección de Herramientas según la Etapa de Negocio: Infraestructura para recopilar y almacenar datos. Herramientas de análisis descriptivo. Herramientas predictivas en fases avanzadas. Utilidad de herramientas de código abierto como R y Python.
+
+Comunicación y Transparencia: Evitar que los análisis queden sin implementar. Comunicación efectiva dentro del equipo y con el negocio. Entender el propósito y comunicar resultados comprensibles.
+
+Métricas de Calidad y Tiempo: Evaluar la calidad con el grado de acierto. No menos del 70% de aciertos idealmente. Considerar el tiempo disponible y la urgencia del cambio. Escalabilidad y automatización para proyectos exitosos.
+
+Validación Ética del Propósito: Cuestionar el propósito de proyectos de inteligencia artificial. Evitar la recopilación de datos innecesarios. Garantizar que el análisis sea ético y relevante.
+

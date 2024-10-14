@@ -1,0 +1,24 @@
+Mentalidad de ++crecimiento++.
+Fomentar la ++curiosidad++ y la exploración.
+Aceptar el ++fracaso++ como oportunidad de aprendizaje.
+Promover el ++intercambio de conocimiento++.
+Proporcionar acceso a ++recursos++ de aprendizaje.
+++Liderazgo++ ejemplar.
+..............................
+Para Usar a ChatGPT como tu mentor personal puedes ejecutar los siguientes prompts:
+
+Para investigar sobre un tema de tu interes del que quieres profundizar o conocer el temario
+Muestra el temario en formato de lista de los temas que uno necesita aprender para aprender sobre Markdown
+
+Nota: Aquí yo use Markdown pero tu puedes sustituirlo por cualquier otro tema de tu interes, o puedes ejecutar el mismo prompt pero con otro tema de tu interes. Y fue efectivo porque este sitio fue elaborado en Markdown y yo sabía cosas muy basicas de Markdwon.
+
+Después de ejecutar el anterior para que te sirva como Profesor Personalizado.
+Eres experto en Markdown, me estas enseñando como usarlo. Yo te escribo el tema del que quiero que me expliques de manera sencilla con parafos cortos de 3 a 4 oraciones. Y con un ejemplo. Primero presentate y explica lo que tienes que hacer. Luego espera a que yo ingrese los textos para que empieces a explicar de manera breve y con ejemplos. Preguntame si continuamos con el siguiente tema o vemos otro ejemplos. ¿Entiendes lo que tienes que hacer?
+
+Para aprender sobre más prompts puedes usar mi tutorial, que es la liga que les comparti arriba.
+
+........................
+Cultura de aprendizaje y experimentación
+
+•Mentalidad de crecimiento = aprendizaje + práctica + retroalimentación constante (IA ayuda en la consulta para el aprendizaje / puesta a prueba de lo aprendido / feedback ) •Fomentar la curiosidad y la exploración = alentar a la organización a hacer preguntas y explorar diferentes enfoques para abordar los desafíos •Aceptar el fracaso como oportunidad de aprendizaje: ambiente seguro al cometer errores para analizar dichos errores y tomar las lecciones más importantes de ello / importante equivocarse rápido •Asesoramiento para elaborar test de hipótesis con fundamentos estadísticos para validar nuestros experimentos= cultura de decisiones basados en datos •Promover el intercambio de conocimiento •Proporcionar acceso o recursos de aprendizaje •Liderazgo ejemplar: modelos a seguir, actitud positiva al aprendizaje / desafíos prácticos dentro del equipo
+

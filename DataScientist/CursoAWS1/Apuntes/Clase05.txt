@@ -1,0 +1,78 @@
+Region: AWS tiene el concepto de una región, que es una ubicación física en todo el mundo donde agrupamos los centros de datos. Llamamos a cada grupo de centros de datos lógicos “zona de disponibilidad”. Cada región de AWS consta de varias zonas de disponibilidad aisladas y separadas físicamente dentro de un área geográfica.
+
+Zona disponibilidad: Una zona de disponibilidad (AZ) es uno o más centros de datos discretos con alimentación, redes y conectividad redundantes en una región de AWS. Las zonas de disponibilidad permiten que los clientes operen bases de datos y aplicaciones de producción con un nivel de disponibilidad, tolerancia a errores y escalabilidad mayor que el que ofrecería un centro de datos único.
+
+Regiones alrededor del mundo (por orden alfabético)
+Barein
+Bombai
+Canada Central
+Ciudad del cabo
+Estocolmo
+Frankfurt
+GoCloud Este
+GovCloud Oeste
+Hong Kong
+Irlanda
+Londres
+Milan
+Ningxia
+Norte de California
+Norte de Virginia
+Ohio
+Oregón
+Osaka
+Paris
+Pekin
+São Paulo
+Sedl
+Sidney
+Singapur
+Tokio
+Cómo escoger una región de AWS
+Si necesito lanzar una nueva aplicación, ¿dónde debo hacerlo?
+
+Cumplimiento de los requisitos legales y de gobernanza de datos: los datos nunca abandonan una región sin su permiso explícito.
+Proximidad a los clientes: latencia reducida.
+Servicios disponibles dentro de una región: los nuevos servicios y las nuevas funciones no están disponibles en todas las regiones.
+Los precios varían de región a región y son transparentes en la página de precios del servicio.
+
+Una zona de disponibilidad es un data center
+Un data center está lleno de servidores
+Una zona de disponibilidad puede ser de varios data center.
+Cada zona de disponibilidad es uno o mas centro de datos discretos con energía, redes y conectividad redundante, están separados entre sí y están conectados entre sí con un gran ancho de banda, redes de latencia ultrabaja
+Infraestructura
+AWS Regiones
+AWS Zonas de disponibilidad
+AWS Centro de datos
+Ubicaciones de AWS Edge / puntos de presencia
+Infraestructura global
+
+Servicios Globales
+IAM
+Route 53
+Cloudfront
+WAF
+Servicios Regionales
+EC2
+Beanstalk
+Lambda
+Rekognition
+Servicios regionales de AWS
+
+Diagrama del modelo de responsabilidad compartida
+AWS:
+hardware y la infraestructura global
+Regiones (regions)
+Zonas de disponibilidad (availability zones)
+Ubicaciones de AWS Edge / puntos de presencia (Edge locations)
+software:
+computo (compute)
+almacenamiento (storage)
+bases de datos (database)
+redes (networking)
+Cliente:
+Actualizaciones de S.O.
+Proteger los datos que se almacenan
+Aplicaciones
+Accesos
+Administración de usuarios y grupos

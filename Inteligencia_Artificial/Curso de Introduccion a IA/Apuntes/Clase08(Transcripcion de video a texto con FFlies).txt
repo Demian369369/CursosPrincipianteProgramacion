@@ -1,0 +1,18 @@
+++Transcribir reuniones con inteligencia artificial++
+
+Beneficios: Facilita la búsqueda y acceso a información perdida. Posibilidad de traducción. Aprovecha el tiempo ahorrado para extraer información valiosa. Generación de transcripciones rápidas y precisas.
+
+Utilizar herramientas de inteligencia artificial como Fireflys (funcionamiento similar en diferentes herramientas). Pasos para Transcribir Reuniones con Fireflys:
+
+Configuración del idioma hablado en las reuniones.
+Cargar audio o video en la plataforma.
+Consultar la transcripción desde el notebook de transcripciones.
+Realizar correcciones necesarias.
+Opciones adicionales con Fireflys Ofrecen resúmenes, notas e ítems accionables de la reunión. Descarga de transcripción en el formato preferido.
+
+Factores que pueden afectar la exactitud de la transcripción: Variaciones en la pronunciación. Ruidos de fondo. Incompatibilidad con ciertos idiomas.
+
+Importancia de la revisión y corrección de la transcripción: Practicar la revisión de transcripciones. Realizar correcciones antes de compartirlas con el equipo.
+
+...........
+La herramienta https://fireflies.ai/

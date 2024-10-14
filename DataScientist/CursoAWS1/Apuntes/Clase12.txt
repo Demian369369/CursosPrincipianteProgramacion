@@ -1,0 +1,42 @@
+Saber implementar en la nube es una gran habilidad
+
+Aprender AWS es importante
+
+Hay muchas cosas que se pueden hacer en AWS
+
+En AWS pagamos solo por lo que usamos
+
+Escalar la aplicación en AWS es fácil
+
+No necesitamos aprender todo sobre AWS, solo debemos tener claro las capas que necesitamos
+
+Es importante aprender estos temas: Cloud concepts, Security, technology y Billyng and pricing
+
+IAM es algo que debemos manejar bien
+
+Para aprender AWS solo falta querer
+
+Iniciamos con un dibujo de la arquitectura de la solución
+
+S3 lo usamos para almacenar archivos estáticos del proyecto
+
+Puedo entrar a la configuración de la arquitectura desde la terminal
+
+Primero creamos un Bucket S3
+
+Si quiero que mi bucket sea publico debo desactivar la casilla "Block all public access"
+
+Creamos el Bucket, subimos los archivos, definimos un alojamiento de sitios web estáticos y hacemos publico nuestros archivos
+
+En Route 53 creamos una zona hosteada
+
+Existen diferentes políticas de ruteo
+
+Es importante tener en cuenta la región en la que cree el Bucket
+
+Toma tiempo en hacer la propagación del proyecto
+
+documentacion oficial https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html
+Por si quieren pasar su dominio existente a Route53
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-transfer-to-route-53.html

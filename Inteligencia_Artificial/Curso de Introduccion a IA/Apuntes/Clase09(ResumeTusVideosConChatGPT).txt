@@ -1,0 +1,26 @@
+Sintetizar información con ChatGPT
+Cuando tienes un texto largo puedes sintetizarlo con listas, resúmenes.
+Prompts
+
+Crea una lista con las 5 ideas principales del siguiente texto ordenando de acuerdo al texto.
+Crea una resumen del siguiente texto resaltando el contenido principal sin cambiar ninguna información.
+Muestra la información del siguiente texto en una secuencia
+Muestra la información del siguiente texto como una lista de tareas. Asignando cada tarea a las personas involucradas.
+..................
+Los 8 mejores generadores de resúmenes basados en IA (2023).
+
+Summarizingtool net.
+
+Summarizer org.
+
+Check-plagiarism.
+
+Quillbot.
+
+SAAS AI SUMMARIZER.
+
+TDLR.
+
+Autosummarizer com.
+
+Paraphraser io. FUENTE https://www.comodigital.info/los-8-mejores-generadores-de-resumenes-basados-en-ia/

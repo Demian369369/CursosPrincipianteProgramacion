@@ -1,0 +1,11 @@
+Procesamiento del Lenguaje Natural (NLP)
+
+Investigación de la interacción entre el computador y el lenguaje humano mediante el uso de lenguas naturales.
+La inteligencia artificial supera al ser humano
+
+La IA de Microsoft y Alibaba supera a estudiantes de Stanford un test de compresión lectora. Reto: identidad / emoción.
+GPT-3
+
+Lenguaje autorregresivo que emplea el aprendizaje profundo (deep learning) para producir textos que simula la redacción humana.
+Este NLP no puede alcanzar el conocimiento y sensibilidad humanos, ya que la IA no puede crear, solo puede decir información basada en como ha sido entrenado, y la inteligencia humana no se puede entrenar.
+

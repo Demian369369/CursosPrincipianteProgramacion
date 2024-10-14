@@ -1,0 +1,27 @@
+RESUMEN
+Describe el enfoque de aprendizaje no supervisado llamado K-means, que busca encontrar una estructura en los datos mediante la asignación de puntos de datos a grupos específicos, conocidos como clusters. Para hacer esto, K-means utiliza centroides que representan cada cluster y se colocan inicialmente de manera aleatoria. El objetivo es actualizar la posición de los centroides encontrando la media de los puntos de datos que pertenecen a cada cluster, lo que permite actualizar la asignación de puntos de datos y los clusters. El parámetro más importante en K-means es el número de clusters, conocido como "K". Además, el texto menciona la función de coste que se busca optimizar durante la ejecución de K-means y la regla de actualización que se utiliza para actualizar los centroides. Por último, se describe un ejemplo visual que muestra cómo cambia la asignación de puntos de datos a clusters a lo largo de varias iteraciones.
+
+.................
+Me parece una buena forma de comprender lo que hace cada algoritmo para que nuestro abordaje de los problemas, como científicos de datos, sea racional y explicable.
+
+Tres ingredientes de un algoritmo:
+
+Proceso de decisión: la forma en la que el modelo hace una predicción, generalmente mediante el uso de parámetros.
+
+Función de coste: la forma en que la predicción del modelo se compara con el objetivo de salida o meta.
+
+Regla de actualización: forma en la que el modelo actualiza y cambia sus parámetros para mejorar las predicciones.
+
+................
+La elección correcta del parámetro k en el algoritmo k-means es un paso importante para obtener resultados significativos y útiles. Aquí te presento algunos métodos comunes para seleccionar el valor óptimo de k:
+
+Método del codo (Elbow Method): Este método evalúa la varianza dentro de los grupos en función de k. Se ejecuta el algoritmo k-means para diferentes valores de k y se calcula la suma de las distancias al cuadrado de cada punto a su centroide más cercano (también conocida como la inercia). Luego, se traza un gráfico de la inercia en función de k y se busca el punto en el que la mejora en la inercia comienza a disminuir significativamente, formando una curva con forma de "codo". Ese punto se considera como el valor óptimo de k.
+
+Método de la silueta (Silhouette Method): Este método evalúa la cohesión dentro de los grupos y la separación entre los grupos. Se calcula el coeficiente de silueta para cada punto, que es una medida de qué tan bien se encuentra un punto dentro de su grupo en comparación con los otros grupos. Luego, se calcula el promedio del coeficiente de silueta para todos los puntos y se repite el proceso para diferentes valores de k. El valor de k que maximice el coeficiente de silueta se considera como el valor óptimo.
+
+Método de validación externa: En algunos casos, puedes tener información externa o etiquetas de clase para evaluar la calidad del agrupamiento. Puedes ejecutar el algoritmo k-means para diferentes valores de k y luego utilizar métricas de evaluación externa, como el índice de Rand ajustado (Adjusted Rand Index) o el índice de Jaccard ajustado (Adjusted Jaccard Index), para medir la similitud entre los grupos obtenidos y las etiquetas de clase reales. El valor de k que produzca el mejor ajuste con las etiquetas de clase se considera como el valor óptimo.
+
+Es importante tener en cuenta que no existe un método definitivo para elegir el valor óptimo de k, y la elección puede depender del contexto y la naturaleza de los datos. También se recomienda realizar pruebas y análisis adicionales para validar y comprender los resultados obtenidos con diferentes valores de k.
+
+Además de estos métodos, también se pueden utilizar enfoques más avanzados, como algoritmos de agrupamiento jerárquico, análisis de componentes principales (PCA) o técnicas de reducción de dimensionalidad, para ayudar en la selección de k.
+

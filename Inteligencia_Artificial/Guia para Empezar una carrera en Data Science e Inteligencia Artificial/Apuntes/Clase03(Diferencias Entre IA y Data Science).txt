@@ -1,0 +1,38 @@
+Artificial Intelligence
+¿Qué es Inteligencia Artificial?
+¿Qué no es?
+No es un ser humanoide
+No es Terminator
+No es Data Science
+¿Qué es?
+Algoritmos para emular nuestra inteligencia natural.
+Reconocer patrones en grandes cantidades de datos.
+Usos de la inteligencia Artificial
+Ejemplos.
+
+Clasificación de imágenes.
+En la actualidad
+Existen empresas que se dedican al desarrollo de IA.
+
+Google
+Desarrollaron AlphaGo → Jugar el juego de mesa Go
+Facebook
+IMB
+Proceso de machine learning
+Datos
+Entrenamiento (Train)
+
+Entrada (Test)
+
+No pueden ser los mismos. Causaría una precisión del 100%. No podría predecir nueva data.
+
+Entrenamos el algoritmo
+Obtenemos el modelo
+Evaluamos el modelo
+Proceso de integrar ML a un producto.
+Datos → Validación de datos → Preparación de datos → Entrenamiento de modelo → Evaluación de modelo → Validación de modelo → Despliegue de modelo → Interfaz de usuario
+
+Diferencias
+Data Science	Inteligencia Artificial
+Proceso para analizar datos y generar predicciones para toma de decisiones y crear productos con datos	Algoritmos para predecir eventos futuros que emulan cognición
+En el proceso de data science utilizamos inteligencia artificial como una de sus herramientas.	

@@ -1,0 +1,85 @@
+Primeramente recordar del curso de Fundamentos de BD que a las tablas se les llama "independientes" cuando no tienen FK's. Del mismo modo una tabla es "dependiente" cuando tiene al menos una FK, es decir, son tablas que dependen de tablas independientes. Es importante** al momento de crear tablas e insertar datos en ellas**, empezar siempre por las tablas independientes y una vez terminadas seguir con las dependientes
+
+Holaa! Les dejo un dato SUPER importante, a la hora de escribir, tengan mucho cuidado... si usan mayusculas a la hora de insertar un valor, deben escribirlo asi: "ID_trayecto" o sin mayusculas id_trayecto. Lo acalro porque postgre les hara la vida imposible si no ponen comillas en las mayusculas, ya que piensa que es un dato de aplicacion, como un INSERT y no como un dato propio. Les dira por ejemplo que esa columna no existe.
+--/////////////////
+--16.Inserción y consulta de datos
+--////////////////
+
+
+
+SELECT * FROM public.estacion;--si data
+SELECT * FROM public.pasajero;--reto
+SELECT * FROM public.trayecto;--si data
+SELECT * FROM public.tren;--si data
+SELECT * FROM public.viaje;--reto
+
+
+
+
+--insert &quot;estacion&quot;
+INSERT INTO public.estacion (nombre,direccion)
+VALUES 
+    ('Estación Centro','St 1# 12'),
+    ('Estación Norte','St 100# 112')
+;
+
+--insert &quot;tren&quot;
+INSERT INTO public.tren (capacidad,modelo)
+VALUES 
+    (100,'Modelo 1'),
+    (100,'Modelo 2')
+;
+
+--insert &quot;trayecto&quot;
+INSERT INTO public.trayecto (tren,estacion,nombre)
+VALUES
+    (1,1,'Ruta 1');
+    (2,2,'Ruta 2');
+;
+
+-- RETO
+INSERT INTO public.pasajero (nombre,fecha_nacimiento,direccion_residencia)
+VALUES
+    ('José Ordoñez','1987-1-3','St 100# 12'),
+    ('Ángel Quintero','1987-1-12','St 101# 12'),
+    ('Rafel Castillo','1977-1-12','St 102# 12'),
+;
+INSERT INTO public.viaje (id_pasajero,id_trayecto,inicio,fin)
+ VALUES
+    (1,1,'2019-01-02','2019-01-02'),
+    (2,1,'2019-01-03','2019-01-03'),
+    (2,2,'2019-01-04','2019-01-04'),
+    (3,2,'2019-01-04','2019-01-04')
+
+;
+-- Delete sin limit
+DELETE FROM public.estacion WHERE estacion.id  =4;
+--delete limit
+DELETE FROM public.estacion WHERE estacion.id IN
+     (
+		SELECT id FROM public.estacion 
+	  		WHERE estacion.id IN(3,4)
+			ORDER BY  estacion.id  
+		 	LIMIT 2
+	 )
+;
+
+-- update sin limit
+UPDATE public.estacion
+SET id=4, nombre='Estación SUR-OESTE', direccion='St 4# 1'
+WHERE estacion.id = 4;
+
+-- update utilizando limit
+UPDATE public.estacion
+	SET 
+		id=4, 
+		nombre='Estación SUR-OESTE', 
+		direccion='St 4# 1'
+	WHERE id IN (
+		SELECT estacion.id FROM public.estacion
+			WHERE estacion.id in(4)
+			ORDER BY estacion.id
+			LIMIT 1
+	)
+;
+Añadir algo el delete con limit es algo que vi en el curso de mysql sql y es buena práctica limitar la operación por si algo sale mal, pero en el caso de postgres me parece que es algo contra producente ya que para hacerlo con limit hay que hacerlo a través de una subquery

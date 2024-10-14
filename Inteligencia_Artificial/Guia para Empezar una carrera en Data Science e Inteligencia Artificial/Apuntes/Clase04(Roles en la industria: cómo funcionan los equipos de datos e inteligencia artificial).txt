@@ -1,0 +1,21 @@
+++JERARQUÍA DE NECESIDADES DE DATA SCIENCE++ 1. Etapa de recolección de los datos: Los datos pueden venir de diversas fuentes dependiendo de la industria (páginas web, sensores, instrumentación...)
+
+2. Etapa de Almacenamiento/Movimiento: Los datos se deben movilizar y almacenar a través de una infraestructura o un pipeline.
+
+3. Etapa de Exploración y transformación: Se deben limpiar los datos, detectar errores y anomalías y prepararlos para un posterior análisis.
+
+4. Etapa de Análisis: Se buscan métricas, segmentaciones, agregaciones y distintas características para convertir los datos en información y posteriormente en conocimiento.
+
+5. Etapa de IA: Se generan predicciones y se visualiza el futuro de la organización.
+............
+Data engineer: Ingesta de datos Validación de datos Preparación de datos Recolección, transformación, limpieza y almacenamiento de base de datos
+
+Data Scientist: Primeras personas en crear modelos de ML e interactuar con los modelos. Entrenan, evalúan y validan los modelos.
+
+Data analyst: Toman los datos de las base de datos que los data engineer prepararon y los analizan para encontrar información de valor. Insights que las personas del negocio puedan usar para tomar estrategias y acciones.
+
+ML Engineer: Trabaja de la mano con data scientist. Robustece el modelo y pone en producción. Despliega el modelo con ayuda de developers para que funcione en una aplicación y puedan ser utilizados en una interfaz por usuarios.
+
+Developers: Ingenieros de software que trabajan con ML engineers. Research scientis: Estudia nuevos algoritmos y nuevos usos de IA.
+
+

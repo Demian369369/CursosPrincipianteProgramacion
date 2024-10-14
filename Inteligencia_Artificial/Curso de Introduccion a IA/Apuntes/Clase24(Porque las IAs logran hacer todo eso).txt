@@ -1,0 +1,21 @@
+🌐 La Revolución de la Inteligencia Artificial: Modelos, Difusión y Reconocimiento de Voz
+
+La inteligencia artificial (IA) está en plena revolución, liderada por tecnologías fundamentales como los Large Language Models (LLM), los modelos de difusión y los sistemas de reconocimiento de voz.
+
+📚 Large Language Models (LLM): ¿Qué Son? ¿Cómo Funcionan? Los LLM son superherramientas que procesan enormes cantidades de texto, actuando como supercomputadoras que leen, aprenden patrones y reglas gramaticales. Ejemplo: GPT-4 de ChatGPT, capaz de generar texto preciso, responder preguntas y más.
+
+🌈 Modelos de Difusión: Desvelando Detalles en Imágenes y Audio A diferencia de los LLM, los modelos de difusión se especializan en imágenes y audio. Imagina mejorar gradualmente una imagen borrosa. Estos modelos procesan datos masivamente para aclarar y definir, útiles en aplicaciones como mejora de calidad de audio e imagen.
+
+🗣️ Reconocimiento de Voz: Traducción Instantánea de Voz a Datos Los sistemas de reconocimiento de voz, como ASR, actúan como intérpretes, traduciendo nuestras voces en datos procesables. Ejemplo: Whisper de OpenAI, que establece estándares en reconocimiento de voz al trabajar con diversos acentos y audios.
+
+🌐 Modelos Multimodales: Uniendo Fuerzas para Mayor Complejidad Los modelos multimodales combinan tareas y datos diversos, como texto, imágenes y video. Herramientas como DALI y Meet Journey fusionan capacidades de LLM y modelos de difusión para realizar tareas complejas. Ejemplos como ChatGPT y BARD están llevando la inteligencia artificial a nuevas alturas.
+
+🚀 El Futuro Multimodal de la Inteligencia Artificial La integración de funcionalidades multimodales es una tendencia en ascenso, permitiendo que las herramientas realicen tareas cada vez más complejas. Anticipemos más innovaciones en esta dirección en el futuro.
+
+......................
+Términos a recordar:
+
+LLM (Large Language Models): Modelos entrenados con bases de datos gigantescas. Estos entienden y generan texto basados en la base de datos con la que fueron entrenados.
+Modelos de difusión: Generan imágenes a partir de un proceso inverso, de una imagen sin sentido le dan forma hasta llegar al resultado final (en una serie de pasos/steps)
+ASR (Automated Speech Recognition): Modelos entrenados para reconocer el sonido y traducirlo a datos. Actualmente el más avanzado es Whisper de OpenAI
+Modelos multimodales integran estos modelos para realizar tareas más avanzadas. Como reconocer texto y traducirlo a una imagen y viceversa.

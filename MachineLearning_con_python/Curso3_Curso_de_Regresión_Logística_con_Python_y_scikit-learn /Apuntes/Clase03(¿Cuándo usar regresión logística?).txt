@@ -1,0 +1,37 @@
+++Ventajas++
+
+Fácil de implementar: Con sklearn es muy sencillo
+Coeficientes interpretables: Puedo entender los coeficientes y ver cómo se aplican.
+Inferencia: Puedes utilizar distintos features para ver cuál tiene más importancia para predecir tu variable dependiente.
+**Clasificación en porcentajes: **No dice Sí y no, te da el porcentaje exacto de confianza {0,100}
+++Desventajas++
+
+Asume la linealidad: Asume que todas las relaciones son lineales y no siempre es así.
+Overfitting: Si pongo muchas features, este se aprende el patrón de entrenamiento en lugar de predecirlo.
+Multicolinealidad: Dos características que tienen el mismo comportamiento
+Datasets grandes: necesita datasets muy grandes para ser precisos.
+............
+a regresión logística es un método estadístico que se utiliza para predecir la probabilidad de una variable dependiente categórica, basada en una o más variables independientes. Se utiliza ampliamente para la clasificación binaria, por ejemplo, predecir si un email es spam o no.
+
+Ventajas:
+
+Interpretabilidad: Los coeficientes del modelo pueden ser interpretados como cambios en el logaritmo de las probabilidades por cada unidad de cambio en la variable independiente, lo que facilita entender la importancia de cada predictor.
+Eficiencia: Es relativamente simple y rápido de implementar, y requiere menos recursos computacionales en comparación con otros algoritmos de clasificación.
+Buen rendimiento con variables categóricas: Puede manejar fácilmente variables categóricas que representan diferentes categorías o niveles.
+Desventajas:
+
+Suposición de linealidad: Asume una relación lineal entre las variables independientes y el logit de la variable dependiente, lo que puede no ser adecuado para todas las relaciones entre variables.
+Sensibilidad a datos desbalanceados: Su rendimiento puede verse afectado negativamente por conjuntos de datos donde las clases son muy desiguales.
+Limitación a la clasificación binaria o multinomial: Principalmente se utiliza para clasificación binaria, aunque puede extenderse a multinomial, no es tan flexible como otros algoritmos para diferentes tipos de tareas de clasificación.
+Cuándo usarla:
+
+Clasificación binaria: Ideal para problemas donde el objetivo es predecir una de dos posibles categorías, como sí/no, verdadero/falso, éxito/fracaso.
+Probabilidad de eventos: Cuando se necesita conocer la probabilidad de ocurrencia de un evento en lugar de solo la clasificación.
+Datos con relación lineal: En situaciones donde se espera que las variables independientes tengan una relación lineal con el logit de la variable dependiente.
+Diferencia entre regresión lineal y logística:
+
+Tipo de variable dependiente: La regresión lineal se utiliza para predecir valores continuos (por ejemplo, precio de una casa), mientras que la regresión logística se utiliza para predecir la probabilidad de ocurrencia de un evento categorizado (por ejemplo, si un email es spam o no).
+Función de enlace: La regresión lineal utiliza una función de identidad, lo que significa que la salida es una combinación lineal de las entradas. La regresión logística utiliza una función logística (o sigmoide) para asegurar que las predicciones estén en el rango de 0 a 1, interpretándose como probabilidades.
+Interpretación de resultados: En la regresión lineal, los coeficientes representan el cambio en la variable dependiente por cada unidad de cambio en una variable independiente. En la regresión logística, representan el cambio en el logaritmo de odds (odds ratio) para cada unidad de cambio en una variable independiente.
+La elección entre regresión lineal y logística depende fundamentalmente del tipo de variable que se está intentando predecir (continua vs. categórica) y del objetivo del análisis (predecir un valor exacto vs. la probabilidad de pertenencia a una categoría).
+

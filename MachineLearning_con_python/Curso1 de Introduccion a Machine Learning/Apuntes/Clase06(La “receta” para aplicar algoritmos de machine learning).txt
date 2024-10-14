@@ -1,0 +1,23 @@
+Aplicar algoritmos de machine learning sigue una serie de pasos generales. Aquí tienes una "receta" básica que puedes seguir:
+
+Recopilar y preparar los datos:
+Comienza reuniendo los datos necesarios para tu problema de machine learning. Asegúrate de que los datos estén en un formato adecuado y que sean representativos de tu problema. Esto implica limpiar los datos, manejar los valores faltantes, realizar la codificación adecuada de variables categóricas, entre otros pasos de preprocesamiento.
+Dividir los datos en conjuntos de entrenamiento y prueba:
+Para evaluar la eficacia del modelo, separa los datos en conjuntos de entrenamiento y prueba. El conjunto de entrenamiento se utiliza para ajustar y aprender el modelo, mientras que el conjunto de prueba se utiliza para evaluar el rendimiento del modelo en datos no vistos anteriormente.
+Seleccionar el algoritmo de machine learning apropiado:
+Elige el algoritmo de machine learning adecuado según el tipo de problema que estés abordando (clasificación, regresión, clustering, etc.), la naturaleza de los datos y los requisitos específicos del proyecto. Algunos ejemplos de algoritmos comunes son regresión lineal, árboles de decisión, SVM, K-means, entre otros.
+Entrenar el modelo:
+Utiliza el conjunto de entrenamiento para entrenar el modelo con el algoritmo seleccionado. Durante el entrenamiento, el modelo ajusta sus parámetros para hacer predicciones más precisas en función de los datos de entrenamiento.
+Evaluar el modelo:
+Utiliza el conjunto de prueba para evaluar el rendimiento del modelo entrenado. Calcula métricas de evaluación adecuadas para tu problema, como precisión, exactitud, matriz de confusión, error cuadrático medio, etc. Esto te ayudará a comprender qué tan bien generaliza el modelo sobre datos no vistos.
+Ajustar y optimizar el modelo:
+Si el rendimiento del modelo no es satisfactorio, es posible que debas realizar ajustes y optimizaciones. Puedes probar diferentes hiperparámetros, técnicas de selección de características o incluso considerar utilizar un algoritmo diferente. Este proceso iterativo te permite mejorar gradualmente el rendimiento del modelo.
+Realizar predicciones en datos nuevos:
+Una vez que estés satisfecho con el rendimiento del modelo, puedes usarlo para hacer predicciones en nuevos datos sin etiquetar. Estos datos nuevos deben tener la misma estructura y características que los datos utilizados durante el entrenamiento.
+...................
+Receta de algoritmos ML
+Los algoritmos ML deben cumplir con un proceso de tres pasos:
+
+Proceso de Decision: Como los modelos hacen una prediccion, o retornan una respuesta, usando los parametros. Es el proceso real por el cual el modelo esta logrando hacer la prediccion.
+Funcion Error/Coste: Trata de como evaluar si los parametros en el modelo generan buenas predicciones. Nos explica como el modelo tomas las decisiones y que tan lejos esta del objetivo que es lo que busca predecir.
+Regla de actualizacion: Como mejorar los parametros para hacer mejores predicciones (usando optimizacion numerica). Esta regla indica los parametros que estas actualizando con el fin de obtener las mejores predicciones que en el primer modelo por lo general no encuentras.

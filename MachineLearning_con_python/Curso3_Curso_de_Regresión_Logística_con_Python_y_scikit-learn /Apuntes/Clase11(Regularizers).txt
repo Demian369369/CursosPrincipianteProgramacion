@@ -1,0 +1,102 @@
+Coeficientes del Modelo:
+
+Son valores asignados a cada característica en un modelo de aprendizaje automático.
+Ayudan a predecir el resultado objetivo.
+Se ajustan durante el entrenamiento del modelo para minimizar la función de costo.
+Regularización:
+
+Técnica para evitar el sobreajuste en modelos de aprendizaje automático.
+Penaliza la complejidad del modelo durante el entrenamiento.
+Ayuda a mejorar la generalización y la estabilidad del modelo.
+Tipos de Regularización:
+
+L1 (Lasso):
+Promueve la dispersión de los coeficientes.
+Permite la selección automática de características importantes.
+L2 (Ridge):
+Reduce todos los coeficientes por igual.
+Favorece modelos más suaves.
+ElasticNet:
+Combina las penalizaciones de L1 y L2.
+Permite capturar las ventajas de ambas técnicas.
+Tikhonov (Ridge Regression):
+Controla la multicolinealidad en problemas de regresión lineal.
+Group Lasso:
+Agrupa características relacionadas y asigna un solo coeficiente.
+ElasticNet de grupo:
+Combina las ideas de ElasticNet y Group Lasso.
+Permite la selección de grupos de características.
+Elección de la Técnica de Regularización:
+
+Depende del tipo de datos y el objetivo del modelado.
+Fundamental para mejorar la generalización y la estabilidad del modelo de aprendizaje automático.
+.............
+para comprender mejor el tema y profundizar en este: https://www.cienciadedatos.net/documentos/py14-ridge-lasso-elastic-net-python.html
+......
+Hay algunas mejoras que podemos implementar para el entrenamiento del modelo:
+
+- Calcular los pesos de las clases para entrenar el modelo. Recordemos que es un dataset que no esta balanceado, y si le damos pesos a cada clase, esto ayudara a entrenar mejor al modelo. - Usar unicamente los features que tengan un peso significativo en el entrenamiento del modelo. Para ello definimos un umbral para los pesos de las features. Este valor es discrecional, asi que pueden experimentar para mejorar los resultados.- Cambiar el valor de C. C es un valor inverso a la regularizacion que le apliquemos al modelo, por lo que al reducir su valor incrementamos la regularizacion del modelo.
+
+Basado en esto, les dejo mi implementacion del entrenamiento del modelo:
+
+
+# We obtain the weights of the features
+weights = pd.Series(
+    model.coef_[0], index=df_processing_scaled.drop("Churn", axis=1).columns.values
+)
+
+# We only pull the features with weights above 0.2 or below -0.2
+# This is discretional, a different value may work better
+useful_features = weights[(weights >= 0.2) | (weights <= -0.2)].index.tolist()
+useful_features.extend(["Churn"])
+df = df_processing_scaled[useful_features]
+
+# Separate the values into train and test sets
+X = df_processing_scaled.drop("Churn", axis=1)
+y = df_processing_scaled["Churn"].values
+x_train, x_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.3, random_state=42
+)
+
+# Since the dataset is inbalanced, lets calculate the weights for each
+# class using the `compute_class_weight` function
+class_weight = compute_class_weight(
+    class_weight="balanced",
+    classes=df_processing_scaled["Churn"].unique(),
+    y=df_processing_scaled["Churn"],
+)
+class_weight_dict = {0: class_weight[0], 1: class_weight[1]}
+
+# Train the model with a different regularizer
+# Keep in mind that C is the inverse of the regularization strenght
+model = LogisticRegression(
+    solver="lbfgs",
+    penalty="l2",
+    C=0.75,
+    class_weight=class_weight_dict,
+    max_iter=250,
+    n_jobs=-1,
+)
+model.fit(x_train, y_train)
+
+# Evaluate the model
+preds = model.predict(x_test)
+
+accuracy_score = metrics.accuracy_score(y_test, preds)
+f1_value_score = metrics.f1_score(y_test, preds)
+precision_score = metrics.precision_score(y_test, preds)
+recall_score = metrics.recall_score(y_test, preds)
+confusion_matrix = metrics.confusion_matrix(y_test, preds, labels=model.classes_)
+
+figure = plt.figure(figsize=(10, 10))
+print(
+    f"""Accuracy: {accuracy_score:.4f}
+    Recall: {recall_score:.4f}
+    Precision: {precision_score:.4f}
+    F1 Score: {f1_value_score:.4f}"""
+)
+cm = metrics.ConfusionMatrixDisplay(
+    confusion_matrix=confusion_matrix, display_labels=model.classes_
+)
+cm.plot()
+plt.show()

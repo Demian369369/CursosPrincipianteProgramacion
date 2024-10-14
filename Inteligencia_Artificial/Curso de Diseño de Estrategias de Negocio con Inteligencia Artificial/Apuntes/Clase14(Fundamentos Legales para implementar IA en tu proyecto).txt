@@ -1,0 +1,32 @@
+Consideraciones Clave en Estrategias de Negocios con Inteligencia Artificial
+
+Propiedad Intelectual
+
+Proteger algoritmos, modelos y software.
+Términos de Uso y Política de Privacidad
+
+Reglas de uso y privacidad de datos.
+Cuando se Utilizan Servicios de Terceros
+
+Consciencia de términos y condiciones.
+Licencias de Software y Responsabilidades Legales
+
+Establecer restricciones y responsabilidades.
+Protección de Datos y Cumplimiento Normativo
+
+Consentimiento y cumplimiento legal.
+Seguridad en la Protección de Datos
+
+Medidas de seguridad.
+..........................
+"Establecer restricciones de uso claras y definir la responsabilidad legal. Tanto como para el proveedor como para el cliente"
+....................
+Fundamentos legales para implementar IA en tu proyecto
+
+Propiedad intelectual:
+Protección de los algoritmos, modelos y software que se desarrollan en el proceso/ proteger estos activos intangibles
+Los términos de uso: definir qué reglas rigen el uso de la tecnología, comprender la policía de privacidad de los datos / garantizar la privacidad de los clientes y de la organización
+La privacidad: establecer restricciones de uso clara y definir la responsabilidad legal
+Uso de IA de tercero / cumplir términos de IA
+Consentimiento y garantizar la anominizacion de los datos
+Cumplir la regulaciones de protección de datos como: reglamento general de protección de datos (RGPD) / La ley general de protección de datos (LGPD)/ uso de sistemas de incriptacion / aplicación de protocolos

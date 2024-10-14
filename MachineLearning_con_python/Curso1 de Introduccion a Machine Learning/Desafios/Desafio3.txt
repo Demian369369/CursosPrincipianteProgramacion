@@ -1,0 +1,21 @@
+diabetic = data[data["Outcome"] == 1]
+notdiabetic = data[data["Outcome"] == 0]
+
+plt.rcParams['font.size'] = 15 
+f = plt.figure(figsize=(8,8))
+ax = f.add_subplot(2,1,1)
+ax.scatter(diabetic["BloodPressure"], diabetic["Age"], alpha=0.25, c='r')
+ax.set_title("Diabetic: Age range of patients v. Blood Pressure")
+ax.set_ylabel("Age")
+ax.set_xlabel("Blood Pressure")
+
+ax = f.add_subplot(2,1,2)
+ax.scatter(notdiabetic["BloodPressure"], notdiabetic["Age"], alpha=0.25, c='b')
+ax.set_title("Not diabetic: Age range of patients v. Blood Pressure")
+ax.set_ylabel("Age")
+ax.set_xlabel("Blood Pressure")
+
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+
+f.tight_layout() 

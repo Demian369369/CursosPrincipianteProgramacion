@@ -1,0 +1,27 @@
+++Positives:++
+
+Bubbly personality : personalidad Chispeante
+Humble: Humilde
+Proud: Orgulloso
+Optimist: Optimista
+++Negatives:++
+
+Skinny: Flaco
+Mean personality: mala personalidad
+Selfish: Egoista
+Bossy: Mandon
+
+Curly = pelos chinos
+Chubby = Gordo
+Thin = pequeno
+Muscular = musculoso 
+Pretty = hermoso 
+Tall = alto
+
+
+Friendly = amistoso
+Rude = Rudo
+Kind = amable
+Inteligent = inteligente 
+impatient = impaciente
+pessimist = demian, pesimista

@@ -1,0 +1,157 @@
+1. ¿Qué elementos tiene la estructura del siguiente prompt para hablarle a ChatGPT? 
+Prompt: "Dame una receta de cocina que pueda hacer en 
+30 minutos con estos ingredientes: 
+pollo, tomate, cebolla, sal, aguacate. 
+Escríbela en una lista de pasos.
+" Instrucción: Dame una receta de cocina que pueda hacer 
+en 30 minutos. 
+Contexto: N/A. Datos de entrada: pollo, tomate, cebolla, 
+sal, aguacate. 
+Datos de salida: 
+Escríbela en una lista de pasos. 
+
+2. ¿Cuál de estos factores es irrevelante para la exactitud 
+de una herramienta que convierte audio a texto? 
+
+Malentendidos entre participantes 
+
+3. ¿Para qué no sirve la transcripción de una reunión hecha con IA? 
+Para evaluar los matices de las interacciones como el tono o 
+emociones 
+
+4. ¿Generar una imagen de bicicleta de estilo montaña es algo 
+que se puede hacer con inteligencia artificial? 
+
+Verdadero, ya que es algo de lo que existen datos que la 
+IA puede usar para la generación. 
+
+5. ¿Cuál es un ejemplo de modelo multimodal de IA? 
+
+LLaMa de Meta, 
+capaz de generar textos con prompts. 
+
+REPASAR CLASE 6. 
+
+¿En qué se diferencia un LLM de un modelo de difusión? 
+
+Los LLM se enfocan en el lenguaje y generación de texto. 
+
+Los modelos de difusión se usan para generar y editar imágenes y 
+sonidos. 
+
+7. ¿Cómo la IA puede ayudarte a facilitar tus tareas al usar 
+herramientas como excel? 
+
+Dándote sugerencias de cómo usar la herramienta para la tarea
+ específica que quieres realizar 
+ 
+8. ¿De qué debes asegurarte al utilizar IA para facilitar 
+tus tareas en excel? 
+
+De leer el paso a paso y adecuar las fórmulas a la 
+información que tengo en mi hoja de cálculo 
+
+9. ¿De qué depende que una presentación hecha con IA sea 
+realmente efectiva? 
+
+De adaptar los contenidos a la audiencia y a nuestro estilo
+ personal 
+ 
+10. ¿De qué manera la Inteligencia Artificial puede ayudarte a
+crecer tu impacto dentro de tu empresa? 
+
+Ayudándote a resolver problemas a los que te enfrentas día a día
+en tu trabajo 
+
+11. Validar con el fabricante opciones de privacidad de la 
+información, ser conscientes de la información enviada a la 
+plataforma, 
+revisar que tengas controles mínimos de seguridad y verificar
+ los resultados de la IA antes de usarlos en el trabajo, son: 
+Son buenas prácticas para trabajar con Inteligencia Artificial 
+de forma segura. 
+
+12. Problema, Plan, Datos, Analisis y Resultados son Los pasos
+de un modelo para tomar decisiones basadas en datos que podemos
+hacer más efectivo y rápido si nos apoyamos de herramientas de
+
+Inteligencia Artificial 
+
+13. ¿Cuáles son razones por las que ahora más que nunca la IA 
+es relevante para el trabajo? 
+
+Tiene aplicaciones en muchos de nuestros espacios de trabajo y
+nunca había sido tan fácil de utilizar por cualquier persona. 
+
+14. ¿Cómo puedes enriquecer tus habilidades de uso de herramientas 
+de inteligencia artificial? 
+
+Enriqueciendo tus conocimientos y habilidades en áreas específicas. 
+Esto te convertirá potencialmente en un Individuo Aumentado. 
+
+15. Hiciste una prompt a una herramienta de IA para apoyarte 
+en el uso de Google Docs. 
+Te sugiere ir a la ventana "Archivos" y seleccionar la opción 
+"Editar". 
+Sin embargo, al navegar la interfaz de la herramienta no encuentras 
+la opción "Editar". 
+¿Por qué sucede esto? 
+
+La ventana de entrenamiento de las IA puede haber terminado algún 
+tiempo antes de la fecha actual. 
+Si las herramientas cambiaron desde entonces, 
+la IA no tiene ese contexto. 
+
+16. Si eres una persona experta en marketing, ¿tu uso de IA para tareas de marketing sería más específico, profundo y de mayor valor? Por supuesto, ser una persona experta en un área o tema te da contexto para saber cómo aprovechar mejor la IA en tareas específicas de ese contexto. Ver menos
+
+.............
+¿Qué elementos tiene la estructura del siguiente prompt para hablarle a ChatGPT? Prompt: "Dame una receta de cocina que pueda hacer en 30 minutos con estos ingredientes: pollo, tomate, cebolla, sal, aguacate. Escríbela en una lista de pasos."
+Instrucción: Dame una receta de cocina que pueda hacer en 30 minutos. Contexto: N/A. Datos de entrada: pollo, tomate, cebolla, sal, aguacate. Datos de salida: Escríbela en una lista de pasos.
+2.
+¿Cuál de estos factores es irrelevante para la exactitud de una herramienta que convierte audio a texto?
+Malentendidos entre participantes
+3.
+¿Para qué no sirve la transcripción de una reunión hecha con IA?
+Para elaborar un resumen que contextualiza a los que no pudieron asistir
+REPASAR CLASE
+4.
+¿Generar una imagen de bicicleta de estilo montaña es algo que se puede hacer con inteligencia artificial?
+Verdadero, ya que es algo de lo que existen datos que la IA puede usar para la generación.
+5.
+¿Cuál es un ejemplo de modelo multimodal de IA?
+Make-A-Video de Meta, genera videos a partir de textos/prompts.
+6.
+¿En qué se diferencia un LLM de un modelo de difusión?
+Los LLM se enfocan en el lenguaje y generación de texto. Los modelos de difusión se usan para generar y editar imágenes y sonidos.
+7.
+PaLM 2 es un producto de:
+Google AI
+8.
+¿Para generar una imagen con DALL-E 3 debo utilizar técnicas avanzadas de prompt engineering?
+
+Falso, sólo debo cuidar que el prompt cuente con la descripción necesaria para obtener con DALL-E 3 el resultado esperado.
+
+9.
+¿De qué depende que una presentación hecha con IA sea realmente efectiva?
+De adaptar los contenidos a la audiencia y a nuestro estilo personal
+10.
+¿De qué manera la inteligencia artificial puede ayudarte a crecer tu impacto dentro de tu empresa?
+Ayudándote a resolver problemas a los que te enfrentas día a día en tu trabajo
+11.
+Validar con el fabricante opciones de privacidad de la información, ser conscientes de la información enviada a la plataforma, revisar que tengas controles mínimos de seguridad y verificar los resultados de la IA antes de usarlos en el trabajo, son:
+Son buenas prácticas para trabajar con Inteligencia Artificial de forma segura.
+12.
+Problema, Plan, Datos, Análisis y Resultados son:
+Los pasos de un modelo para tomar decisiones basadas en datos que podemos hacer más efectivo y rápido si nos apoyamos de herramientas de Inteligencia Artificial
+13.
+¿Cuáles son razones por las que ahora más que nunca la IA es relevante para el trabajo?
+Tiene aplicaciones en muchos de nuestros espacios de trabajo y nunca había sido tan fácil de utilizar por cualquier persona.
+14.
+¿Cómo puedes enriquecer tus habilidades de uso de herramientas de inteligencia artificial?
+Enriqueciendo tus conocimientos y habilidades en áreas específicas. Esto te convertirá potencialmente en un Individuo Aumentado.
+15.
+Al subir una imagen, como un gráfico, en la versión Plus de ChatGPT, el mismo solo puede realizar un análisis descriptivo del gráfico, ya que la versión no admite interpretación de resultados.
+Falso, es posible pedirle a chatGPT que realice una interpretación de los resultados. Pero el el usuario debe ser cuidadoso al momento de interpretar la veracidad de los mismos.
+16.
+Si eres una persona experta en marketing, ¿tu uso de IA para tareas de marketing sería más específico, profundo y de mayor valor?
+Por supuesto, ser una persona experta en un área o tema te da contexto para saber cómo aprovechar mejor la IA en tareas específicas de ese contexto.

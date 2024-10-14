@@ -1,0 +1,11 @@
+El promedio de días de vacaciones pendientes por departamento muestra que los departamentos que suelen acumular más días de vacaciones sin uso son:
+
+Operations: 14.43 días
+Information Technology: 14.43 días
+Finance: 14.36 días
+Marketing: 14.30 días
+Technology Operations: 14.10 días
+CEO: 14.00 días
+Los departamentos de Operations e Information Technology tienen el promedio más alto de días de vacaciones pendientes, seguidos muy de cerca por Finance y Marketing. Technology Operations y CEO tienen los promedios más bajos, pero todos los departamentos tienen un promedio de días de vacaciones pendientes bastante similar, rondando los 14 días. ​
+
+La IA tambien puede generar graficas de los datos
